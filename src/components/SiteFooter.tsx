@@ -1,0 +1,22 @@
+import Link from "next/link";
+import { suggestResidentUrl } from "@/lib/github";
+
+export function SiteFooter() {
+  return (
+    <div className="shell">
+      <footer>
+        <div>
+          © 2026 Silicon Zoo. Made for curious builders.{" "}
+          <Link href="/about">About / Method</Link>
+          {" · "}
+          <a href={suggestResidentUrl()} target="_blank" rel="noopener noreferrer">
+            Suggest a resident
+          </a>
+        </div>
+        <div className="footer-joke">
+          * No animals were benchmarked in the making of this website.
+        </div>
+      </footer>
+    </div>
+  );
+}

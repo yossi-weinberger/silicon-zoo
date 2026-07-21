@@ -1,0 +1,50 @@
+name: Suggest a resident
+description: Propose a missing animal or tech brand relationship
+title: "[resident] "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping grow the Silicon Zoo. Please include a real source. Do not invent relationships.
+  - type: input
+    id: animal
+    attributes:
+      label: Animal
+      description: English animal name or slug
+      placeholder: pangolin
+    validations:
+      required: true
+  - type: input
+    id: organization
+    attributes:
+      label: Organization / product
+      placeholder: Example Corp
+    validations:
+      required: true
+  - type: dropdown
+    id: relationship
+    attributes:
+      label: Relationship type
+      options:
+        - official_mascot
+        - animal_logo
+        - community_mascot
+        - animal_name
+        - historical
+        - hybrid_or_mythical
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source URL
+      description: Official page, brand policy, repository, or primary community source
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Character name, why it belongs, image hints

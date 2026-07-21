@@ -1,0 +1,2058 @@
+[
+  {
+    "id": "penguin-linux-tux",
+    "animalId": "penguin",
+    "organization": "Linux",
+    "characterName": "Tux",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://www.kernel.org/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Linux · Tux",
+    "image": {
+      "src": "/mascots/linux-tux.png",
+      "remoteSrc": "https://www.kernel.org/theme/images/logos/tux.png",
+      "alt": "Tux Penguin",
+      "attribution": "Official Tux artwork from kernel.org theme assets."
+    }
+  },
+  {
+    "id": "penguin-tencent-qq",
+    "animalId": "penguin",
+    "organization": "Tencent QQ",
+    "product": "Tencent QQ",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://im.qq.com/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Tencent QQ",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/tencentqq.svg",
+      "alt": "Tencent QQ Penguin",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "elephant-postgresql-slonik",
+    "animalId": "elephant",
+    "organization": "PostgreSQL",
+    "characterName": "Slonik",
+    "relationshipType": "animal_logo",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "data"
+    ],
+    "sourceUrl": "https://www.postgresql.org/about/press/faq/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "PostgreSQL · Slonik",
+    "image": {
+      "src": "/mascots/postgresql-elephant.png",
+      "remoteSrc": "https://www.postgresql.org/media/img/about/press/elephant.png",
+      "alt": "Slonik Elephant",
+      "attribution": "Official PostgreSQL elephant logo. See trademark policy."
+    }
+  },
+  {
+    "id": "elephant-php-elephpant",
+    "animalId": "elephant",
+    "organization": "PHP",
+    "characterName": "elePHPant",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://www.php.net/elephpant.php",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "PHP · elePHPant",
+    "image": {
+      "src": "/mascots/php-logo.svg",
+      "remoteSrc": "https://www.php.net/images/logos/php-logo.svg",
+      "alt": "elePHPant Elephant",
+      "attribution": "Official PHP logo from php.net (animal-branded product mark)."
+    }
+  },
+  {
+    "id": "elephant-apache-hadoop",
+    "animalId": "elephant",
+    "organization": "Apache Hadoop",
+    "product": "Apache Hadoop",
+    "relationshipType": "animal_name",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "data"
+    ],
+    "sourceUrl": "https://hadoop.apache.org/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Apache Hadoop",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/apachehadoop.svg",
+      "alt": "Apache Hadoop Elephant",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "elephant-evernote",
+    "animalId": "elephant",
+    "organization": "Evernote",
+    "product": "Evernote",
+    "relationshipType": "animal_logo",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "apps",
+      "web"
+    ],
+    "sourceUrl": "https://evernote.com/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Evernote",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/evernote.svg",
+      "alt": "Evernote Elephant",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "elephant-salesforce-ruth",
+    "animalId": "elephant",
+    "organization": "Salesforce",
+    "characterName": "Ruth",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Salesforce · Ruth",
+    "image": null
+  },
+  {
+    "id": "owl-duolingo-duo",
+    "animalId": "owl",
+    "organization": "Duolingo",
+    "characterName": "Duo",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://www.duolingo.com/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Duolingo · Duo",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/duolingo.svg",
+      "alt": "Duo Owl",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "owl-hootsuite-owly",
+    "animalId": "owl",
+    "organization": "Hootsuite",
+    "characterName": "Owly",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "apps",
+      "web"
+    ],
+    "sourceUrl": "https://www.hootsuite.com/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Hootsuite · Owly",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/hootsuite.svg",
+      "alt": "Owly Owl",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "owl-tripadvisor",
+    "animalId": "owl",
+    "organization": "Tripadvisor",
+    "product": "Tripadvisor",
+    "relationshipType": "animal_logo",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "apps",
+      "web"
+    ],
+    "sourceUrl": "https://www.tripadvisor.com/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Tripadvisor",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/tripadvisor.svg",
+      "alt": "Tripadvisor Owl",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "owl-salesforce-hootie",
+    "animalId": "owl",
+    "organization": "Salesforce",
+    "characterName": "Hootie",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Salesforce · Hootie",
+    "image": null
+  },
+  {
+    "id": "whale-docker-moby-dock",
+    "animalId": "whale",
+    "organization": "Docker",
+    "characterName": "Moby Dock",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://www.docker.com/blog/call-me-moby-dock/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Docker · Moby Dock",
+    "image": {
+      "src": "/mascots/docker-moby.png",
+      "remoteSrc": "https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png",
+      "alt": "Moby Dock Whale",
+      "attribution": "Official Moby Dock mark from Docker brand materials."
+    }
+  },
+  {
+    "id": "whale-moby-project",
+    "animalId": "whale",
+    "organization": "Moby Project",
+    "product": "Moby Project",
+    "relationshipType": "animal_name",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Moby Project",
+    "image": null
+  },
+  {
+    "id": "fox-mozilla-firefox",
+    "animalId": "fox",
+    "organization": "Mozilla Firefox",
+    "product": "Mozilla Firefox",
+    "relationshipType": "animal_logo",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "apps",
+      "web"
+    ],
+    "sourceUrl": "https://www.mozilla.org/firefox/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Mozilla Firefox",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/firefoxbrowser.svg",
+      "alt": "Mozilla Firefox Fox",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "fox-gitlab-ish",
+    "animalId": "fox",
+    "organization": "GitLab-ish",
+    "product": "GitLab-ish",
+    "relationshipType": "animal_logo",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://about.gitlab.com/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "GitLab-ish",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/gitlab.svg",
+      "alt": "GitLab-ish Fox",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "fox-salesforce-brandy",
+    "animalId": "fox",
+    "organization": "Salesforce",
+    "characterName": "Brandy",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Salesforce · Brandy",
+    "image": null
+  },
+  {
+    "id": "cat-scratch-cat",
+    "animalId": "cat",
+    "organization": "Scratch Cat",
+    "product": "Scratch Cat",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "apps",
+      "web"
+    ],
+    "sourceUrl": "https://scratch.mit.edu/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Scratch Cat",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/scratch.svg",
+      "alt": "Scratch Cat Cat",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "cat-github-octocat",
+    "animalId": "cat",
+    "organization": "GitHub",
+    "characterName": "Octocat",
+    "relationshipType": "hybrid_or_mythical",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://octodex.github.com/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "GitHub · Octocat",
+    "image": {
+      "src": "/mascots/github-octocat.png",
+      "remoteSrc": "https://octodex.github.com/images/original.png",
+      "alt": "Octocat Cat",
+      "attribution": "Official Octocat from Octodex."
+    }
+  },
+  {
+    "id": "cat-yarn",
+    "animalId": "cat",
+    "organization": "Yarn",
+    "product": "Yarn",
+    "relationshipType": "animal_name",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Yarn",
+    "image": null
+  },
+  {
+    "id": "crab-rust-ferris",
+    "animalId": "crab",
+    "organization": "Rust",
+    "characterName": "Ferris",
+    "relationshipType": "community_mascot",
+    "officialStatus": "unofficial",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://www.rust-lang.org/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Rust · Ferris",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/rust.svg",
+      "alt": "Ferris Crab",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "gopher-go-the-go-gopher",
+    "animalId": "gopher",
+    "organization": "Go",
+    "characterName": "The Go Gopher",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://go.dev/blog/gopher",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Go · The Go Gopher",
+    "image": {
+      "src": "/mascots/go-gopher.png",
+      "remoteSrc": "https://go.dev/blog/gopher/gopher.png",
+      "alt": "The Go Gopher Gopher",
+      "attribution": "Official Go gopher artwork. See https://go.dev/blog/gopher and https://go.dev/brand"
+    }
+  },
+  {
+    "id": "dolphin-mysql-sakila",
+    "animalId": "dolphin",
+    "organization": "MySQL",
+    "characterName": "Sakila",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "data"
+    ],
+    "sourceUrl": "https://dev.mysql.com/doc/refman/9.3/en/history.html",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "MySQL · Sakila",
+    "image": {
+      "src": "/mascots/mysql-logo.svg",
+      "remoteSrc": "https://labs.mysql.com/common/logos/mysql-logo.svg?v2",
+      "alt": "Sakila Dolphin",
+      "attribution": "Official MySQL logo asset."
+    }
+  },
+  {
+    "id": "monkey-mailchimp-freddie",
+    "animalId": "monkey",
+    "organization": "Mailchimp",
+    "characterName": "Freddie",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "apps",
+      "web"
+    ],
+    "sourceUrl": "https://mailchimp.com/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Mailchimp · Freddie",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/mailchimp.svg",
+      "alt": "Freddie Monkey",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "monkey-surveymonkey",
+    "animalId": "monkey",
+    "organization": "SurveyMonkey",
+    "product": "SurveyMonkey",
+    "relationshipType": "animal_name",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "apps",
+      "web"
+    ],
+    "sourceUrl": "https://www.surveymonkey.com/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "SurveyMonkey",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/surveymonkey.svg",
+      "alt": "SurveyMonkey Monkey",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "monkey-blender-suzanne",
+    "animalId": "monkey",
+    "organization": "Blender",
+    "characterName": "Suzanne",
+    "relationshipType": "community_mascot",
+    "officialStatus": "unofficial",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Blender · Suzanne",
+    "image": null
+  },
+  {
+    "id": "duck-duckduckgo",
+    "animalId": "duck",
+    "organization": "DuckDuckGo",
+    "product": "DuckDuckGo",
+    "relationshipType": "animal_name",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "apps",
+      "web"
+    ],
+    "sourceUrl": "https://duckduckgo.com/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "DuckDuckGo",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/duckduckgo.svg",
+      "alt": "DuckDuckGo Duck",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "duck-adium-adiumy",
+    "animalId": "duck",
+    "organization": "Adium",
+    "characterName": "Adiumy",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "apps",
+      "web"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Adium · Adiumy",
+    "image": null
+  },
+  {
+    "id": "chameleon-suse-geeko",
+    "animalId": "chameleon",
+    "organization": "SUSE",
+    "characterName": "Geeko",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://www.suse.com/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "SUSE · Geeko",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/suse.svg",
+      "alt": "Geeko Chameleon",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "hedgehog-posthog",
+    "animalId": "hedgehog",
+    "organization": "PostHog",
+    "product": "PostHog",
+    "relationshipType": "animal_name",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://posthog.com/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "PostHog",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/posthog.svg",
+      "alt": "PostHog Hedgehog",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "dinosaur-deno",
+    "animalId": "dinosaur",
+    "organization": "Deno",
+    "product": "Deno",
+    "relationshipType": "animal_name",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://deno.com/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Deno",
+    "image": {
+      "src": "/mascots/deno-logo.svg",
+      "remoteSrc": "https://deno.land/logo.svg",
+      "alt": "Deno Dinosaur",
+      "attribution": "Official Deno logo."
+    }
+  },
+  {
+    "id": "dinosaur-mozilla-historical",
+    "animalId": "dinosaur",
+    "organization": "Mozilla",
+    "characterName": "historical",
+    "relationshipType": "historical",
+    "officialStatus": "unofficial",
+    "activeStatus": "inactive",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Mozilla · historical",
+    "image": null
+  },
+  {
+    "id": "beaver-dbeaver",
+    "animalId": "beaver",
+    "organization": "DBeaver",
+    "product": "DBeaver",
+    "relationshipType": "animal_name",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "data"
+    ],
+    "sourceUrl": "https://dbeaver.io/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "DBeaver",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/dbeaver.svg",
+      "alt": "DBeaver Beaver",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "cockroach-cockroachdb",
+    "animalId": "cockroach",
+    "organization": "CockroachDB",
+    "product": "CockroachDB",
+    "relationshipType": "animal_name",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "data"
+    ],
+    "sourceUrl": "https://www.cockroachlabs.com/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "CockroachDB",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/cockroachlabs.svg",
+      "alt": "CockroachDB Cockroach",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "red-panda-redpanda",
+    "animalId": "red-panda",
+    "organization": "Redpanda",
+    "product": "Redpanda",
+    "relationshipType": "animal_name",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://www.redpanda.com/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Redpanda",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/redpanda.svg",
+      "alt": "Redpanda Red Panda",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "red-panda-kotlin-kodi",
+    "animalId": "red-panda",
+    "organization": "Kotlin",
+    "characterName": "Kodi",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Kotlin · Kodi",
+    "image": null
+  },
+  {
+    "id": "lion-brave-browser",
+    "animalId": "lion",
+    "organization": "Brave Browser",
+    "product": "Brave Browser",
+    "relationshipType": "animal_logo",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "apps",
+      "web"
+    ],
+    "sourceUrl": "https://brave.com/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Brave Browser",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/brave.svg",
+      "alt": "Brave Browser Lion",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "lion-liongard",
+    "animalId": "lion",
+    "organization": "Liongard",
+    "product": "Liongard",
+    "relationshipType": "animal_name",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Liongard",
+    "image": null
+  },
+  {
+    "id": "otter-otter-ai",
+    "animalId": "otter",
+    "organization": "Otter.ai",
+    "product": "Otter.ai",
+    "relationshipType": "animal_name",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "apps",
+      "web"
+    ],
+    "sourceUrl": "https://otter.ai/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Otter.ai",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/otterdotai.svg",
+      "alt": "Otter.ai Otter",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "camel-perl",
+    "animalId": "camel",
+    "organization": "Perl",
+    "product": "Perl",
+    "relationshipType": "animal_logo",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://www.perl.org/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Perl",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/perl.svg",
+      "alt": "Perl Camel",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "puffin-prestashop-preston",
+    "animalId": "puffin",
+    "organization": "PrestaShop",
+    "characterName": "Preston",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "apps",
+      "web"
+    ],
+    "sourceUrl": "https://www.prestashop-project.org/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "PrestaShop · Preston",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/prestashop.svg",
+      "alt": "Preston Puffin",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "pufferfish-openbsd-puffy",
+    "animalId": "pufferfish",
+    "organization": "OpenBSD",
+    "characterName": "Puffy",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "OpenBSD · Puffy",
+    "image": null
+  },
+  {
+    "id": "rabbit-plan-9-glenda",
+    "animalId": "rabbit",
+    "organization": "Plan 9",
+    "characterName": "Glenda",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Plan 9 · Glenda",
+    "image": null
+  },
+  {
+    "id": "rabbit-bun",
+    "animalId": "rabbit",
+    "organization": "Bun",
+    "product": "Bun",
+    "relationshipType": "animal_name",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Bun",
+    "image": null
+  },
+  {
+    "id": "squirrel-apache-flink",
+    "animalId": "squirrel",
+    "organization": "Apache Flink",
+    "product": "Apache Flink",
+    "relationshipType": "animal_logo",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Apache Flink",
+    "image": null
+  },
+  {
+    "id": "squirrel-krita-kiki",
+    "animalId": "squirrel",
+    "organization": "Krita",
+    "characterName": "Kiki",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Krita · Kiki",
+    "image": null
+  },
+  {
+    "id": "squirrel-salesforce-flo",
+    "animalId": "squirrel",
+    "organization": "Salesforce",
+    "characterName": "Flo",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Salesforce · Flo",
+    "image": null
+  },
+  {
+    "id": "mule-emule",
+    "animalId": "mule",
+    "organization": "eMule",
+    "product": "eMule",
+    "relationshipType": "historical",
+    "officialStatus": "unofficial",
+    "activeStatus": "inactive",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "eMule",
+    "image": null
+  },
+  {
+    "id": "pigeon-pidgin-purple-pidgin",
+    "animalId": "pigeon",
+    "organization": "Pidgin",
+    "characterName": "Purple Pidgin",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Pidgin · Purple Pidgin",
+    "image": null
+  },
+  {
+    "id": "parrot-parrot-os",
+    "animalId": "parrot",
+    "organization": "Parrot OS",
+    "product": "Parrot OS",
+    "relationshipType": "animal_name",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://parrotsec.org/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Parrot OS",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/parrotsecurity.svg",
+      "alt": "Parrot OS Parrot",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "panda-pandadoc",
+    "animalId": "panda",
+    "organization": "PandaDoc",
+    "product": "PandaDoc",
+    "relationshipType": "animal_name",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "apps",
+      "web"
+    ],
+    "sourceUrl": "https://www.pandadoc.com/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "PandaDoc",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/pandadoc.svg",
+      "alt": "PandaDoc Panda",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "raccoon-salesforce-astro",
+    "animalId": "raccoon",
+    "organization": "Salesforce",
+    "characterName": "Astro",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://www.salesforce.com/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Salesforce · Astro",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/salesforce.svg",
+      "alt": "Astro Raccoon",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "shark-digitalocean-sammy",
+    "animalId": "shark",
+    "organization": "DigitalOcean",
+    "characterName": "Sammy",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://www.digitalocean.com/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "DigitalOcean · Sammy",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/digitalocean.svg",
+      "alt": "Sammy Shark",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "dog-datadog-bits",
+    "animalId": "dog",
+    "organization": "Datadog",
+    "characterName": "Bits",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://www.datadoghq.com/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Datadog · Bits",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/datadog.svg",
+      "alt": "Bits Dog",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "seal-mariadb",
+    "animalId": "seal",
+    "organization": "MariaDB",
+    "product": "MariaDB",
+    "relationshipType": "animal_logo",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "data"
+    ],
+    "sourceUrl": "https://mariadb.org/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "MariaDB",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/mariadb.svg",
+      "alt": "MariaDB Seal",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "snake-python",
+    "animalId": "snake",
+    "organization": "Python",
+    "product": "Python",
+    "relationshipType": "animal_logo",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://www.python.org/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Python",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/python.svg",
+      "alt": "Python Snake",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "hummingbird-dart-flutter-dash",
+    "animalId": "hummingbird",
+    "organization": "Dart / Flutter",
+    "characterName": "Dash",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://flutter.dev/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Dart / Flutter · Dash",
+    "image": {
+      "src": "/mascots/flutter-dash.png",
+      "remoteSrc": "https://docs.flutter.dev/assets/images/dash/Dash.png",
+      "alt": "Dash Hummingbird",
+      "attribution": "Official Dash mascot from Flutter docs assets."
+    }
+  },
+  {
+    "id": "mastodon-mastodon",
+    "animalId": "mastodon",
+    "organization": "Mastodon",
+    "product": "Mastodon",
+    "relationshipType": "animal_name",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "apps",
+      "web"
+    ],
+    "sourceUrl": "https://joinmastodon.org/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Mastodon",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/mastodon.svg",
+      "alt": "Mastodon Mastodon",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "zebra-zebra-technologies",
+    "animalId": "zebra",
+    "organization": "Zebra Technologies",
+    "product": "Zebra Technologies",
+    "relationshipType": "animal_name",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Zebra Technologies",
+    "image": null
+  },
+  {
+    "id": "zebra-salesforce-zig",
+    "animalId": "zebra",
+    "organization": "Salesforce",
+    "characterName": "Zig",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Salesforce · Zig",
+    "image": null
+  },
+  {
+    "id": "bee-apache-hive",
+    "animalId": "bee",
+    "organization": "Apache Hive",
+    "product": "Apache Hive",
+    "relationshipType": "animal_name",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Apache Hive",
+    "image": null
+  },
+  {
+    "id": "pig-apache-pig",
+    "animalId": "pig",
+    "organization": "Apache Pig",
+    "product": "Apache Pig",
+    "relationshipType": "animal_name",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Apache Pig",
+    "image": null
+  },
+  {
+    "id": "octopus-github-mona-the-octocat",
+    "animalId": "octopus",
+    "organization": "GitHub",
+    "characterName": "Mona the Octocat",
+    "relationshipType": "hybrid_or_mythical",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://octodex.github.com/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "GitHub · Mona the Octocat",
+    "image": {
+      "src": "/mascots/github-octocat.png",
+      "remoteSrc": "https://octodex.github.com/images/original.png",
+      "alt": "Mona the Octocat Octopus",
+      "attribution": "Official Octocat from Octodex."
+    }
+  },
+  {
+    "id": "wombat-npm-wombat",
+    "animalId": "wombat",
+    "organization": "npm",
+    "characterName": "Wombat",
+    "relationshipType": "community_mascot",
+    "officialStatus": "unofficial",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://www.npmjs.com/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "npm · Wombat",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/npm.svg",
+      "alt": "Wombat Wombat",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "gnu-gnu-project",
+    "animalId": "gnu",
+    "organization": "GNU Project",
+    "product": "GNU Project",
+    "relationshipType": "animal_logo",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://www.gnu.org/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "GNU Project",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/gnu.svg",
+      "alt": "GNU Project GNU / Wildebeest",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "weasel-v-veasel",
+    "animalId": "weasel",
+    "organization": "V",
+    "characterName": "Veasel",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://vlang.io/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "V · Veasel",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/v.svg",
+      "alt": "Veasel Weasel",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "antelope-libreboot-canteloupe",
+    "animalId": "antelope",
+    "organization": "Libreboot",
+    "characterName": "Canteloupe",
+    "relationshipType": "animal_logo",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://libreboot.org/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Libreboot · Canteloupe",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/libreboot.svg",
+      "alt": "Canteloupe Antelope",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "butterfly-raku-camelia",
+    "animalId": "butterfly",
+    "organization": "Raku",
+    "characterName": "Camelia",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://raku.org/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Raku · Camelia",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/raku.svg",
+      "alt": "Camelia Butterfly",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "firefly-apache-beam-firefly",
+    "animalId": "firefly",
+    "organization": "Apache Beam",
+    "characterName": "Firefly",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://beam.apache.org/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Apache Beam · Firefly",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/apache.svg",
+      "alt": "Firefly Firefly",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "ladybug-serenityos-buggie",
+    "animalId": "ladybug",
+    "organization": "SerenityOS",
+    "characterName": "Buggie",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "SerenityOS · Buggie",
+    "image": null
+  },
+  {
+    "id": "ladybug-bugzilla-buggie",
+    "animalId": "ladybug",
+    "organization": "Bugzilla",
+    "characterName": "Buggie",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Bugzilla · Buggie",
+    "image": null
+  },
+  {
+    "id": "fish-freedos-blinky",
+    "animalId": "fish",
+    "organization": "FreeDOS",
+    "characterName": "Blinky",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "FreeDOS · Blinky",
+    "image": null
+  },
+  {
+    "id": "platypus-darwin-hexley",
+    "animalId": "platypus",
+    "organization": "Darwin",
+    "characterName": "Hexley",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Darwin · Hexley",
+    "image": null
+  },
+  {
+    "id": "pony-pony-programming-language",
+    "animalId": "pony",
+    "organization": "Pony programming language",
+    "product": "Pony programming language",
+    "relationshipType": "animal_name",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Pony programming language",
+    "image": null
+  },
+  {
+    "id": "dragon-kde-konqi",
+    "animalId": "dragon",
+    "organization": "KDE",
+    "characterName": "Konqi",
+    "relationshipType": "hybrid_or_mythical",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://kde.org/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "KDE · Konqi",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/kde.svg",
+      "alt": "Konqi Dragon",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "woodpecker-kate-cyber-woodpecker",
+    "animalId": "woodpecker",
+    "organization": "Kate",
+    "characterName": "Cyber Woodpecker",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Kate · Cyber Woodpecker",
+    "image": null
+  },
+  {
+    "id": "cow-gentoo-larry-the-cow",
+    "animalId": "cow",
+    "organization": "Gentoo",
+    "characterName": "Larry the Cow",
+    "relationshipType": "community_mascot",
+    "officialStatus": "unofficial",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Gentoo · Larry the Cow",
+    "image": null
+  },
+  {
+    "id": "cow-terminusdb-cowduck",
+    "animalId": "cow",
+    "organization": "TerminusDB",
+    "characterName": "CowDuck",
+    "relationshipType": "hybrid_or_mythical",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "data"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "TerminusDB · CowDuck",
+    "image": null
+  },
+  {
+    "id": "mouse-xfce-mouse",
+    "animalId": "mouse",
+    "organization": "Xfce Mouse",
+    "product": "Xfce Mouse",
+    "relationshipType": "animal_logo",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://xfce.org/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Xfce Mouse",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/xfce.svg",
+      "alt": "Xfce Mouse Mouse",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "bear-salesforce-codey",
+    "animalId": "bear",
+    "organization": "Salesforce",
+    "characterName": "Codey",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Salesforce · Codey",
+    "image": null
+  },
+  {
+    "id": "goat-salesforce-cloudy",
+    "animalId": "goat",
+    "organization": "Salesforce",
+    "characterName": "Cloudy",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Salesforce · Cloudy",
+    "image": null
+  },
+  {
+    "id": "horse-salesforce-blaze",
+    "animalId": "horse",
+    "organization": "Salesforce",
+    "characterName": "Blaze",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Salesforce · Blaze",
+    "image": null
+  },
+  {
+    "id": "tanuki-salesforce-astro",
+    "animalId": "tanuki",
+    "organization": "Salesforce",
+    "characterName": "Astro",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://www.salesforce.com/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Salesforce · Astro",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/salesforce.svg",
+      "alt": "Astro Tanuki",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "tanuki-gitlab-origin-story",
+    "animalId": "tanuki",
+    "organization": "GitLab origin story",
+    "product": "GitLab origin story",
+    "relationshipType": "animal_name",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "GitLab origin story",
+    "image": null
+  },
+  {
+    "id": "thunderbird-mozilla-thunderbird",
+    "animalId": "thunderbird",
+    "organization": "Mozilla Thunderbird",
+    "product": "Mozilla Thunderbird",
+    "relationshipType": "hybrid_or_mythical",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "apps",
+      "web"
+    ],
+    "sourceUrl": "https://www.thunderbird.net/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Mozilla Thunderbird",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/thunderbird.svg",
+      "alt": "Mozilla Thunderbird Thunderbird",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "cuttlefish-peertube-sepia",
+    "animalId": "cuttlefish",
+    "organization": "PeerTube",
+    "characterName": "Sepia",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "PeerTube · Sepia",
+    "image": null
+  },
+  {
+    "id": "iguana-zig-ziguanas",
+    "animalId": "iguana",
+    "organization": "Zig",
+    "characterName": "Ziguanas",
+    "relationshipType": "community_mascot",
+    "officialStatus": "unofficial",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Zig · Ziguanas",
+    "image": null
+  },
+  {
+    "id": "llama-meta-llama",
+    "animalId": "llama",
+    "organization": "Meta",
+    "characterName": "Llama",
+    "relationshipType": "animal_name",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://www.llama.com/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Meta · Llama",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/meta.svg",
+      "alt": "Llama Llama",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "giraffe-cncf-phippy",
+    "animalId": "giraffe",
+    "organization": "CNCF",
+    "characterName": "Phippy",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "CNCF · Phippy",
+    "image": null
+  },
+  {
+    "id": "donkey-edonkey-historical",
+    "animalId": "donkey",
+    "organization": "eDonkey",
+    "characterName": "historical",
+    "relationshipType": "historical",
+    "officialStatus": "unofficial",
+    "activeStatus": "inactive",
+    "recognition": "niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "eDonkey · historical",
+    "image": null
+  },
+  {
+    "id": "gorilla-gorilla-logic",
+    "animalId": "gorilla",
+    "organization": "Gorilla Logic",
+    "product": "Gorilla Logic",
+    "relationshipType": "animal_name",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://gorillalogic.com/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Gorilla Logic",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/gorillastack.svg",
+      "alt": "Gorilla Logic Gorilla",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "rhino-rhinoceros-3d",
+    "animalId": "rhino",
+    "organization": "Rhinoceros 3D",
+    "product": "Rhinoceros 3D",
+    "relationshipType": "animal_name",
+    "officialStatus": "unknown",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://www.rhino3d.com/",
+    "sourceType": "community_primary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "Rhinoceros 3D",
+    "image": {
+      "src": null,
+      "remoteSrc": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/rhinoceros.svg",
+      "alt": "Rhinoceros 3D Rhino",
+      "attribution": "Brand mark"
+    }
+  },
+  {
+    "id": "tiger-macos-tiger-historical",
+    "animalId": "tiger",
+    "organization": "macOS Tiger",
+    "characterName": "historical",
+    "relationshipType": "historical",
+    "officialStatus": "unofficial",
+    "activeStatus": "inactive",
+    "recognition": "niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://example.com/pending-source",
+    "sourceType": "secondary",
+    "verificationStatus": "candidate",
+    "verifiedAt": "2026-07-20",
+    "displayLabel": "macOS Tiger · historical",
+    "image": null
+  }
+]
