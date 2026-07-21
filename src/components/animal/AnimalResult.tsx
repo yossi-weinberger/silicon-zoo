@@ -87,11 +87,11 @@ export function AnimalResult({
               <span key={slug}>
                 {index > 0 ? " · " : null}
                 {onSelect ? (
-                  <button type="button" onClick={() => onSelect(slug)}>
+                  <button type="button" onClick={() => { track("alternative_animal_clicked", { from: animal.slug, to: slug }); onSelect(slug); }}>
                     {slug}
                   </button>
                 ) : (
-                  <Link href={`/animal/${slug}`}>{slug}</Link>
+                  <Link href={`/animal/${slug}`} onClick={() => track("alternative_animal_clicked", { from: animal.slug, to: slug })}>{slug}</Link>
                 )}
               </span>
             ))}
