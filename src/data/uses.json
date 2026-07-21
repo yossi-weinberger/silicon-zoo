@@ -3258,10 +3258,10 @@
     "verifiedAt": "2026-07-21",
     "displayLabel": "HTCondor",
     "image": {
-      "src": "/mascots/htcondor.jpg",
-      "remoteSrc": "https://avatars.githubusercontent.com/u/7559271?s=200&v=4",
-      "alt": "HTCondor",
-      "attribution": "HTCondor organization avatar on GitHub."
+      "src": "/mascots/htcondor.png",
+      "remoteSrc": "https://htcondor.org/assets/images/CondorAlpha.png",
+      "alt": "HTCondor condor artwork",
+      "attribution": "Official HTCondor artwork from htcondor.org."
     }
   },
   {
@@ -3541,6 +3541,109 @@
       "remoteSrc": "https://cdn.simpleicons.org/bower",
       "alt": "Bower brand mark",
       "attribution": "Bower brand mark via Simple Icons (brand color)."
+    }
+  },
+  {
+    "id": "penguin-gentoo-name",
+    "animalId": "penguin",
+    "organization": "Gentoo",
+    "product": "Gentoo Linux",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://wiki.gentoo.org/wiki/FAQ",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "Gentoo Linux",
+    "image": {
+      "src": "/mascots/gentoo.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/gentoo",
+      "alt": "Gentoo brand mark",
+      "attribution": "Gentoo brand mark via Simple Icons. Distro named after the gentoo penguin."
+    }
+  },
+  {
+    "id": "penguin-linux-libre-freedo",
+    "animalId": "penguin",
+    "organization": "Linux-libre",
+    "product": "Linux-libre",
+    "characterName": "Freedo",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://www.fsfla.org/ikiwiki/selibre/linux-libre/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "Linux-libre · Freedo",
+    "image": {
+      "src": "/mascots/linux-libre-freedo.svg",
+      "remoteSrc": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Freedo.svg",
+      "alt": "Freedo, the Linux-libre penguin mascot",
+      "attribution": "Freedo by Rubén Rodríguez Pérez, via Wikimedia Commons (Linux-libre)."
+    }
+  },
+  {
+    "id": "anaconda-rhinstaller",
+    "animalId": "anaconda",
+    "organization": "Red Hat / Fedora",
+    "product": "Anaconda",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "tools",
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://github.com/rhinstaller/anaconda",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "Anaconda installer",
+    "image": {
+      "src": "/mascots/fedora.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/fedora",
+      "alt": "Fedora brand mark for Anaconda installer",
+      "attribution": "Fedora brand mark via Simple Icons (brand color)."
+    }
+  },
+  {
+    "id": "daemon-freebsd-beastie",
+    "animalId": "daemon",
+    "organization": "FreeBSD",
+    "product": "FreeBSD",
+    "characterName": "Beastie",
+    "relationshipType": "hybrid_or_mythical",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://www.freebsd.org/logo/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "FreeBSD · Beastie",
+    "image": {
+      "src": "/mascots/freebsd.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/freebsd",
+      "alt": "FreeBSD brand mark for Beastie",
+      "attribution": "FreeBSD brand mark via Simple Icons (brand color)."
     }
   }
 ]

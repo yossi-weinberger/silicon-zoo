@@ -70,7 +70,7 @@ These files are used for identification and commentary. They remain owned by the
 | `pony.svg` | `pony-pony-programming-language` | https://commons.wikimedia.org/wiki/Special:FilePath/Main_galloping.svg | Pony language mascot via Wikimedia Commons. |
 | `kde.svg` | `dragon-kde-konqi` | https://cdn.simpleicons.org/kde | KDE brand mark via Simple Icons (brand color). |
 | `kate.svg` | `woodpecker-kate-cyber-woodpecker` | https://commons.wikimedia.org/wiki/Special:FilePath/Sc-apps-kate-editor.svg | Kate editor icon via Wikimedia Commons. |
-| `gentoo.svg` | `cow-gentoo-larry-the-cow` | https://cdn.simpleicons.org/gentoo | Gentoo brand mark via Simple Icons (brand color). |
+| `gentoo.svg` | `cow-gentoo-larry-the-cow`, `penguin-gentoo-name` | https://cdn.simpleicons.org/gentoo | Gentoo brand mark via Simple Icons (brand color). |
 | `terminusdb.png` | `cow-terminusdb-cowduck` | https://commons.wikimedia.org/wiki/Special:FilePath/TerminusDB%20Color%20Mascot.png | TerminusDB CowDuck mascot via Wikimedia Commons. |
 | `xfce.svg` | `mouse-xfce-mouse` | https://cdn.simpleicons.org/xfce | Xfce Mouse brand mark via Simple Icons (brand color). |
 | `salesforce-codey.png` | `bear-salesforce-codey` | https://www.salesforce.com/blog/wp-content/uploads/sites/2/2021/12/2021-12-360Blog-2D-IndividualIllustrations-Codey.png | Salesforce Trailhead character artwork from salesforce.com blog / media library. Used for identification and commentary. |
@@ -125,7 +125,6 @@ These files are used for identification and commentary. They remain owned by the
 | `squid-cache.png` | `squid-squid-cache` | https://raw.githubusercontent.com/squid-cache/squid/master/icons/SN.png | Official Squid Cache icon from squid-cache/squid repo. |
 | `pelican.svg` | `pelican-pelican-ssg` | https://cdn.simpleicons.org/pelican | Pelican brand mark via Simple Icons (brand color). |
 | `puma.png` | `puma-puma-server` | https://avatars.githubusercontent.com/u/2054809?s=200&v=4 | Puma organization avatar on GitHub. |
-| `htcondor.jpg` | `condor-htcondor` | https://avatars.githubusercontent.com/u/7559271?s=200&v=4 | HTCondor organization avatar on GitHub. |
 | `apache-kudu.svg` | `kudu-apache-kudu` | https://cdn.simpleicons.org/apache | Apache brand mark via Simple Icons (brand color). |
 | `apache-impala.svg` | `impala-apache-impala` | https://cdn.simpleicons.org/apache | Apache brand mark via Simple Icons (brand color). |
 | `thinkst-canary.png` | `canary-thinkst` | https://www.google.com/s2/favicons?domain=canary.tools&sz=128 | Thinkst Canary brand mark / favicon. |
@@ -137,3 +136,7 @@ These files are used for identification and commentary. They remain owned by the
 | `apache-ant.svg` | `ant-apache-ant` | https://cdn.simpleicons.org/apacheant | Apache Ant brand mark via Simple Icons (brand color). |
 | `firebird.png` | `firebird-firebirdsql` | https://firebirdsql.org/file/about/firebird-logo-90.png | Official Firebird logo from firebirdsql.org |
 | `bower.svg` | `bowerbird-bower` | https://cdn.simpleicons.org/bower | Bower brand mark via Simple Icons (brand color). |
+| `linux-libre-freedo.svg` | `penguin-linux-libre-freedo` | https://upload.wikimedia.org/wikipedia/commons/f/f6/Freedo.svg | Freedo by Rubén Rodríguez Pérez, via Wikimedia Commons (Linux-libre). |
+| `fedora.svg` | `anaconda-rhinstaller` | https://cdn.simpleicons.org/fedora | Fedora brand mark via Simple Icons (brand color). |
+| `freebsd.svg` | `daemon-freebsd-beastie` | https://cdn.simpleicons.org/freebsd | FreeBSD brand mark via Simple Icons (brand color). |
+| `htcondor.png` | `condor-htcondor` | https://htcondor.org/assets/images/CondorAlpha.png | Official HTCondor artwork from htcondor.org. |

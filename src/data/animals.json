@@ -12,19 +12,21 @@
     "animalClass": "birds",
     "accentColor": "#cbea77",
     "status": "Please step away from the penguin",
-    "verdict": "Linux adopted it in 1996. You are only about thirty years late.",
+    "verdict": "Tux, Tencent QQ, Gentoo’s namesake, and Freedo (Linux-libre) keep this ice crowded.",
     "alternatives": [
       "puffin",
       "kiwi"
     ],
     "uses": [
       "penguin-linux-tux",
-      "penguin-tencent-qq"
+      "penguin-tencent-qq",
+      "penguin-gentoo-name",
+      "penguin-linux-libre-freedo"
     ],
     "scoreOverride": 9.9,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "partially_verified",
-    "lastReviewedAt": "2026-07-20"
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "elephant",
@@ -2990,6 +2992,55 @@
     ],
     "uses": [
       "bowerbird-bower"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
+  },
+  {
+    "id": "anaconda",
+    "slug": "anaconda",
+    "name": "Anaconda",
+    "nameHe": "אנקונדה",
+    "aliases": [
+      "anaconda",
+      "אנקונדה"
+    ],
+    "emoji": "🐍",
+    "animalClass": "reptiles",
+    "accentColor": "#cbea77",
+    "status": "Installer coils occupied",
+    "verdict": "Fedora and RHEL install through Anaconda — a snake that wraps the whole disk.",
+    "alternatives": [
+      "snake"
+    ],
+    "uses": [
+      "anaconda-rhinstaller"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
+  },
+  {
+    "id": "daemon",
+    "slug": "daemon",
+    "name": "Daemon",
+    "nameHe": "דימון",
+    "aliases": [
+      "daemon",
+      "beastie",
+      "bsd daemon",
+      "דימון",
+      "ביסטי"
+    ],
+    "emoji": "😈",
+    "animalClass": "mammals",
+    "accentColor": "#e7a6ac",
+    "status": "Pitchfork enclosure",
+    "verdict": "Beastie the BSD daemon is not a zoo animal, but FreeBSD keeps him on the grounds anyway.",
+    "alternatives": [
+      "dragon"
+    ],
+    "uses": [
+      "daemon-freebsd-beastie"
     ],
     "reviewStatus": "verified",
     "lastReviewedAt": "2026-07-21"
