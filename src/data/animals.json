@@ -39,7 +39,7 @@
     "animalClass": "mammals",
     "accentColor": "#e7a6ac",
     "status": "Extremely crowded",
-    "verdict": "Five tech residents are already sharing this enclosure. Apparently elephants never forget a brand guideline.",
+    "verdict": "PostgreSQL, PHP, Hadoop, Evernote, Salesforce Ruth, and Gradlephant share this enclosure. Elephants never forget a brand guideline.",
     "alternatives": [
       "tapir",
       "rhino"
