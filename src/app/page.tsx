@@ -17,7 +17,7 @@ export default function HomePage() {
           <section className="hero">
             <div className="eyebrow">● THE UNOFFICIAL TECH ANIMAL REGISTRY</div>
             <h1>
-              Find your
+              Find your company&apos;s
               <br />
               <span className="accent">spirit animal.</span>
             </h1>

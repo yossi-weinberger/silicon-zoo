@@ -74,8 +74,7 @@
     "uses": [
       "owl-duolingo-duo",
       "owl-hootsuite-owly",
-      "owl-tripadvisor",
-      "owl-salesforce-hootie"
+      "owl-tripadvisor"
     ],
     "scoreOverride": 9.5,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
@@ -428,13 +427,12 @@
     "animalClass": "mammals",
     "accentColor": "#f28c52",
     "status": "Double-booked",
-    "verdict": "One streams data. One represents a programming language. Both are unreasonably cute.",
+    "verdict": "Redpanda the streaming company owns the name. Kotlin’s Kodee is a cute creature, not a red panda — so it does not count here.",
     "alternatives": [
       "raccoon"
     ],
     "uses": [
-      "red-panda-redpanda",
-      "red-panda-kotlin-kodi"
+      "red-panda-redpanda"
     ],
     "scoreOverride": 7.4,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
@@ -510,8 +508,6 @@
       "quokka"
     ],
     "uses": [],
-    "scoreOverride": 1.2,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -534,8 +530,6 @@
       "aardvark"
     ],
     "uses": [],
-    "scoreOverride": 0.8,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -555,8 +549,6 @@
     "verdict": "Looks like several animals were merged during a bad deploy. Perfect for tech.",
     "alternatives": [],
     "uses": [],
-    "scoreOverride": 0.5,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -578,8 +570,6 @@
       "wombat"
     ],
     "uses": [],
-    "scoreOverride": 0.9,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -599,8 +589,6 @@
     "verdict": "The internet loves it, but big tech has not fully moved into the aquarium yet.",
     "alternatives": [],
     "uses": [],
-    "scoreOverride": 2.5,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -1111,8 +1099,6 @@
       "quokka"
     ],
     "uses": [],
-    "scoreOverride": 1.8,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -1132,8 +1118,6 @@
     "verdict": "Looks permanently surprised by the sprint backlog. Strong mascot energy.",
     "alternatives": [],
     "uses": [],
-    "scoreOverride": 1.1,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -1155,8 +1139,6 @@
       "pangolin"
     ],
     "uses": [],
-    "scoreOverride": 1.5,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -1176,8 +1158,6 @@
     "verdict": "Bright, balanced and capable of standing through meetings on one leg.",
     "alternatives": [],
     "uses": [],
-    "scoreOverride": 1.4,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -1199,8 +1179,6 @@
       "ibex"
     ],
     "uses": [],
-    "scoreOverride": 1,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -1222,8 +1200,6 @@
       "koala"
     ],
     "uses": [],
-    "scoreOverride": 1.7,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -1245,8 +1221,6 @@
       "owl"
     ],
     "uses": [],
-    "scoreOverride": 3.2,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -1266,8 +1240,6 @@
     "verdict": "Persistent, striped and not easily discouraged by a failed funding round.",
     "alternatives": [],
     "uses": [],
-    "scoreOverride": 2.3,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -1289,8 +1261,6 @@
       "camel"
     ],
     "uses": [],
-    "scoreOverride": 4.8,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -1312,8 +1282,6 @@
       "puffin"
     ],
     "uses": [],
-    "scoreOverride": 1.3,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -1337,8 +1305,6 @@
       "narwhal"
     ],
     "uses": [],
-    "scoreOverride": 2,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -1360,8 +1326,6 @@
       "orca"
     ],
     "uses": [],
-    "scoreOverride": 2.2,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -1383,8 +1347,6 @@
       "beetle"
     ],
     "uses": [],
-    "scoreOverride": 1.6,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -1407,8 +1369,6 @@
       "mantis"
     ],
     "uses": [],
-    "scoreOverride": 1.9,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -1430,8 +1390,6 @@
       "axolotl"
     ],
     "uses": [],
-    "scoreOverride": 2.9,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -1453,8 +1411,6 @@
       "armadillo"
     ],
     "uses": [],
-    "scoreOverride": 3.1,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -1470,18 +1426,14 @@
     "emoji": "🐾",
     "animalClass": "mammals",
     "accentColor": "#f28c52",
-    "status": "npm remembers it",
-    "verdict": "npm’s community mascot has a claim here, though most of the world still sees a very square marsupial.",
+    "status": "Available for adoption",
+    "verdict": "We could not verify a current official npm wombat mascot with a primary source, so this enclosure is open.",
     "alternatives": [
       "quokka",
       "koala"
     ],
-    "uses": [
-      "wombat-npm-wombat"
-    ],
-    "scoreOverride": 3.8,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
-    "reviewStatus": "partially_verified",
+    "uses": [],
+    "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
   {
@@ -1880,20 +1832,16 @@
     "emoji": "🐎",
     "animalClass": "mammals",
     "accentColor": "#e7a6ac",
-    "status": "Galloping through CRM",
-    "verdict": "Blaze carries the Salesforce equality message. This pasture is active but not full.",
+    "status": "Available for adoption",
+    "verdict": "We dropped an unsourced Salesforce Blaze claim. This pasture is open until a primary source lands.",
     "alternatives": [
       "pony",
       "zebra",
       "donkey"
     ],
-    "uses": [
-      "horse-salesforce-blaze"
-    ],
-    "scoreOverride": 5.6,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
-    "reviewStatus": "partially_verified",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [],
+    "reviewStatus": "candidate",
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "tanuki",
@@ -2072,8 +2020,6 @@
       "armadillo"
     ],
     "uses": [],
-    "scoreOverride": 0.7,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -2096,8 +2042,6 @@
       "yak"
     ],
     "uses": [],
-    "scoreOverride": 1.2,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -2146,8 +2090,6 @@
       "weasel"
     ],
     "uses": [],
-    "scoreOverride": 0.8,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -2169,8 +2111,6 @@
       "antelope"
     ],
     "uses": [],
-    "scoreOverride": 1.4,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -2219,8 +2159,6 @@
       "tapir"
     ],
     "uses": [],
-    "scoreOverride": 0.9,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -2242,8 +2180,6 @@
       "jackal"
     ],
     "uses": [],
-    "scoreOverride": 0.6,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -2265,8 +2201,6 @@
       "goat"
     ],
     "uses": [],
-    "scoreOverride": 0.5,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -2289,8 +2223,6 @@
       "hyena"
     ],
     "uses": [],
-    "scoreOverride": 0.8,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -2313,8 +2245,6 @@
       "wombat"
     ],
     "uses": [],
-    "scoreOverride": 1.1,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -2334,8 +2264,6 @@
     "verdict": "Sharp ears, good night vision and far less crowded than the generic cat enclosure.",
     "alternatives": [],
     "uses": [],
-    "scoreOverride": 1.6,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -2357,8 +2285,6 @@
       "ferret"
     ],
     "uses": [],
-    "scoreOverride": 1.3,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -2380,8 +2306,6 @@
       "gopher"
     ],
     "uses": [],
-    "scoreOverride": 0.7,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -2403,8 +2327,6 @@
       "gorilla"
     ],
     "uses": [],
-    "scoreOverride": 0.8,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -2427,8 +2349,6 @@
       "yak"
     ],
     "uses": [],
-    "scoreOverride": 1.2,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -2502,8 +2422,6 @@
       "seal"
     ],
     "uses": [],
-    "scoreOverride": 0.7,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -2525,8 +2443,6 @@
       "jackal"
     ],
     "uses": [],
-    "scoreOverride": 1.9,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -2549,8 +2465,6 @@
       "ox"
     ],
     "uses": [],
-    "scoreOverride": 0.6,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -2571,8 +2485,6 @@
     "verdict": "Common in institutions and sports, but no single consumer-tech eagle owns the sky.",
     "alternatives": [],
     "uses": [],
-    "scoreOverride": 2.6,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   },
@@ -2592,8 +2504,6 @@
     "verdict": "Smart, black by default and already comfortable around mysterious infrastructure.",
     "alternatives": [],
     "uses": [],
-    "scoreOverride": 1.8,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "candidate",
     "lastReviewedAt": "2026-07-20"
   }

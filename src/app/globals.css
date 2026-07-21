@@ -69,6 +69,16 @@ a {
   text-decoration: none;
 }
 
+.brand-mark-img {
+  width: 42px;
+  height: 42px;
+  border: 2px solid var(--line);
+  border-radius: 50% 50% 43% 57%;
+  object-fit: cover;
+  background: white;
+  flex: 0 0 auto;
+}
+
 .brand-mark {
   width: 42px;
   height: 42px;
