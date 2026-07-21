@@ -10,9 +10,16 @@ type Props = {
   animal: EnrichedAnimal;
   onSelect?: (slug: string) => void;
   showShare?: boolean;
+  /** Hide "Open animal page" when already on `/animal/[slug]`. */
+  showOpenPage?: boolean;
 };
 
-export function AnimalResult({ animal, onSelect, showShare = true }: Props) {
+export function AnimalResult({
+  animal,
+  onSelect,
+  showShare = true,
+  showOpenPage = true,
+}: Props) {
   const percent = Math.min(100, Math.round(animal.occupancyScore * 10));
 
   async function share() {
@@ -90,14 +97,18 @@ export function AnimalResult({ animal, onSelect, showShare = true }: Props) {
             ))}
           </div>
         ) : null}
-        {showShare ? (
+        {showShare || showOpenPage ? (
           <div className="result-actions">
-            <button className="pill" type="button" onClick={share}>
-              Copy share link
-            </button>
-            <Link className="pill" href={`/animal/${animal.slug}`}>
-              Open animal page
-            </Link>
+            {showShare ? (
+              <button className="pill" type="button" onClick={share}>
+                Copy share link
+              </button>
+            ) : null}
+            {showOpenPage ? (
+              <Link className="pill" href={`/animal/${animal.slug}`}>
+                Open animal page
+              </Link>
+            ) : null}
           </div>
         ) : null}
       </div>

@@ -63,6 +63,7 @@ These files are used for identification and commentary. They remain owned by the
 | `v-veasel.png` | `weasel-v-veasel` | https://vlang.io/ | V language Veasel mascot. |
 | `libreboot.svg` | `antelope-libreboot-canteloupe` | https://commons.wikimedia.org/wiki/Special:FilePath/Libreboot_logo.svg | Libreboot logo via Wikimedia Commons. |
 | `raku-camelia.svg` | `butterfly-raku-camelia` | https://commons.wikimedia.org/wiki/Special:FilePath/Camelia.svg | Raku Camelia mascot via Wikimedia Commons. |
+| `serenityos.png` | `ladybug-serenityos-buggie` | https://avatars.githubusercontent.com/u/50811782?s=200&v=4 | SerenityOS organization avatar on GitHub. |
 | `bugzilla.svg` | `ladybug-bugzilla-buggie` | https://commons.wikimedia.org/wiki/Special:FilePath/Bugzilla_logo_%282022%29.svg | Bugzilla logo via Wikimedia Commons. |
 | `freedos.svg` | `fish-freedos-blinky` | https://commons.wikimedia.org/wiki/Special:FilePath/FreeDOS%20logo4%202010.svg | FreeDOS logo via Wikimedia Commons. |
 | `hexley.png` | `platypus-darwin-hexley` | https://commons.wikimedia.org/wiki/Special:FilePath/Hexley%20STK.png | Hexley the platypus via Wikimedia Commons. |
@@ -78,18 +79,61 @@ These files are used for identification and commentary. They remain owned by the
 | `peertube.svg` | `cuttlefish-peertube-sepia` | https://cdn.simpleicons.org/peertube | PeerTube brand mark via Simple Icons (brand color). |
 | `zig.svg` | `iguana-zig-ziguanas` | https://cdn.simpleicons.org/zig | Zig brand mark via Simple Icons (brand color). |
 | `meta.svg` | `llama-meta-llama` | https://cdn.simpleicons.org/meta | Meta brand mark via Simple Icons (brand color). |
-| `cncf.svg` | `giraffe-cncf-phippy` | https://cdn.simpleicons.org/cncf | CNCF brand mark via Simple Icons (brand color). |
+| `cncf-phippy.svg` | `giraffe-cncf-phippy` | https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/phippy_full.svg | CNCF Phippy & Friends (CC-BY). Attribution: phippy.io |
 | `edonkey.gif` | `donkey-edonkey-historical` | https://en.wikipedia.org/wiki/EDonkey2000 | Historical eDonkey2000 logo. |
+| `gorilla-logic.png` | `gorilla-gorilla-logic` | https://www.google.com/s2/favicons?domain=gorillalogic.com&sz=128 | Gorilla Logic favicon / brand mark. |
 | `rhinoceros.svg` | `rhino-rhinoceros-3d` | https://cdn.simpleicons.org/rhinoceros | Rhinoceros 3D brand mark via Simple Icons (brand color). |
 | `macos-tiger.svg` | `tiger-macos-tiger-historical` | https://commons.wikimedia.org/wiki/Special:FilePath/Mac%20OS%20X%20Tiger%20icon.svg | Mac OS X Tiger icon via Wikimedia Commons. |
 | `bat.png` | `bat-sharkdp-bat` | https://cdn.simpleicons.org/gnometerminal | bat project visual from GitHub/assets. |
 | `jfrog.svg` | `frog-jfrog` | https://cdn.simpleicons.org/jfrog | JFrog brand mark via Simple Icons (brand color). |
+| `arctic-wolf.png` | `wolf-arctic-wolf` | https://www.google.com/s2/favicons?domain=arcticwolf.com&sz=128 | Arctic Wolf brand mark / favicon. |
+| `ravendb.png` | `raven-ravendb` | https://ravendb.net/favicon.ico | RavenDB favicon from ravendb.net. |
+| `ferretdb.webp` | `ferret-ferretdb` | https://www.ferretdb.com/favicon.ico | FerretDB favicon from ferretdb.com. |
 | `bazel.svg` | `gazelle-bazel-gazelle` | https://cdn.simpleicons.org/bazel | Bazel brand mark via Simple Icons (brand color). |
+| `lowrisc-ibex.png` | `ibex-lowrisc-ibex` | https://avatars.githubusercontent.com/u/13596407?s=200&v=4 | lowRISC organization avatar on GitHub. |
 | `mantisbt.png` | `mantis-mantisbt` | https://mantisbt.org/bugs/images/mantis_logo.png | MantisBT logo from mantisbt.org. |
+| `lynx-browser.png` | `lynx-lynx-browser` | https://www.google.com/s2/favicons?domain=lynx.invisible-island.net&sz=128 | Lynx browser site favicon. |
+| `eagle-eye-networks.png` | `eagle-eagle-eye-networks` | https://www.google.com/s2/favicons?domain=een.com&sz=128 | Eagle Eye Networks brand mark / favicon. |
+| `walrus.png` | `walrus-walrus` | https://avatars.githubusercontent.com/u/147906327?s=200&v=4 | Walrus organization avatar on GitHub. |
 | `rabbitmq.svg` | `rabbit-rabbitmq` | https://cdn.simpleicons.org/rabbitmq | RabbitMQ brand mark via Simple Icons (brand color). |
 | `gradle.svg` | `elephant-gradle-gradlephant` | https://cdn.simpleicons.org/gradle | Gradle brand mark via Simple Icons (brand color). |
 | `wireshark.svg` | `shark-wireshark` | https://cdn.simpleicons.org/wireshark | Wireshark brand mark via Simple Icons (brand color). |
 | `tomcat.svg` | `cat-apache-tomcat` | https://cdn.simpleicons.org/apachetomcat | Apache Tomcat brand mark via Simple Icons (brand color). |
 | `yarn-kitten.svg` | `cat-yarn-kitten` | https://raw.githubusercontent.com/yarnpkg/assets/master/yarn-kitten.svg | Official Yarn kitten artwork from yarnpkg/assets. |
+| `kitty.svg` | `cat-kitty-terminal` | https://sw.kovidgoyal.net/kitty/_static/kitty.svg | kitty logo from kovidgoyal.net. |
 | `fishshell.svg` | `fish-fish-shell` | https://cdn.simpleicons.org/fishshell | fish shell brand mark via Simple Icons (brand color). |
+| `apache-camel.svg` | `camel-apache-camel` | https://camel.apache.org/_/img/logo-d.svg | Apache Camel logo from camel.apache.org. |
 | `ceph.svg` | `octopus-ceph` | https://cdn.simpleicons.org/ceph | Ceph brand mark via Simple Icons (brand color). |
+| `cncf-zee.svg` | `zebra-cncf-zee` | https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/zee_full.svg | CNCF Phippy & Friends (CC-BY). Attribution: phippy.io |
+| `cncf-captain-kube.svg` | `owl-cncf-captain-kube` | https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/captain_kube_full.svg | CNCF Phippy & Friends (CC-BY). Attribution: phippy.io |
+| `cncf-owlina.svg` | `owl-cncf-owlina` | https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/owlina_full.svg | CNCF Phippy & Friends (CC-BY). Attribution: phippy.io |
+| `cncf-hazel.svg` | `hedgehog-cncf-hazel` | https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/hazel_full.svg | CNCF Phippy & Friends (CC-BY). Attribution: phippy.io |
+| `cncf-tiago.svg` | `tiger-cncf-tiago` | https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/tiago_full.svg | CNCF Phippy & Friends (CC-BY). Attribution: phippy.io |
+| `cncf-tai.svg` | `elephant-cncf-tai` | https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/tai_full.svg | CNCF Phippy & Friends (CC-BY). Attribution: phippy.io |
+| `cncf-obee.svg` | `bee-cncf-obee` | https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/obee_full.svg | CNCF Phippy & Friends (CC-BY). Attribution: phippy.io |
+| `cncf-izzy.svg` | `dolphin-cncf-izzy` | https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/izzy_full.svg | CNCF Phippy & Friends (CC-BY). Attribution: phippy.io |
+| `cncf-keddy.svg` | `bear-cncf-keddy` | https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/keddy_full.svg | CNCF Phippy & Friends (CC-BY). Attribution: phippy.io |
+| `cncf-bitzy.png` | `hummingbird-cncf-bitzy` | https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/bitzy_full.png | CNCF Phippy & Friends (CC-BY). Attribution: phippy.io |
+| `cncf-kuack.svg` | `duck-cncf-kuack` | https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/kuack_full.svg | CNCF Phippy & Friends (CC-BY). Attribution: phippy.io |
+| `cncf-goldie.svg` | `gopher-cncf-goldie` | https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/goldie_full.svg | CNCF Phippy & Friends; Goldie based on the Go Gopher by Renee French (CC-BY). Attribution: phippy.io |
+| `cncf-cappy.svg` | `turtle-cncf-cappy` | https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/cappy_full.svg | CNCF Phippy & Friends (CC-BY). Attribution: phippy.io |
+| `cncf-linky.svg` | `lobster-cncf-linky` | https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/linky_full.svg | CNCF Phippy & Friends (CC-BY). Attribution: phippy.io |
+| `cncf-indigo.svg` | `macaw-cncf-indigo` | https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/indigo_full.svg | CNCF Phippy & Friends (CC-BY). Attribution: phippy.io |
+| `clearpath-jackal.png` | `jackal-clearpath` | https://avatars.githubusercontent.com/u/159163?s=200&v=4 | Clearpath Robotics organization avatar on GitHub. |
+| `squirrelmail.png` | `squirrel-squirrelmail` | https://www.google.com/s2/favicons?domain=squirrelmail.org&sz=128 | SquirrelMail site favicon. |
+| `grunt.svg` | `warthog-grunt` | https://cdn.simpleicons.org/grunt | Grunt brand mark via Simple Icons (brand color). |
+| `squid-cache.png` | `squid-squid-cache` | https://raw.githubusercontent.com/squid-cache/squid/master/icons/SN.png | Official Squid Cache icon from squid-cache/squid repo. |
+| `pelican.svg` | `pelican-pelican-ssg` | https://cdn.simpleicons.org/pelican | Pelican brand mark via Simple Icons (brand color). |
+| `puma.png` | `puma-puma-server` | https://avatars.githubusercontent.com/u/2054809?s=200&v=4 | Puma organization avatar on GitHub. |
+| `htcondor.jpg` | `condor-htcondor` | https://avatars.githubusercontent.com/u/7559271?s=200&v=4 | HTCondor organization avatar on GitHub. |
+| `apache-kudu.svg` | `kudu-apache-kudu` | https://cdn.simpleicons.org/apache | Apache brand mark via Simple Icons (brand color). |
+| `apache-impala.svg` | `impala-apache-impala` | https://cdn.simpleicons.org/apache | Apache brand mark via Simple Icons (brand color). |
+| `thinkst-canary.png` | `canary-thinkst` | https://www.google.com/s2/favicons?domain=canary.tools&sz=128 | Thinkst Canary brand mark / favicon. |
+| `crane.png` | `crane-go-containerregistry` | https://avatars.githubusercontent.com/u/1342004?s=200&v=4 | Google organization avatar used for crane CLI. |
+| `ocelot.png` | `ocelot-threemammals` | https://avatars.githubusercontent.com/u/17142558?s=200&v=4 | ThreeMammals / Ocelot organization avatar on GitHub. |
+| `deepmind.svg` | `chinchilla-deepmind` | https://cdn.simpleicons.org/google | Google brand mark via Simple Icons (brand color). |
+| `lmsys-vicuna.png` | `vicuna-lmsys` | https://avatars.githubusercontent.com/u/123214896?s=200&v=4 | LMSYS Org avatar on GitHub. |
+| `falcon-tii.svg` | `falcon-tii` | https://falconllm.tii.ae/assets/images/falcon-logo.svg | Official Falcon logo from falconllm.tii.ae. |
+| `apache-ant.svg` | `ant-apache-ant` | https://cdn.simpleicons.org/apacheant | Apache Ant brand mark via Simple Icons (brand color). |
+| `firebird.png` | `firebird-firebirdsql` | https://firebirdsql.org/file/about/firebird-logo-90.png | Official Firebird logo from firebirdsql.org |
+| `bower.svg` | `bowerbird-bower` | https://cdn.simpleicons.org/bower | Bower brand mark via Simple Icons (brand color). |

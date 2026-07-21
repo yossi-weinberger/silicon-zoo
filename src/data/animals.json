@@ -39,7 +39,7 @@
     "animalClass": "mammals",
     "accentColor": "#e7a6ac",
     "status": "Extremely crowded",
-    "verdict": "PostgreSQL, PHP, Hadoop, Evernote, Salesforce Ruth, and Gradlephant share this enclosure. Elephants never forget a brand guideline.",
+    "verdict": "PostgreSQL, PHP, Hadoop, Evernote, Salesforce Ruth, Gradlephant, and CNCF Tai share this enclosure.",
     "alternatives": [
       "tapir",
       "rhino"
@@ -50,7 +50,8 @@
       "elephant-apache-hadoop",
       "elephant-evernote",
       "elephant-salesforce-ruth",
-      "elephant-gradle-gradlephant"
+      "elephant-gradle-gradlephant",
+      "elephant-cncf-tai"
     ],
     "scoreOverride": 9.7,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
@@ -70,17 +71,19 @@
     "animalClass": "birds",
     "accentColor": "#f4cc5d",
     "status": "The smart choice. Too smart.",
-    "verdict": "Every company that wants to look wise eventually arrives at an owl. The branch is full.",
+    "verdict": "Duolingo, Hootsuite, TripAdvisor, Captain Kube, and Owlina keep the wise branch overcrowded.",
     "alternatives": [],
     "uses": [
       "owl-duolingo-duo",
       "owl-hootsuite-owly",
-      "owl-tripadvisor"
+      "owl-tripadvisor",
+      "owl-cncf-captain-kube",
+      "owl-cncf-owlina"
     ],
     "scoreOverride": 9.5,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "partially_verified",
-    "lastReviewedAt": "2026-07-20"
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "whale",
@@ -204,12 +207,13 @@
       "capybara"
     ],
     "uses": [
-      "gopher-go-the-go-gopher"
+      "gopher-go-the-go-gopher",
+      "gopher-cncf-goldie"
     ],
     "scoreOverride": 9.8,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "partially_verified",
-    "lastReviewedAt": "2026-07-20"
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "dolphin",
@@ -229,12 +233,13 @@
       "orca"
     ],
     "uses": [
-      "dolphin-mysql-sakila"
+      "dolphin-mysql-sakila",
+      "dolphin-cncf-izzy"
     ],
     "scoreOverride": 8.6,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "partially_verified",
-    "lastReviewedAt": "2026-07-20"
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "monkey",
@@ -283,12 +288,13 @@
     "alternatives": [],
     "uses": [
       "duck-duckduckgo",
-      "duck-adium-adiumy"
+      "duck-adium-adiumy",
+      "duck-cncf-kuack"
     ],
     "scoreOverride": 8.2,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "partially_verified",
-    "lastReviewedAt": "2026-07-20"
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "chameleon",
@@ -327,16 +333,17 @@
     "emoji": "🦔",
     "animalClass": "mammals",
     "accentColor": "#f4cc5d",
-    "status": "Analytics detected",
-    "verdict": "PostHog is making a spirited claim, but there may still be room in the enclosure.",
+    "status": "Helm burrow crowded",
+    "verdict": "Hazel the Helm hedgehog rolled into this enclosure with chart in paw.",
     "alternatives": [],
     "uses": [
-      "hedgehog-posthog"
+      "hedgehog-posthog",
+      "hedgehog-cncf-hazel"
     ],
     "scoreOverride": 6.9,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
-    "reviewStatus": "partially_verified",
-    "lastReviewedAt": "2026-07-20"
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "dinosaur",
@@ -716,12 +723,13 @@
     "uses": [
       "squirrel-apache-flink",
       "squirrel-krita-kiki",
-      "squirrel-salesforce-flo"
+      "squirrel-salesforce-flo",
+      "squirrel-squirrelmail"
     ],
     "scoreOverride": 6.7,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "partially_verified",
-    "lastReviewedAt": "2026-07-20"
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "mule",
@@ -959,12 +967,13 @@
     "verdict": "Fast, colorful and already helping developers ship interfaces everywhere.",
     "alternatives": [],
     "uses": [
-      "hummingbird-dart-flutter-dash"
+      "hummingbird-dart-flutter-dash",
+      "hummingbird-cncf-bitzy"
     ],
     "scoreOverride": 5.9,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "partially_verified",
-    "lastReviewedAt": "2026-07-20"
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "mastodon",
@@ -1003,17 +1012,18 @@
     "emoji": "🦓",
     "animalClass": "mammals",
     "accentColor": "#f4cc5d",
-    "status": "Barcodes in the grass",
-    "verdict": "A scanning company chose the animal with a built-in barcode; Salesforce brought another one.",
+    "status": "etcd stripes",
+    "verdict": "Zee the etcd zebra interned at the Kubernetes zoo and never left.",
     "alternatives": [],
     "uses": [
       "zebra-zebra-technologies",
-      "zebra-salesforce-zig"
+      "zebra-salesforce-zig",
+      "zebra-cncf-zee"
     ],
     "scoreOverride": 7,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
-    "reviewStatus": "partially_verified",
-    "lastReviewedAt": "2026-07-20"
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "bee",
@@ -1032,12 +1042,13 @@
     "verdict": "Apache took the hive metaphor all the way to the logo. Efficient, if a little buzzy.",
     "alternatives": [],
     "uses": [
-      "bee-apache-hive"
+      "bee-apache-hive",
+      "bee-cncf-obee"
     ],
     "scoreOverride": 6,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "partially_verified",
-    "lastReviewedAt": "2026-07-20"
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "pig",
@@ -1419,14 +1430,16 @@
     "emoji": "🐢",
     "animalClass": "reptiles",
     "accentColor": "#cbea77",
-    "status": "Slow but available-ish",
-    "verdict": "Reliable, portable infrastructure carried on its back. Just avoid speed claims.",
+    "status": "Cloud-native shell",
+    "verdict": "Cappy the Cluster API turtle moved into this previously empty pond.",
     "alternatives": [
       "armadillo"
     ],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "turtle-cncf-cappy"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "wombat",
@@ -1801,12 +1814,13 @@
     "verdict": "Salesforce made Codey the bear a champion for builders. The hard hat is implied.",
     "alternatives": [],
     "uses": [
-      "bear-salesforce-codey"
+      "bear-salesforce-codey",
+      "bear-cncf-keddy"
     ],
     "scoreOverride": 6.2,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "partially_verified",
-    "lastReviewedAt": "2026-07-20"
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "goat",
@@ -2239,15 +2253,17 @@
     "emoji": "🐕",
     "animalClass": "mammals",
     "accentColor": "#f4cc5d",
-    "status": "Quiet territory",
-    "verdict": "Alert, adaptable and waiting for a cybersecurity company with taste.",
+    "status": "UGV den occupied",
+    "verdict": "Clearpath Robotics named a rugged unmanned ground vehicle Jackal.",
     "alternatives": [
       "fox",
       "hyena"
     ],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "jackal-clearpath"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "kangaroo",
@@ -2422,12 +2438,13 @@
     "verdict": "Apple used it for an operating-system era, but modern tech has largely left the jungle.",
     "alternatives": [],
     "uses": [
-      "tiger-macos-tiger-historical"
+      "tiger-macos-tiger-historical",
+      "tiger-cncf-tiago"
     ],
     "scoreOverride": 2.4,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "partially_verified",
-    "lastReviewedAt": "2026-07-20"
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "walrus",
@@ -2536,6 +2553,443 @@
     "alternatives": [],
     "uses": [
       "raven-ravendb"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
+  },
+  {
+    "id": "lobster",
+    "slug": "lobster",
+    "name": "Lobster",
+    "nameHe": "לובסטר",
+    "aliases": [
+      "lobster",
+      "לובסטר"
+    ],
+    "emoji": "🦞",
+    "animalClass": "marine",
+    "accentColor": "#e7a6ac",
+    "status": "Cloud-native claws",
+    "verdict": "Linky the Linkerd lobster brought AUTH'N and AUTH'Z tattoos to the zoo.",
+    "alternatives": [
+      "crab",
+      "otter"
+    ],
+    "uses": [
+      "lobster-cncf-linky"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
+  },
+  {
+    "id": "macaw",
+    "slug": "macaw",
+    "name": "Macaw",
+    "nameHe": "מקאו",
+    "aliases": [
+      "macaw",
+      "macao",
+      "מקאו"
+    ],
+    "emoji": "🦜",
+    "animalClass": "birds",
+    "accentColor": "#9fd5df",
+    "status": "Supply-chain perch",
+    "verdict": "Indigo the in-toto macaw guards the nuts — and the provenance tree.",
+    "alternatives": [
+      "parrot",
+      "owl"
+    ],
+    "uses": [
+      "macaw-cncf-indigo"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
+  },
+  {
+    "id": "warthog",
+    "slug": "warthog",
+    "name": "Warthog",
+    "nameHe": "חזיר יבלות",
+    "aliases": [
+      "warthog",
+      "חזיר יבלות",
+      "grunt"
+    ],
+    "emoji": "🐗",
+    "animalClass": "mammals",
+    "accentColor": "#f28c52",
+    "status": "Task-runner wallow",
+    "verdict": "Grunt claimed the warthog logomark for JavaScript build chores.",
+    "alternatives": [
+      "pig",
+      "rhino"
+    ],
+    "uses": [
+      "warthog-grunt"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
+  },
+  {
+    "id": "squid",
+    "slug": "squid",
+    "name": "Squid",
+    "nameHe": "קלמרי",
+    "aliases": [
+      "squid",
+      "קלמרי"
+    ],
+    "emoji": "🦑",
+    "animalClass": "marine",
+    "accentColor": "#9fd5df",
+    "status": "Caching tentacles",
+    "verdict": "Squid Cache has been proxying the web under cephalopod branding for decades.",
+    "alternatives": [
+      "octopus",
+      "cuttlefish"
+    ],
+    "uses": [
+      "squid-squid-cache"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
+  },
+  {
+    "id": "pelican",
+    "slug": "pelican",
+    "name": "Pelican",
+    "nameHe": "שקנאי",
+    "aliases": [
+      "pelican",
+      "שקנאי"
+    ],
+    "emoji": "🦢",
+    "animalClass": "birds",
+    "accentColor": "#cbea77",
+    "status": "Static-site bill",
+    "verdict": "Pelican the static site generator filled its pouch with Python pages.",
+    "alternatives": [
+      "duck"
+    ],
+    "uses": [
+      "pelican-pelican-ssg"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
+  },
+  {
+    "id": "puma",
+    "slug": "puma",
+    "name": "Puma",
+    "nameHe": "פומה",
+    "aliases": [
+      "puma",
+      "cougar",
+      "פומה"
+    ],
+    "emoji": "🐆",
+    "animalClass": "mammals",
+    "accentColor": "#f4cc5d",
+    "status": "Ruby rack occupied",
+    "verdict": "The Puma web server sprinted away with this big-cat name.",
+    "alternatives": [
+      "lynx",
+      "ocelot"
+    ],
+    "uses": [
+      "puma-puma-server"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
+  },
+  {
+    "id": "condor",
+    "slug": "condor",
+    "name": "Condor",
+    "nameHe": "קונדור",
+    "aliases": [
+      "condor",
+      "קונדור"
+    ],
+    "emoji": "🦅",
+    "animalClass": "birds",
+    "accentColor": "#f4cc5d",
+    "status": "HPC thermal",
+    "verdict": "HTCondor soars over high-throughput computing clusters.",
+    "alternatives": [
+      "eagle",
+      "raven"
+    ],
+    "uses": [
+      "condor-htcondor"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
+  },
+  {
+    "id": "kudu",
+    "slug": "kudu",
+    "name": "Kudu",
+    "nameHe": "קודו",
+    "aliases": [
+      "kudu",
+      "קודו"
+    ],
+    "emoji": "🦌",
+    "animalClass": "mammals",
+    "accentColor": "#cbea77",
+    "status": "Columnar savanna",
+    "verdict": "Apache Kudu took the antelope for fast columnar storage.",
+    "alternatives": [
+      "impala",
+      "gazelle"
+    ],
+    "uses": [
+      "kudu-apache-kudu"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
+  },
+  {
+    "id": "impala",
+    "slug": "impala",
+    "name": "Impala",
+    "nameHe": "אימפלה",
+    "aliases": [
+      "impala",
+      "אימפלה"
+    ],
+    "emoji": "🦌",
+    "animalClass": "mammals",
+    "accentColor": "#f28c52",
+    "status": "SQL grassland",
+    "verdict": "Apache Impala runs analytic SQL at antelope speed.",
+    "alternatives": [
+      "kudu",
+      "gazelle"
+    ],
+    "uses": [
+      "impala-apache-impala"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
+  },
+  {
+    "id": "canary",
+    "slug": "canary",
+    "name": "Canary",
+    "nameHe": "קנרית",
+    "aliases": [
+      "canary",
+      "קנרית"
+    ],
+    "emoji": "🐤",
+    "animalClass": "birds",
+    "accentColor": "#f4cc5d",
+    "status": "Security mine shaft",
+    "verdict": "Thinkst Canary turned the coal-mine bird into a tripwire for attackers.",
+    "alternatives": [
+      "duck",
+      "owl"
+    ],
+    "uses": [
+      "canary-thinkst"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
+  },
+  {
+    "id": "crane",
+    "slug": "crane",
+    "name": "Crane",
+    "nameHe": "עגור",
+    "aliases": [
+      "crane",
+      "עגור"
+    ],
+    "emoji": "🦩",
+    "animalClass": "birds",
+    "accentColor": "#9fd5df",
+    "status": "Registry flight path",
+    "verdict": "Google's crane CLI moves container images with long-legged precision.",
+    "alternatives": [
+      "flamingo",
+      "eagle"
+    ],
+    "uses": [
+      "crane-go-containerregistry"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
+  },
+  {
+    "id": "ocelot",
+    "slug": "ocelot",
+    "name": "Ocelot",
+    "nameHe": "אוצלוט",
+    "aliases": [
+      "ocelot",
+      "אוצלוט"
+    ],
+    "emoji": "🐈",
+    "animalClass": "mammals",
+    "accentColor": "#e7a6ac",
+    "status": "Gateway spotted",
+    "verdict": "Ocelot the .NET API gateway prowls the reverse-proxy trail.",
+    "alternatives": [
+      "lynx",
+      "puma"
+    ],
+    "uses": [
+      "ocelot-threemammals"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
+  },
+  {
+    "id": "chinchilla",
+    "slug": "chinchilla",
+    "name": "Chinchilla",
+    "nameHe": "צ׳ינצ׳ילה",
+    "aliases": [
+      "chinchilla",
+      "צ'ינצ'ילה",
+      "צ׳ינצ׳ילה"
+    ],
+    "emoji": "🐭",
+    "animalClass": "mammals",
+    "accentColor": "#e7a6ac",
+    "status": "Compute-optimal burrow",
+    "verdict": "DeepMind named a scaling-law paper after this soft-furred rodent.",
+    "alternatives": [
+      "mouse",
+      "squirrel"
+    ],
+    "uses": [
+      "chinchilla-deepmind"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
+  },
+  {
+    "id": "vicuna",
+    "slug": "vicuna",
+    "name": "Vicuna",
+    "nameHe": "ויקוניה",
+    "aliases": [
+      "vicuna",
+      "vicuña",
+      "ויקוניה"
+    ],
+    "emoji": "🦙",
+    "animalClass": "mammals",
+    "accentColor": "#cbea77",
+    "status": "Chat enclosure",
+    "verdict": "LMSYS Vicuna is the chatty camelid next to LLaMA in the AI barn.",
+    "alternatives": [
+      "llama",
+      "alpaca"
+    ],
+    "uses": [
+      "vicuna-lmsys"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
+  },
+  {
+    "id": "falcon",
+    "slug": "falcon",
+    "name": "Falcon",
+    "nameHe": "בז",
+    "aliases": [
+      "falcon",
+      "בז"
+    ],
+    "emoji": "🦅",
+    "animalClass": "birds",
+    "accentColor": "#f28c52",
+    "status": "LLM aerie",
+    "verdict": "TII Falcon LLM stooped on the open-weight bird niche.",
+    "alternatives": [
+      "eagle",
+      "raven"
+    ],
+    "uses": [
+      "falcon-tii"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
+  },
+  {
+    "id": "ant",
+    "slug": "ant",
+    "name": "Ant",
+    "nameHe": "נמלה",
+    "aliases": [
+      "ant",
+      "נמלה"
+    ],
+    "emoji": "🐜",
+    "animalClass": "bugs",
+    "accentColor": "#f28c52",
+    "status": "Build colony",
+    "verdict": "Apache Ant has been hauling Java builds since before Maven was cool.",
+    "alternatives": [
+      "bee",
+      "mantis"
+    ],
+    "uses": [
+      "ant-apache-ant"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
+  },
+  {
+    "id": "firebird",
+    "slug": "firebird",
+    "name": "Firebird",
+    "nameHe": "ציפור אש",
+    "aliases": [
+      "firebird",
+      "ציפור אש"
+    ],
+    "emoji": "🔥",
+    "animalClass": "birds",
+    "accentColor": "#f28c52",
+    "status": "SQL nest occupied",
+    "verdict": "Firebird SQL kept the mythical bird as a very real relational database.",
+    "alternatives": [
+      "eagle",
+      "owl"
+    ],
+    "uses": [
+      "firebird-firebirdsql"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
+  },
+  {
+    "id": "bowerbird",
+    "slug": "bowerbird",
+    "name": "Bowerbird",
+    "nameHe": "ציפור קן",
+    "aliases": [
+      "bowerbird",
+      "bower bird",
+      "ציפור קן"
+    ],
+    "emoji": "🐦",
+    "animalClass": "birds",
+    "accentColor": "#cbea77",
+    "status": "Package nest (legacy)",
+    "verdict": "Bower named itself after birds that collect shiny front-end packages.",
+    "alternatives": [
+      "parrot",
+      "raven"
+    ],
+    "uses": [
+      "bowerbird-bower"
     ],
     "reviewStatus": "verified",
     "lastReviewedAt": "2026-07-21"

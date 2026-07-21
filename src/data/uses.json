@@ -1580,7 +1580,12 @@
     "verificationStatus": "partially_verified",
     "verifiedAt": "2026-07-21",
     "displayLabel": "SerenityOS · Buggie",
-    "image": null,
+    "image": {
+      "src": "/mascots/serenityos.png",
+      "remoteSrc": "https://avatars.githubusercontent.com/u/50811782?s=200&v=4",
+      "alt": "SerenityOS brand mark",
+      "attribution": "SerenityOS organization avatar on GitHub."
+    },
     "product": "SerenityOS"
   },
   {
@@ -2034,10 +2039,10 @@
     "verifiedAt": "2026-07-21",
     "displayLabel": "CNCF · Phippy",
     "image": {
-      "src": "/mascots/cncf.svg",
-      "remoteSrc": "https://cdn.simpleicons.org/cncf",
-      "alt": "CNCF brand mark for Phippy",
-      "attribution": "CNCF brand mark via Simple Icons (brand color)."
+      "src": "/mascots/cncf-phippy.svg",
+      "remoteSrc": "https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/phippy_full.svg",
+      "alt": "Phippy the PHP giraffe",
+      "attribution": "CNCF Phippy & Friends (CC-BY). Attribution: phippy.io"
     },
     "product": "CNCF"
   },
@@ -2085,10 +2090,10 @@
     "verifiedAt": "2026-07-21",
     "displayLabel": "Gorilla Logic",
     "image": {
-      "src": null,
-      "remoteSrc": null,
-      "alt": "Gorilla Logic Gorilla",
-      "attribution": "Brand mark"
+      "src": "/mascots/gorilla-logic.png",
+      "remoteSrc": "https://www.google.com/s2/favicons?domain=gorillalogic.com&sz=128",
+      "alt": "Gorilla Logic brand mark",
+      "attribution": "Gorilla Logic favicon / brand mark."
     }
   },
   {
@@ -2209,10 +2214,10 @@
     "verifiedAt": "2026-07-21",
     "displayLabel": "Arctic Wolf",
     "image": {
-      "src": null,
-      "remoteSrc": null,
-      "alt": "Arctic Wolf",
-      "attribution": "Arctic Wolf company name (animal in brand)."
+      "src": "/mascots/arctic-wolf.png",
+      "remoteSrc": "https://www.google.com/s2/favicons?domain=arcticwolf.com&sz=128",
+      "alt": "Arctic Wolf brand mark",
+      "attribution": "Arctic Wolf brand mark / favicon."
     }
   },
   {
@@ -2336,10 +2341,10 @@
     "verifiedAt": "2026-07-21",
     "displayLabel": "lowRISC · Ibex",
     "image": {
-      "src": null,
-      "remoteSrc": null,
-      "alt": "Ibex RISC-V core",
-      "attribution": "Ibex CPU core name (animal in product name)."
+      "src": "/mascots/lowrisc-ibex.png",
+      "remoteSrc": "https://avatars.githubusercontent.com/u/13596407?s=200&v=4",
+      "alt": "lowRISC Ibex",
+      "attribution": "lowRISC organization avatar on GitHub."
     }
   },
   {
@@ -2387,10 +2392,10 @@
     "verifiedAt": "2026-07-21",
     "displayLabel": "Lynx",
     "image": {
-      "src": null,
-      "remoteSrc": null,
-      "alt": "Lynx text web browser",
-      "attribution": "Lynx browser name (animal in product name)."
+      "src": "/mascots/lynx-browser.png",
+      "remoteSrc": "https://www.google.com/s2/favicons?domain=lynx.invisible-island.net&sz=128",
+      "alt": "Lynx browser",
+      "attribution": "Lynx browser site favicon."
     }
   },
   {
@@ -2412,10 +2417,10 @@
     "verifiedAt": "2026-07-21",
     "displayLabel": "Eagle Eye Networks",
     "image": {
-      "src": null,
-      "remoteSrc": null,
-      "alt": "Eagle Eye Networks",
-      "attribution": "Eagle Eye Networks company name (animal in brand)."
+      "src": "/mascots/eagle-eye-networks.png",
+      "remoteSrc": "https://www.google.com/s2/favicons?domain=een.com&sz=128",
+      "alt": "Eagle Eye Networks brand mark",
+      "attribution": "Eagle Eye Networks brand mark / favicon."
     }
   },
   {
@@ -2437,10 +2442,10 @@
     "verifiedAt": "2026-07-21",
     "displayLabel": "Walrus",
     "image": {
-      "src": null,
-      "remoteSrc": null,
-      "alt": "Walrus protocol",
-      "attribution": "Walrus protocol name (animal in brand)."
+      "src": "/mascots/walrus.png",
+      "remoteSrc": "https://avatars.githubusercontent.com/u/147906327?s=200&v=4",
+      "alt": "Walrus brand mark",
+      "attribution": "Walrus organization avatar on GitHub."
     }
   },
   {
@@ -2673,6 +2678,869 @@
       "remoteSrc": "https://cdn.simpleicons.org/ceph",
       "alt": "Ceph brand mark",
       "attribution": "Ceph brand mark via Simple Icons (brand color)."
+    }
+  },
+  {
+    "id": "zebra-cncf-zee",
+    "animalId": "zebra",
+    "organization": "CNCF",
+    "product": "etcd",
+    "characterName": "Zee",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source",
+      "data"
+    ],
+    "sourceUrl": "https://www.cncf.io/phippy/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "CNCF · Zee (etcd)",
+    "image": {
+      "src": "/mascots/cncf-zee.svg",
+      "remoteSrc": "https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/zee_full.svg",
+      "alt": "Zee the etcd zebra",
+      "attribution": "CNCF Phippy & Friends (CC-BY). Attribution: phippy.io"
+    }
+  },
+  {
+    "id": "owl-cncf-captain-kube",
+    "animalId": "owl",
+    "organization": "CNCF",
+    "product": "Kubernetes",
+    "characterName": "Captain Kube",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "code",
+      "open_source",
+      "apps"
+    ],
+    "sourceUrl": "https://www.cncf.io/phippy/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "CNCF · Captain Kube",
+    "image": {
+      "src": "/mascots/cncf-captain-kube.svg",
+      "remoteSrc": "https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/captain_kube_full.svg",
+      "alt": "Captain Kube the Kubernetes owl",
+      "attribution": "CNCF Phippy & Friends (CC-BY). Attribution: phippy.io"
+    }
+  },
+  {
+    "id": "owl-cncf-owlina",
+    "animalId": "owl",
+    "organization": "CNCF",
+    "product": "OPA",
+    "characterName": "Owlina",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source",
+      "tools"
+    ],
+    "sourceUrl": "https://www.cncf.io/phippy/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "CNCF · Owlina (OPA)",
+    "image": {
+      "src": "/mascots/cncf-owlina.svg",
+      "remoteSrc": "https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/owlina_full.svg",
+      "alt": "Owlina the OPA owl",
+      "attribution": "CNCF Phippy & Friends (CC-BY). Attribution: phippy.io"
+    }
+  },
+  {
+    "id": "hedgehog-cncf-hazel",
+    "animalId": "hedgehog",
+    "organization": "CNCF",
+    "product": "Helm",
+    "characterName": "Hazel",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source",
+      "tools"
+    ],
+    "sourceUrl": "https://www.cncf.io/phippy/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "CNCF · Hazel (Helm)",
+    "image": {
+      "src": "/mascots/cncf-hazel.svg",
+      "remoteSrc": "https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/hazel_full.svg",
+      "alt": "Hazel the Helm hedgehog",
+      "attribution": "CNCF Phippy & Friends (CC-BY). Attribution: phippy.io"
+    }
+  },
+  {
+    "id": "tiger-cncf-tiago",
+    "animalId": "tiger",
+    "organization": "CNCF",
+    "product": "TiKV",
+    "characterName": "Tiago",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "data",
+      "open_source"
+    ],
+    "sourceUrl": "https://www.cncf.io/phippy/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "CNCF · Tiago (TiKV)",
+    "image": {
+      "src": "/mascots/cncf-tiago.svg",
+      "remoteSrc": "https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/tiago_full.svg",
+      "alt": "Tiago the TiKV tiger",
+      "attribution": "CNCF Phippy & Friends (CC-BY). Attribution: phippy.io"
+    }
+  },
+  {
+    "id": "elephant-cncf-tai",
+    "animalId": "elephant",
+    "organization": "CNCF",
+    "product": "TUF",
+    "characterName": "Tai",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source",
+      "tools"
+    ],
+    "sourceUrl": "https://www.cncf.io/phippy/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "CNCF · Tai (TUF)",
+    "image": {
+      "src": "/mascots/cncf-tai.svg",
+      "remoteSrc": "https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/tai_full.svg",
+      "alt": "Tai the TUF elephant",
+      "attribution": "CNCF Phippy & Friends (CC-BY). Attribution: phippy.io"
+    }
+  },
+  {
+    "id": "bee-cncf-obee",
+    "animalId": "bee",
+    "organization": "CNCF",
+    "product": "Cilium",
+    "characterName": "Obee",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source",
+      "apps"
+    ],
+    "sourceUrl": "https://www.cncf.io/phippy/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "CNCF · Obee (Cilium)",
+    "image": {
+      "src": "/mascots/cncf-obee.svg",
+      "remoteSrc": "https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/obee_full.svg",
+      "alt": "Obee the Cilium bee",
+      "attribution": "CNCF Phippy & Friends (CC-BY). Attribution: phippy.io"
+    }
+  },
+  {
+    "id": "dolphin-cncf-izzy",
+    "animalId": "dolphin",
+    "organization": "CNCF",
+    "product": "Istio",
+    "characterName": "Izzy",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source",
+      "apps"
+    ],
+    "sourceUrl": "https://www.cncf.io/phippy/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "CNCF · Izzy (Istio)",
+    "image": {
+      "src": "/mascots/cncf-izzy.svg",
+      "remoteSrc": "https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/izzy_full.svg",
+      "alt": "Izzy the Istio dolphin",
+      "attribution": "CNCF Phippy & Friends (CC-BY). Attribution: phippy.io"
+    }
+  },
+  {
+    "id": "bear-cncf-keddy",
+    "animalId": "bear",
+    "organization": "CNCF",
+    "product": "KEDA",
+    "characterName": "Keddy",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source",
+      "apps"
+    ],
+    "sourceUrl": "https://www.cncf.io/phippy/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "CNCF · Keddy (KEDA)",
+    "image": {
+      "src": "/mascots/cncf-keddy.svg",
+      "remoteSrc": "https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/keddy_full.svg",
+      "alt": "Keddy the KEDA Kodiak bear",
+      "attribution": "CNCF Phippy & Friends (CC-BY). Attribution: phippy.io"
+    }
+  },
+  {
+    "id": "hummingbird-cncf-bitzy",
+    "animalId": "hummingbird",
+    "organization": "CNCF",
+    "product": "Fluent Bit",
+    "characterName": "Bitzy",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source",
+      "data"
+    ],
+    "sourceUrl": "https://www.cncf.io/phippy/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "CNCF · Bitzy (Fluent Bit)",
+    "image": {
+      "src": "/mascots/cncf-bitzy.png",
+      "remoteSrc": "https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/bitzy_full.png",
+      "alt": "Bitzy the Fluent Bit hummingbird",
+      "attribution": "CNCF Phippy & Friends (CC-BY). Attribution: phippy.io"
+    }
+  },
+  {
+    "id": "duck-cncf-kuack",
+    "animalId": "duck",
+    "organization": "CNCF",
+    "product": "Knative",
+    "characterName": "Kuack",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source",
+      "apps"
+    ],
+    "sourceUrl": "https://www.cncf.io/phippy/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "CNCF · Kuack (Knative)",
+    "image": {
+      "src": "/mascots/cncf-kuack.svg",
+      "remoteSrc": "https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/kuack_full.svg",
+      "alt": "Kuack the Knative duck",
+      "attribution": "CNCF Phippy & Friends (CC-BY). Attribution: phippy.io"
+    }
+  },
+  {
+    "id": "gopher-cncf-goldie",
+    "animalId": "gopher",
+    "organization": "CNCF",
+    "product": "Go",
+    "characterName": "Goldie",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://www.cncf.io/phippy/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "CNCF · Goldie (Go)",
+    "image": {
+      "src": "/mascots/cncf-goldie.svg",
+      "remoteSrc": "https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/goldie_full.svg",
+      "alt": "Goldie the Go gopher",
+      "attribution": "CNCF Phippy & Friends; Goldie based on the Go Gopher by Renee French (CC-BY). Attribution: phippy.io"
+    }
+  },
+  {
+    "id": "turtle-cncf-cappy",
+    "animalId": "turtle",
+    "organization": "CNCF",
+    "product": "Cluster API",
+    "characterName": "Cappy",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source",
+      "apps"
+    ],
+    "sourceUrl": "https://www.cncf.io/phippy/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "CNCF · Cappy (Cluster API)",
+    "image": {
+      "src": "/mascots/cncf-cappy.svg",
+      "remoteSrc": "https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/cappy_full.svg",
+      "alt": "Cappy the Cluster API turtle",
+      "attribution": "CNCF Phippy & Friends (CC-BY). Attribution: phippy.io"
+    }
+  },
+  {
+    "id": "lobster-cncf-linky",
+    "animalId": "lobster",
+    "organization": "CNCF",
+    "product": "Linkerd",
+    "characterName": "Linky",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source",
+      "apps"
+    ],
+    "sourceUrl": "https://www.cncf.io/phippy/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "CNCF · Linky (Linkerd)",
+    "image": {
+      "src": "/mascots/cncf-linky.svg",
+      "remoteSrc": "https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/linky_full.svg",
+      "alt": "Linky the Linkerd lobster",
+      "attribution": "CNCF Phippy & Friends (CC-BY). Attribution: phippy.io"
+    }
+  },
+  {
+    "id": "macaw-cncf-indigo",
+    "animalId": "macaw",
+    "organization": "CNCF",
+    "product": "in-toto",
+    "characterName": "Indigo",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source",
+      "tools"
+    ],
+    "sourceUrl": "https://www.cncf.io/phippy/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "CNCF · Indigo (in-toto)",
+    "image": {
+      "src": "/mascots/cncf-indigo.svg",
+      "remoteSrc": "https://raw.githubusercontent.com/cncf/artwork/master/other/phippy-and-friends/indigo_full.svg",
+      "alt": "Indigo the in-toto macaw",
+      "attribution": "CNCF Phippy & Friends (CC-BY). Attribution: phippy.io"
+    }
+  },
+  {
+    "id": "jackal-clearpath",
+    "animalId": "jackal",
+    "organization": "Clearpath Robotics",
+    "product": "Jackal UGV",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools",
+      "apps"
+    ],
+    "sourceUrl": "https://clearpathrobotics.com/jackal-small-unmanned-ground-vehicle/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "Clearpath · Jackal",
+    "image": {
+      "src": "/mascots/clearpath-jackal.png",
+      "remoteSrc": "https://avatars.githubusercontent.com/u/159163?s=200&v=4",
+      "alt": "Clearpath Robotics",
+      "attribution": "Clearpath Robotics organization avatar on GitHub."
+    }
+  },
+  {
+    "id": "squirrel-squirrelmail",
+    "animalId": "squirrel",
+    "organization": "SquirrelMail",
+    "product": "SquirrelMail",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "apps",
+      "web",
+      "open_source"
+    ],
+    "sourceUrl": "https://squirrelmail.org/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "SquirrelMail",
+    "image": {
+      "src": "/mascots/squirrelmail.png",
+      "remoteSrc": "https://www.google.com/s2/favicons?domain=squirrelmail.org&sz=128",
+      "alt": "SquirrelMail",
+      "attribution": "SquirrelMail site favicon."
+    }
+  },
+  {
+    "id": "warthog-grunt",
+    "animalId": "warthog",
+    "organization": "Grunt",
+    "product": "Grunt",
+    "relationshipType": "animal_logo",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "tools",
+      "open_source"
+    ],
+    "sourceUrl": "https://raw.githubusercontent.com/gruntjs/grunt-docs/main/Grunt-Brand-Guide.md",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "Grunt",
+    "image": {
+      "src": "/mascots/grunt.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/grunt",
+      "alt": "Grunt warthog brand mark",
+      "attribution": "Grunt brand mark via Simple Icons (brand color)."
+    }
+  },
+  {
+    "id": "squid-squid-cache",
+    "animalId": "squid",
+    "organization": "Squid Cache",
+    "product": "Squid",
+    "relationshipType": "animal_logo",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "apps",
+      "tools",
+      "open_source"
+    ],
+    "sourceUrl": "https://www.squid-cache.org/Artwork/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "Squid Cache",
+    "image": {
+      "src": "/mascots/squid-cache.png",
+      "remoteSrc": "https://raw.githubusercontent.com/squid-cache/squid/master/icons/SN.png",
+      "alt": "Squid Cache artwork",
+      "attribution": "Official Squid Cache icon from squid-cache/squid repo."
+    }
+  },
+  {
+    "id": "pelican-pelican-ssg",
+    "animalId": "pelican",
+    "organization": "Pelican",
+    "product": "Pelican",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "web",
+      "open_source"
+    ],
+    "sourceUrl": "https://docs.getpelican.com/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "Pelican",
+    "image": {
+      "src": "/mascots/pelican.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/pelican",
+      "alt": "Pelican brand mark",
+      "attribution": "Pelican brand mark via Simple Icons (brand color)."
+    }
+  },
+  {
+    "id": "puma-puma-server",
+    "animalId": "puma",
+    "organization": "Puma",
+    "product": "Puma",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "apps",
+      "open_source"
+    ],
+    "sourceUrl": "https://github.com/puma/puma",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "Puma",
+    "image": {
+      "src": "/mascots/puma.png",
+      "remoteSrc": "https://avatars.githubusercontent.com/u/2054809?s=200&v=4",
+      "alt": "Puma web server",
+      "attribution": "Puma organization avatar on GitHub."
+    }
+  },
+  {
+    "id": "condor-htcondor",
+    "animalId": "condor",
+    "organization": "HTCondor",
+    "product": "HTCondor",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools",
+      "open_source",
+      "data"
+    ],
+    "sourceUrl": "https://htcondor.org/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "HTCondor",
+    "image": {
+      "src": "/mascots/htcondor.jpg",
+      "remoteSrc": "https://avatars.githubusercontent.com/u/7559271?s=200&v=4",
+      "alt": "HTCondor",
+      "attribution": "HTCondor organization avatar on GitHub."
+    }
+  },
+  {
+    "id": "kudu-apache-kudu",
+    "animalId": "kudu",
+    "organization": "Apache Software Foundation",
+    "product": "Apache Kudu",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "data",
+      "open_source"
+    ],
+    "sourceUrl": "https://kudu.apache.org/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "Apache Kudu",
+    "image": {
+      "src": "/mascots/apache-kudu.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/apache",
+      "alt": "Apache mark for Kudu",
+      "attribution": "Apache brand mark via Simple Icons (brand color)."
+    }
+  },
+  {
+    "id": "impala-apache-impala",
+    "animalId": "impala",
+    "organization": "Apache Software Foundation",
+    "product": "Apache Impala",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "data",
+      "open_source"
+    ],
+    "sourceUrl": "https://impala.apache.org/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "Apache Impala",
+    "image": {
+      "src": "/mascots/apache-impala.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/apache",
+      "alt": "Apache mark for Impala",
+      "attribution": "Apache brand mark via Simple Icons (brand color)."
+    }
+  },
+  {
+    "id": "canary-thinkst",
+    "animalId": "canary",
+    "organization": "Thinkst",
+    "product": "Canary",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools",
+      "apps"
+    ],
+    "sourceUrl": "https://canary.tools/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "Thinkst Canary",
+    "image": {
+      "src": "/mascots/thinkst-canary.png",
+      "remoteSrc": "https://www.google.com/s2/favicons?domain=canary.tools&sz=128",
+      "alt": "Thinkst Canary brand mark",
+      "attribution": "Thinkst Canary brand mark / favicon."
+    }
+  },
+  {
+    "id": "crane-go-containerregistry",
+    "animalId": "crane",
+    "organization": "Google",
+    "product": "crane",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools",
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://github.com/google/go-containerregistry",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "crane",
+    "image": {
+      "src": "/mascots/crane.png",
+      "remoteSrc": "https://avatars.githubusercontent.com/u/1342004?s=200&v=4",
+      "alt": "crane container tool",
+      "attribution": "Google organization avatar used for crane CLI."
+    }
+  },
+  {
+    "id": "ocelot-threemammals",
+    "animalId": "ocelot",
+    "organization": "ThreeMammals",
+    "product": "Ocelot",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "apps",
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://github.com/ThreeMammals/Ocelot",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "Ocelot",
+    "image": {
+      "src": "/mascots/ocelot.png",
+      "remoteSrc": "https://avatars.githubusercontent.com/u/17142558?s=200&v=4",
+      "alt": "Ocelot API gateway",
+      "attribution": "ThreeMammals / Ocelot organization avatar on GitHub."
+    }
+  },
+  {
+    "id": "chinchilla-deepmind",
+    "animalId": "chinchilla",
+    "organization": "Google DeepMind",
+    "product": "Chinchilla",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "data"
+    ],
+    "sourceUrl": "https://deepmind.google/blog/an-empirical-analysis-of-compute-optimal-large-language-model-training/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "DeepMind · Chinchilla",
+    "image": {
+      "src": "/mascots/deepmind.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/google",
+      "alt": "Google mark for DeepMind Chinchilla",
+      "attribution": "Google brand mark via Simple Icons (brand color)."
+    }
+  },
+  {
+    "id": "vicuna-lmsys",
+    "animalId": "vicuna",
+    "organization": "LMSYS",
+    "product": "Vicuna",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://lmsys.org/blog/2023-03-30-vicuna/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "LMSYS · Vicuna",
+    "image": {
+      "src": "/mascots/lmsys-vicuna.png",
+      "remoteSrc": "https://avatars.githubusercontent.com/u/123214896?s=200&v=4",
+      "alt": "LMSYS Vicuna",
+      "attribution": "LMSYS Org avatar on GitHub."
+    }
+  },
+  {
+    "id": "falcon-tii",
+    "animalId": "falcon",
+    "organization": "Technology Innovation Institute",
+    "product": "Falcon LLM",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://falconllm.tii.ae/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "TII · Falcon",
+    "image": {
+      "src": "/mascots/falcon-tii.svg",
+      "remoteSrc": "https://falconllm.tii.ae/assets/images/falcon-logo.svg",
+      "alt": "TII Falcon LLM logo",
+      "attribution": "Official Falcon logo from falconllm.tii.ae."
+    }
+  },
+  {
+    "id": "ant-apache-ant",
+    "animalId": "ant",
+    "organization": "Apache Software Foundation",
+    "product": "Apache Ant",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "tools",
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://ant.apache.org/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "Apache Ant",
+    "image": {
+      "src": "/mascots/apache-ant.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/apacheant",
+      "alt": "Apache Ant brand mark",
+      "attribution": "Apache Ant brand mark via Simple Icons (brand color)."
+    }
+  },
+  {
+    "id": "firebird-firebirdsql",
+    "animalId": "firebird",
+    "organization": "Firebird Project",
+    "product": "Firebird",
+    "relationshipType": "animal_logo",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "data",
+      "open_source"
+    ],
+    "sourceUrl": "https://firebirdsql.org/en/logos/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "Firebird SQL",
+    "image": {
+      "src": "/mascots/firebird.png",
+      "remoteSrc": "https://firebirdsql.org/file/about/firebird-logo-90.png",
+      "alt": "Firebird SQL logo",
+      "attribution": "Official Firebird logo from firebirdsql.org"
+    }
+  },
+  {
+    "id": "bowerbird-bower",
+    "animalId": "bowerbird",
+    "organization": "Bower",
+    "product": "Bower",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "inactive",
+    "recognition": "niche",
+    "techHabitats": [
+      "code",
+      "tools",
+      "open_source"
+    ],
+    "sourceUrl": "https://bower.io/docs/about/",
+    "sourceType": "official",
+    "verificationStatus": "historical_verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "Bower",
+    "image": {
+      "src": "/mascots/bower.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/bower",
+      "alt": "Bower brand mark",
+      "attribution": "Bower brand mark via Simple Icons (brand color)."
     }
   }
 ]

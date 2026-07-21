@@ -53,7 +53,7 @@ export default async function AnimalPage({ params }: Props) {
           <Link href="/zoo" className="pill">
             ← Back to the zoo
           </Link>
-          <AnimalResult animal={animal} showShare />
+          <AnimalResult animal={animal} showShare showOpenPage={false} />
           <div className="disclaimer-box">
             “Taken” means someone in tech already uses it. We’re not lawyers.
             We’re barely zoologists.
