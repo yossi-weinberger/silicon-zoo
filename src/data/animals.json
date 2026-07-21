@@ -49,12 +49,13 @@
       "elephant-php-elephpant",
       "elephant-apache-hadoop",
       "elephant-evernote",
-      "elephant-salesforce-ruth"
+      "elephant-salesforce-ruth",
+      "elephant-gradle-gradlephant"
     ],
     "scoreOverride": 9.7,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "partially_verified",
-    "lastReviewedAt": "2026-07-20"
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "owl",
@@ -147,16 +148,19 @@
     "animalClass": "mammals",
     "accentColor": "#f4cc5d",
     "status": "The internet chose this one",
-    "verdict": "Cats own the internet. Scratch and Octocat pay the rent; yarn puns do not.",
+    "verdict": "Scratch, Octocat, Tomcat, Yarn's official kitten, and kitty terminal keep this enclosure loud.",
     "alternatives": [],
     "uses": [
       "cat-scratch-cat",
-      "cat-github-octocat"
+      "cat-github-octocat",
+      "cat-apache-tomcat",
+      "cat-yarn-kitten",
+      "cat-kitty-terminal"
     ],
     "scoreOverride": 8.7,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
-    "reviewStatus": "partially_verified",
-    "lastReviewedAt": "2026-07-20"
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "crab",
@@ -611,12 +615,13 @@
       "alpaca"
     ],
     "uses": [
-      "camel-perl"
+      "camel-perl",
+      "camel-apache-camel"
     ],
     "scoreOverride": 7.5,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "partially_verified",
-    "lastReviewedAt": "2026-07-20"
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "puffin",
@@ -682,14 +687,15 @@
     "emoji": "🐇",
     "animalClass": "mammals",
     "accentColor": "#e7a6ac",
-    "status": "Historical hopper",
-    "verdict": "Plan 9's Glenda still owns the warren. No invented runtime rabbits allowed.",
+    "status": "Messaging warren busy",
+    "verdict": "Plan 9's Glenda shares the warren with RabbitMQ — still no invented runtime rabbits.",
     "alternatives": [],
     "uses": [
-      "rabbit-plan-9-glenda"
+      "rabbit-plan-9-glenda",
+      "rabbit-rabbitmq"
     ],
-    "reviewStatus": "partially_verified",
-    "lastReviewedAt": "2026-07-20"
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "squirrel",
@@ -853,12 +859,13 @@
     "verdict": "DigitalOcean put Sammy the shark in its cloud. Marine biology has filed no complaint.",
     "alternatives": [],
     "uses": [
-      "shark-digitalocean-sammy"
+      "shark-digitalocean-sammy",
+      "shark-wireshark"
     ],
     "scoreOverride": 6.4,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "partially_verified",
-    "lastReviewedAt": "2026-07-20"
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "dog",
@@ -1073,12 +1080,13 @@
       "cuttlefish"
     ],
     "uses": [
-      "octopus-github-mona-the-octocat"
+      "octopus-github-mona-the-octocat",
+      "octopus-ceph"
     ],
     "scoreOverride": 7.8,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "partially_verified",
-    "lastReviewedAt": "2026-07-20"
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "koala",
@@ -1215,14 +1223,16 @@
     "emoji": "🦇",
     "animalClass": "mammals",
     "accentColor": "#9fd5df",
-    "status": "Some night shift activity",
-    "verdict": "Excellent for dark mode. Slight risk of being mistaken for a billionaire’s side project.",
+    "status": "CLI with wings",
+    "verdict": "sharkdp/bat claims the night shift: a cat clone with wings, and the name to match.",
     "alternatives": [
       "owl"
     ],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "bat-sharkdp-bat"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "badger",
@@ -1341,14 +1351,16 @@
     "emoji": "🦗",
     "animalClass": "bugs",
     "accentColor": "#cbea77",
-    "status": "Quietly available",
-    "verdict": "Looks focused, patient and slightly dangerous during code review.",
+    "status": "Bug tracker present",
+    "verdict": "MantisBT has been patiently waiting in code review since the early web.",
     "alternatives": [
       "beetle"
     ],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "mantis-mantisbt"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "beetle",
@@ -1384,14 +1396,16 @@
     "emoji": "🐸",
     "animalClass": "reptiles",
     "accentColor": "#cbea77",
-    "status": "A few small ponds",
-    "verdict": "Excellent leap metaphor, built-in green palette, no dominant tech landlord yet.",
+    "status": "DevOps pond claimed",
+    "verdict": "JFrog hopped into this enclosure with an animal brand name and a large software supply-chain footprint.",
     "alternatives": [
       "axolotl"
     ],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "frog-jfrog"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "turtle",
@@ -1612,12 +1626,13 @@
       "cuttlefish"
     ],
     "uses": [
-      "fish-freedos-blinky"
+      "fish-freedos-blinky",
+      "fish-fish-shell"
     ],
     "scoreOverride": 4.6,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "partially_verified",
-    "lastReviewedAt": "2026-07-20"
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "platypus",
@@ -2035,15 +2050,17 @@
     "emoji": "🦬",
     "animalClass": "mammals",
     "accentColor": "#f28c52",
-    "status": "Lots of open prairie",
-    "verdict": "Massive, resilient and capable of handling traffic spikes. Surprisingly available.",
+    "status": "Parser prairie claimed",
+    "verdict": "GNU Bison has been chewing through grammars since before npm existed.",
     "alternatives": [
       "gnu",
       "yak"
     ],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "bison-gnu-bison"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "donkey",
@@ -2084,14 +2101,16 @@
     "emoji": "🦦",
     "animalClass": "mammals",
     "accentColor": "#e7a6ac",
-    "status": "Free to investigate",
-    "verdict": "Curious, flexible and excellent at finding cables nobody knew existed.",
+    "status": "Investigating Mongo wires",
+    "verdict": "FerretDB took the name and the open-source MongoDB-compatible niche.",
     "alternatives": [
       "weasel"
     ],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "ferret-ferretdb"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "gazelle",
@@ -2105,14 +2124,16 @@
     "emoji": "🦌",
     "animalClass": "mammals",
     "accentColor": "#f4cc5d",
-    "status": "Fast and mostly free",
-    "verdict": "A natural fit for a performance product, somehow still without a dominant tech owner.",
+    "status": "Build files, fast",
+    "verdict": "Bazel Gazelle generates BUILD files and owns this antelope-adjacent lane.",
     "alternatives": [
       "antelope"
     ],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "gazelle-bazel-gazelle"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "gorilla",
@@ -2195,14 +2216,16 @@
     "emoji": "🐐",
     "animalClass": "mammals",
     "accentColor": "#cbea77",
-    "status": "Summit available",
-    "verdict": "Built for steep scaling curves and precarious funding environments.",
+    "status": "RISC-V summit taken",
+    "verdict": "lowRISC Ibex is a small RISC-V core with a sure-footed animal name.",
     "alternatives": [
       "goat"
     ],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "ibex-lowrisc-ibex"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "jackal",
@@ -2260,12 +2283,14 @@
     "emoji": "🐈",
     "animalClass": "mammals",
     "accentColor": "#e7a6ac",
-    "status": "A few quiet sightings",
-    "verdict": "Sharp ears, good night vision and far less crowded than the generic cat enclosure.",
+    "status": "Text-mode browser claimed",
+    "verdict": "Lynx still prowls terminals as the classic text web browser.",
     "alternatives": [],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "lynx-lynx-browser"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "meerkat",
@@ -2416,14 +2441,16 @@
     "emoji": "🦭",
     "animalClass": "marine",
     "accentColor": "#9fd5df",
-    "status": "Ice floe available",
-    "verdict": "Distinguished moustache, built-in tusks and absolutely no need for a rebrand.",
+    "status": "Storage floe claimed",
+    "verdict": "Walrus parked decentralized storage under a distinguished animal name.",
     "alternatives": [
       "seal"
     ],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "walrus-walrus"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "wolf",
@@ -2437,14 +2464,16 @@
     "emoji": "🐺",
     "animalClass": "mammals",
     "accentColor": "#9fd5df",
-    "status": "Pack forming",
-    "verdict": "Popular in gaming, less dominated in mainstream technology. Still usable with care.",
+    "status": "Security pack present",
+    "verdict": "Arctic Wolf runs security operations under a clear animal brand name.",
     "alternatives": [
       "jackal"
     ],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "wolf-arctic-wolf"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "yak",
@@ -2481,12 +2510,14 @@
     "emoji": "🦅",
     "animalClass": "birds",
     "accentColor": "#f4cc5d",
-    "status": "Some corporate airspace",
-    "verdict": "Common in institutions and sports, but no single consumer-tech eagle owns the sky.",
+    "status": "Surveillance nest occupied",
+    "verdict": "Eagle Eye Networks took the aerial brand for cloud video security.",
     "alternatives": [],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "eagle-eagle-eye-networks"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
   },
   {
     "id": "raven",
@@ -2500,11 +2531,13 @@
     "emoji": "🐦‍⬛",
     "animalClass": "birds",
     "accentColor": "#9fd5df",
-    "status": "Dark mode ready",
-    "verdict": "Smart, black by default and already comfortable around mysterious infrastructure.",
+    "status": "Database roost occupied",
+    "verdict": "RavenDB nested here with an animal-named document database.",
     "alternatives": [],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "raven-ravendb"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-07-21"
   }
 ]

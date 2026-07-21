@@ -2139,5 +2139,540 @@
       "attribution": "Mac OS X Tiger icon via Wikimedia Commons."
     },
     "product": "Mac OS X Tiger"
+  },
+  {
+    "id": "bat-sharkdp-bat",
+    "animalId": "bat",
+    "organization": "bat",
+    "product": "bat",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source",
+      "tools"
+    ],
+    "sourceUrl": "https://github.com/sharkdp/bat",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "bat",
+    "image": {
+      "src": "/mascots/bat.png",
+      "remoteSrc": "https://cdn.simpleicons.org/gnometerminal",
+      "alt": "bat CLI",
+      "attribution": "bat project visual from GitHub/assets."
+    }
+  },
+  {
+    "id": "frog-jfrog",
+    "animalId": "frog",
+    "organization": "JFrog",
+    "product": "JFrog",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "tools",
+      "apps"
+    ],
+    "sourceUrl": "https://jfrog.com/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "JFrog",
+    "image": {
+      "src": "/mascots/jfrog.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/jfrog",
+      "alt": "JFrog brand mark",
+      "attribution": "JFrog brand mark via Simple Icons (brand color)."
+    }
+  },
+  {
+    "id": "wolf-arctic-wolf",
+    "animalId": "wolf",
+    "organization": "Arctic Wolf",
+    "product": "Arctic Wolf",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://arcticwolf.com/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "Arctic Wolf",
+    "image": {
+      "src": null,
+      "remoteSrc": null,
+      "alt": "Arctic Wolf",
+      "attribution": "Arctic Wolf company name (animal in brand)."
+    }
+  },
+  {
+    "id": "raven-ravendb",
+    "animalId": "raven",
+    "organization": "RavenDB",
+    "product": "RavenDB",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "data",
+      "open_source"
+    ],
+    "sourceUrl": "https://ravendb.net/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "RavenDB",
+    "image": {
+      "src": "/mascots/ravendb.png",
+      "remoteSrc": "https://ravendb.net/favicon.ico",
+      "alt": "RavenDB brand mark",
+      "attribution": "RavenDB favicon from ravendb.net."
+    }
+  },
+  {
+    "id": "ferret-ferretdb",
+    "animalId": "ferret",
+    "organization": "FerretDB",
+    "product": "FerretDB",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "data",
+      "open_source"
+    ],
+    "sourceUrl": "https://www.ferretdb.com/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "FerretDB",
+    "image": {
+      "src": "/mascots/ferretdb.webp",
+      "remoteSrc": "https://www.ferretdb.com/favicon.ico",
+      "alt": "FerretDB",
+      "attribution": "FerretDB favicon from ferretdb.com."
+    }
+  },
+  {
+    "id": "bison-gnu-bison",
+    "animalId": "bison",
+    "organization": "GNU Project",
+    "product": "GNU Bison",
+    "characterName": "Bison",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://www.gnu.org/software/bison/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "GNU · Bison",
+    "image": {
+      "src": "/mascots/gnu.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/gnu",
+      "alt": "GNU brand mark for Bison",
+      "attribution": "GNU brand mark via Simple Icons (brand color)."
+    }
+  },
+  {
+    "id": "gazelle-bazel-gazelle",
+    "animalId": "gazelle",
+    "organization": "Bazel Gazelle",
+    "product": "Gazelle",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "code",
+      "open_source",
+      "tools"
+    ],
+    "sourceUrl": "https://github.com/bazelbuild/bazel-gazelle",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "Bazel · Gazelle",
+    "image": {
+      "src": "/mascots/bazel.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/bazel",
+      "alt": "Bazel brand mark for Gazelle",
+      "attribution": "Bazel brand mark via Simple Icons (brand color)."
+    }
+  },
+  {
+    "id": "ibex-lowrisc-ibex",
+    "animalId": "ibex",
+    "organization": "lowRISC",
+    "product": "Ibex",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://lowrisc.org/ibex/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "lowRISC · Ibex",
+    "image": {
+      "src": null,
+      "remoteSrc": null,
+      "alt": "Ibex RISC-V core",
+      "attribution": "Ibex CPU core name (animal in product name)."
+    }
+  },
+  {
+    "id": "mantis-mantisbt",
+    "animalId": "mantis",
+    "organization": "MantisBT",
+    "product": "Mantis Bug Tracker",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools",
+      "open_source"
+    ],
+    "sourceUrl": "https://mantisbt.org/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "MantisBT",
+    "image": {
+      "src": "/mascots/mantisbt.png",
+      "remoteSrc": "https://mantisbt.org/bugs/images/mantis_logo.png",
+      "alt": "MantisBT logo",
+      "attribution": "MantisBT logo from mantisbt.org."
+    }
+  },
+  {
+    "id": "lynx-lynx-browser",
+    "animalId": "lynx",
+    "organization": "Lynx",
+    "product": "Lynx",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools",
+      "open_source",
+      "web"
+    ],
+    "sourceUrl": "https://lynx.invisible-island.net/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "Lynx",
+    "image": {
+      "src": null,
+      "remoteSrc": null,
+      "alt": "Lynx text web browser",
+      "attribution": "Lynx browser name (animal in product name)."
+    }
+  },
+  {
+    "id": "eagle-eagle-eye-networks",
+    "animalId": "eagle",
+    "organization": "Eagle Eye Networks",
+    "product": "Eagle Eye Networks",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools",
+      "apps"
+    ],
+    "sourceUrl": "https://www.een.com/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "Eagle Eye Networks",
+    "image": {
+      "src": null,
+      "remoteSrc": null,
+      "alt": "Eagle Eye Networks",
+      "attribution": "Eagle Eye Networks company name (animal in brand)."
+    }
+  },
+  {
+    "id": "walrus-walrus",
+    "animalId": "walrus",
+    "organization": "Walrus",
+    "product": "Walrus",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "data",
+      "open_source"
+    ],
+    "sourceUrl": "https://www.walrus.xyz/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "Walrus",
+    "image": {
+      "src": null,
+      "remoteSrc": null,
+      "alt": "Walrus protocol",
+      "attribution": "Walrus protocol name (animal in brand)."
+    }
+  },
+  {
+    "id": "rabbit-rabbitmq",
+    "animalId": "rabbit",
+    "organization": "RabbitMQ",
+    "product": "RabbitMQ",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "data",
+      "open_source",
+      "tools"
+    ],
+    "sourceUrl": "https://www.rabbitmq.com/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "RabbitMQ",
+    "image": {
+      "src": "/mascots/rabbitmq.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/rabbitmq",
+      "alt": "RabbitMQ brand mark",
+      "attribution": "RabbitMQ brand mark via Simple Icons (brand color)."
+    }
+  },
+  {
+    "id": "elephant-gradle-gradlephant",
+    "animalId": "elephant",
+    "organization": "Gradle",
+    "product": "Gradle Build Tool",
+    "characterName": "Gradlephant",
+    "relationshipType": "official_mascot",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "code",
+      "tools",
+      "open_source"
+    ],
+    "sourceUrl": "https://gradle.com/brand/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "Gradle · Gradlephant",
+    "image": {
+      "src": "/mascots/gradle.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/gradle",
+      "alt": "Gradle brand mark for Gradlephant",
+      "attribution": "Gradle brand mark via Simple Icons (brand color)."
+    }
+  },
+  {
+    "id": "shark-wireshark",
+    "animalId": "shark",
+    "organization": "Wireshark",
+    "product": "Wireshark",
+    "relationshipType": "animal_logo",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "tools",
+      "open_source"
+    ],
+    "sourceUrl": "https://www.wireshark.org/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "Wireshark",
+    "image": {
+      "src": "/mascots/wireshark.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/wireshark",
+      "alt": "Wireshark fin logo",
+      "attribution": "Wireshark brand mark via Simple Icons (brand color)."
+    }
+  },
+  {
+    "id": "cat-apache-tomcat",
+    "animalId": "cat",
+    "organization": "Apache Tomcat",
+    "product": "Apache Tomcat",
+    "relationshipType": "animal_logo",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "code",
+      "open_source",
+      "web"
+    ],
+    "sourceUrl": "https://tomcat.apache.org/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "Apache Tomcat",
+    "image": {
+      "src": "/mascots/tomcat.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/apachetomcat",
+      "alt": "Apache Tomcat logo",
+      "attribution": "Apache Tomcat brand mark via Simple Icons (brand color)."
+    }
+  },
+  {
+    "id": "cat-yarn-kitten",
+    "animalId": "cat",
+    "organization": "Yarn",
+    "product": "Yarn",
+    "characterName": "Yarn kitten",
+    "relationshipType": "animal_logo",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://github.com/yarnpkg/assets",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "Yarn · kitten",
+    "image": {
+      "src": "/mascots/yarn-kitten.svg",
+      "remoteSrc": "https://raw.githubusercontent.com/yarnpkg/assets/master/yarn-kitten.svg",
+      "alt": "Yarn kitten logo",
+      "attribution": "Official Yarn kitten artwork from yarnpkg/assets."
+    }
+  },
+  {
+    "id": "cat-kitty-terminal",
+    "animalId": "cat",
+    "organization": "kitty",
+    "product": "kitty",
+    "relationshipType": "animal_logo",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools",
+      "open_source"
+    ],
+    "sourceUrl": "https://sw.kovidgoyal.net/kitty/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "kitty",
+    "image": {
+      "src": "/mascots/kitty.svg",
+      "remoteSrc": "https://sw.kovidgoyal.net/kitty/_static/kitty.svg",
+      "alt": "kitty terminal logo",
+      "attribution": "kitty logo from kovidgoyal.net."
+    }
+  },
+  {
+    "id": "fish-fish-shell",
+    "animalId": "fish",
+    "organization": "fish",
+    "product": "fish shell",
+    "relationshipType": "animal_logo",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools",
+      "open_source",
+      "code"
+    ],
+    "sourceUrl": "https://fishshell.com/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "fish shell",
+    "image": {
+      "src": "/mascots/fishshell.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/fishshell",
+      "alt": "fish shell logo",
+      "attribution": "fish shell brand mark via Simple Icons (brand color)."
+    }
+  },
+  {
+    "id": "camel-apache-camel",
+    "animalId": "camel",
+    "organization": "Apache Camel",
+    "product": "Apache Camel",
+    "relationshipType": "animal_logo",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "data",
+      "open_source"
+    ],
+    "sourceUrl": "https://camel.apache.org/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "Apache Camel",
+    "image": {
+      "src": "/mascots/apache-camel.svg",
+      "remoteSrc": "https://camel.apache.org/_/img/logo-d.svg",
+      "alt": "Apache Camel logo",
+      "attribution": "Apache Camel logo from camel.apache.org."
+    }
+  },
+  {
+    "id": "octopus-ceph",
+    "animalId": "octopus",
+    "organization": "Ceph",
+    "product": "Ceph",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "data",
+      "open_source"
+    ],
+    "sourceUrl": "https://ceph.io/en/news/blog/2011/cephalopods/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-07-21",
+    "displayLabel": "Ceph",
+    "image": {
+      "src": "/mascots/ceph.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/ceph",
+      "alt": "Ceph brand mark",
+      "attribution": "Ceph brand mark via Simple Icons (brand color)."
+    }
   }
 ]

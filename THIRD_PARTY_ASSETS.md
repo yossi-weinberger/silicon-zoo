@@ -59,7 +59,7 @@ These files are used for identification and commentary. They remain owned by the
 | `zebra-technologies.svg` | `zebra-zebra-technologies` | https://www.zebra.com/ | Zebra Technologies logo. |
 | `salesforce-zig.png` | `zebra-salesforce-zig` | https://www.salesforce.com/blog/wp-content/uploads/sites/2/2023/05/2023-05-360Blog-ContextualDriver-Zig-567x844-1.png | Salesforce Trailhead character artwork from salesforce.com blog / media library. Used for identification and commentary. |
 | `apache.svg` | `bee-apache-hive`, `pig-apache-pig`, `firefly-apache-beam-firefly` | https://cdn.simpleicons.org/apache | Apache Hive brand mark via Simple Icons (brand color). |
-| `gnu.svg` | `gnu-gnu-project` | https://cdn.simpleicons.org/gnu | GNU Project brand mark via Simple Icons (brand color). |
+| `gnu.svg` | `gnu-gnu-project`, `bison-gnu-bison` | https://cdn.simpleicons.org/gnu | GNU Project brand mark via Simple Icons (brand color). |
 | `v-veasel.png` | `weasel-v-veasel` | https://vlang.io/ | V language Veasel mascot. |
 | `libreboot.svg` | `antelope-libreboot-canteloupe` | https://commons.wikimedia.org/wiki/Special:FilePath/Libreboot_logo.svg | Libreboot logo via Wikimedia Commons. |
 | `raku-camelia.svg` | `butterfly-raku-camelia` | https://commons.wikimedia.org/wiki/Special:FilePath/Camelia.svg | Raku Camelia mascot via Wikimedia Commons. |
@@ -82,4 +82,14 @@ These files are used for identification and commentary. They remain owned by the
 | `edonkey.gif` | `donkey-edonkey-historical` | https://en.wikipedia.org/wiki/EDonkey2000 | Historical eDonkey2000 logo. |
 | `rhinoceros.svg` | `rhino-rhinoceros-3d` | https://cdn.simpleicons.org/rhinoceros | Rhinoceros 3D brand mark via Simple Icons (brand color). |
 | `macos-tiger.svg` | `tiger-macos-tiger-historical` | https://commons.wikimedia.org/wiki/Special:FilePath/Mac%20OS%20X%20Tiger%20icon.svg | Mac OS X Tiger icon via Wikimedia Commons. |
-| `logo.png` | Site brand / favicon | `more/logo.png` | Silicon Zoo site mark. |
+| `bat.png` | `bat-sharkdp-bat` | https://cdn.simpleicons.org/gnometerminal | bat project visual from GitHub/assets. |
+| `jfrog.svg` | `frog-jfrog` | https://cdn.simpleicons.org/jfrog | JFrog brand mark via Simple Icons (brand color). |
+| `bazel.svg` | `gazelle-bazel-gazelle` | https://cdn.simpleicons.org/bazel | Bazel brand mark via Simple Icons (brand color). |
+| `mantisbt.png` | `mantis-mantisbt` | https://mantisbt.org/bugs/images/mantis_logo.png | MantisBT logo from mantisbt.org. |
+| `rabbitmq.svg` | `rabbit-rabbitmq` | https://cdn.simpleicons.org/rabbitmq | RabbitMQ brand mark via Simple Icons (brand color). |
+| `gradle.svg` | `elephant-gradle-gradlephant` | https://cdn.simpleicons.org/gradle | Gradle brand mark via Simple Icons (brand color). |
+| `wireshark.svg` | `shark-wireshark` | https://cdn.simpleicons.org/wireshark | Wireshark brand mark via Simple Icons (brand color). |
+| `tomcat.svg` | `cat-apache-tomcat` | https://cdn.simpleicons.org/apachetomcat | Apache Tomcat brand mark via Simple Icons (brand color). |
+| `yarn-kitten.svg` | `cat-yarn-kitten` | https://raw.githubusercontent.com/yarnpkg/assets/master/yarn-kitten.svg | Official Yarn kitten artwork from yarnpkg/assets. |
+| `fishshell.svg` | `fish-fish-shell` | https://cdn.simpleicons.org/fishshell | fish shell brand mark via Simple Icons (brand color). |
+| `ceph.svg` | `octopus-ceph` | https://cdn.simpleicons.org/ceph | Ceph brand mark via Simple Icons (brand color). |
