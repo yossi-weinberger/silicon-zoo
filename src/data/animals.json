@@ -148,12 +148,11 @@
     "animalClass": "mammals",
     "accentColor": "#f4cc5d",
     "status": "The internet chose this one",
-    "verdict": "Cats own the internet. Tech companies merely rent server space from them.",
+    "verdict": "Cats own the internet. Scratch and Octocat pay the rent; yarn puns do not.",
     "alternatives": [],
     "uses": [
       "cat-scratch-cat",
-      "cat-github-octocat",
-      "cat-yarn"
+      "cat-github-octocat"
     ],
     "scoreOverride": 8.7,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
@@ -695,15 +694,12 @@
     "emoji": "🐇",
     "animalClass": "mammals",
     "accentColor": "#e7a6ac",
-    "status": "Multiplying quickly",
-    "verdict": "One lives in operating-system history; another makes JavaScript run very fast.",
+    "status": "Historical hopper",
+    "verdict": "Plan 9's Glenda still owns the warren. No invented runtime rabbits allowed.",
     "alternatives": [],
     "uses": [
-      "rabbit-plan-9-glenda",
-      "rabbit-bun"
+      "rabbit-plan-9-glenda"
     ],
-    "scoreOverride": 6.8,
-    "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
     "reviewStatus": "partially_verified",
     "lastReviewedAt": "2026-07-20"
   },

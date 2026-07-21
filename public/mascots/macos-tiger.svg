@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.0" viewBox="0 0 92.937 112.17" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<defs>
+<radialGradient id="b" cx="184.64" cy="58.482" r="46.889" gradientTransform="matrix(1.0928 1.0601 -.9646 .99437 -77.099 -185.62)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#f2f3f5" offset="0"/>
+<stop stop-color="#edeef0" offset=".27634"/>
+<stop stop-color="#5b6466" offset="1"/>
+</radialGradient>
+<radialGradient id="a" cx="184.64" cy="58.482" r="48.889" gradientTransform="matrix(1.9394 5.5419e-7 -3.2782e-7 1.1472 -289.82 1.1756)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8c979b" offset="0"/>
+<stop stop-color="#a1aaaf" offset=".83437"/>
+<stop stop-color="#3f464a" offset="1"/>
+</radialGradient>
+</defs>
+<g transform="translate(-21.789 -12.181)">
+<path d="m112.92 123.29h-26.157l-18.911-36.211-19.264 36.211h-24.979l31.106-55.426-30.458-54.613h26.098l18.263 34.29 18.793-34.29h25.038l-30.634 53.504z" fill="none" stroke="url(#a)" stroke-width="2.1333"/>
+<path d="m112.92 123.29h-26.157l-18.911-36.211-19.264 36.211h-24.979l31.106-55.426-30.458-54.613h26.098l18.263 34.29 18.793-34.29h25.038l-30.634 53.504z" fill="url(#b)"/>
+</g>
+</svg>
