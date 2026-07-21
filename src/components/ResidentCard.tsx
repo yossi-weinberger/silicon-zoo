@@ -29,8 +29,8 @@ export function ResidentCard({ use, emoji, onNavigate }: Props) {
           className="brand-visual"
           src={imageSrc}
           alt={use.image?.alt || label}
-          width={50}
-          height={50}
+          width={72}
+          height={72}
         />
       ) : remoteSrc ? (
         // ponytail: remote fallback until local assets are audited

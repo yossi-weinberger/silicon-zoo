@@ -15,11 +15,11 @@ export function SiteHeader({ showBrowse = true }: Props) {
         <img
           className="brand-mark-img"
           src="/logo.png"
-          alt=""
-          width={36}
-          height={36}
+          alt="Silicon Zoo"
+          width={96}
+          height={96}
         />
-        Silicon Zoo
+        <span className="brand-name">Silicon Zoo</span>
       </Link>
       <HeaderNav animals={animals} showBrowse={showBrowse} />
     </header>

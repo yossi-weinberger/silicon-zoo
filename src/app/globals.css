@@ -55,28 +55,32 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 24px 0;
+  padding: 18px 0;
   gap: 16px;
 }
 
 .brand {
   display: flex;
   align-items: center;
-  gap: 11px;
+  gap: 14px;
   font-weight: 800;
-  font-size: 21px;
+  font-size: 22px;
   letter-spacing: -0.04em;
   text-decoration: none;
 }
 
 .brand-mark-img {
-  width: 42px;
-  height: 42px;
-  border: 2px solid var(--line);
-  border-radius: 50% 50% 43% 57%;
-  object-fit: cover;
-  background: white;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: contain;
+  background: transparent;
   flex: 0 0 auto;
+  display: block;
+}
+
+.brand-name {
+  line-height: 1.05;
 }
 
 .brand-mark {
@@ -394,14 +398,14 @@ h1 {
 .brand-chip {
   border: 2px solid var(--line);
   border-radius: 13px;
-  padding: 9px;
+  padding: 12px;
   background: white;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 14px;
   display: flex;
-  gap: 10px;
+  gap: 12px;
   align-items: center;
-  min-height: 68px;
+  min-height: 96px;
   text-decoration: none;
 }
 
@@ -412,16 +416,16 @@ h1 {
 
 .brand-visual,
 .brand-fallback {
-  width: 50px;
-  height: 50px;
+  width: 72px;
+  height: 72px;
   border: 1px solid #d6d6cc;
-  border-radius: 9px;
+  border-radius: 12px;
   flex: 0 0 auto;
 }
 
 .brand-visual {
   object-fit: contain;
-  padding: 4px;
+  padding: 6px;
   background: white;
 }
 
@@ -429,7 +433,7 @@ h1 {
   background: var(--cream);
   display: grid;
   place-items: center;
-  font-size: 25px;
+  font-size: 34px;
 }
 
 .brand-text small {
@@ -879,6 +883,17 @@ footer {
   }
 }
 
+@media (max-width: 700px) {
+  .brand-mark-img {
+    width: 76px;
+    height: 76px;
+  }
+
+  .brand-name {
+    font-size: 18px;
+  }
+}
+
 @media (max-width: 480px) {
   .shell {
     padding: 0 16px;
@@ -886,6 +901,11 @@ footer {
 
   .hero {
     padding-top: 38px;
+  }
+
+  .brand-mark-img {
+    width: 68px;
+    height: 68px;
   }
 
   h1 {
