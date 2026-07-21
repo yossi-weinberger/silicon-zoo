@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { getAllAnimals } from "@/lib/data";
 import type { AnimalUse } from "@/lib/schemas";
+import {
+  AuditExplorer,
+  type AuditRow,
+} from "@/components/audit/AuditExplorer";
 
 export const metadata: Metadata = {
   title: "Catalog audit (temporary)",
@@ -8,14 +12,6 @@ export const metadata: Metadata = {
     index: false,
     follow: false,
   },
-};
-
-type Row = {
-  animalId: string;
-  animalName: string;
-  emoji: string;
-  use: AnimalUse;
-  flags: string[];
 };
 
 function flagsFor(use: AnimalUse): string[] {
@@ -43,27 +39,49 @@ function flagsFor(use: AnimalUse): string[] {
 
 export default function AuditPage() {
   const animals = getAllAnimals();
-  const rows: Row[] = animals
+  const rows: AuditRow[] = animals
     .flatMap((animal) =>
       animal.residents.map((use) => ({
         animalId: animal.id,
         animalName: animal.name,
         emoji: animal.emoji,
-        use,
+        useId: use.id,
+        displayLabel: use.displayLabel,
+        organization: use.organization,
+        product: use.product,
+        characterName: use.characterName,
+        relationshipType: use.relationshipType,
+        officialStatus: use.officialStatus,
+        activeStatus: use.activeStatus,
+        verificationStatus: use.verificationStatus,
+        sourceUrl: use.sourceUrl,
+        imageSrc: use.image?.src ?? null,
+        remoteSrc: use.image?.remoteSrc ?? null,
+        imageAlt: use.image?.alt || use.displayLabel,
+        attribution: use.image?.attribution,
         flags: flagsFor(use),
       })),
     )
     .sort((a, b) => {
       const byAnimal = a.animalName.localeCompare(b.animalName);
       if (byAnimal !== 0) return byAnimal;
-      return a.use.displayLabel.localeCompare(b.use.displayLabel);
+      return a.displayLabel.localeCompare(b.displayLabel);
     });
 
-  const flagged = rows.filter((r) =>
-    r.flags.some((f) =>
-      ["NO_IMAGE", "REMOTE_ONLY", "FAVICON"].includes(f),
-    ),
-  );
+  const allFlags = [...new Set(rows.flatMap((r) => r.flags))].sort();
+  const animalOptions = [...animals]
+    .filter((a) => a.residents.length > 0)
+    .sort((a, b) => a.name.localeCompare(b.name))
+    .map((a) => ({ id: a.id, name: a.name, emoji: a.emoji }));
+  const relationshipTypes = [
+    ...new Set(rows.map((r) => r.relationshipType)),
+  ].sort();
+  const verificationStatuses = [
+    ...new Set(rows.map((r) => r.verificationStatus)),
+  ].sort();
+  const problemCount = rows.filter((r) =>
+    r.flags.some((f) => ["NO_IMAGE", "REMOTE_ONLY", "FAVICON"].includes(f)),
+  ).length;
 
   return (
     <main className="audit-page">
@@ -87,11 +105,72 @@ export default function AuditPage() {
           margin-bottom: 20px;
           line-height: 1.5;
         }
+        .audit-filters {
+          position: sticky;
+          top: 0;
+          z-index: 5;
+          background: color-mix(in srgb, var(--cream) 92%, white);
+          border: 2px solid var(--line);
+          border-radius: 14px;
+          padding: 14px;
+          margin-bottom: 22px;
+          backdrop-filter: blur(6px);
+        }
+        .audit-filter-row {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+          gap: 10px;
+          margin-bottom: 12px;
+        }
+        .audit-field {
+          display: grid;
+          gap: 4px;
+          font-size: 12px;
+          font-family: var(--font-mono), monospace;
+          color: var(--muted);
+        }
+        .audit-field input,
+        .audit-field select {
+          border: 2px solid var(--line);
+          border-radius: 10px;
+          padding: 8px 10px;
+          font: inherit;
+          color: var(--ink);
+          background: #fff;
+        }
+        .audit-flag-toolbar {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: space-between;
+          gap: 10px;
+          margin-bottom: 10px;
+        }
+        .audit-flag-mode {
+          display: flex;
+          align-items: center;
+          gap: 6px;
+          font-family: var(--font-mono), monospace;
+          font-size: 12px;
+        }
+        .audit-flag-mode button,
+        .audit-clear {
+          border: 2px solid var(--line);
+          border-radius: 999px;
+          background: #fff;
+          padding: 4px 10px;
+          font: inherit;
+          cursor: pointer;
+        }
+        .audit-flag-mode button.on {
+          background: var(--lime);
+          font-weight: 700;
+        }
         .audit-page .legend {
           display: flex;
           flex-wrap: wrap;
           gap: 8px;
-          margin-bottom: 24px;
+          margin-bottom: 8px;
         }
         .audit-page .flag {
           display: inline-block;
@@ -101,11 +180,20 @@ export default function AuditPage() {
           padding: 2px 7px;
           border-radius: 999px;
           border: 1px solid var(--line);
-          background: #fff;
+          background: white;
+          cursor: pointer;
+        }
+        .audit-page button.flag {
+          appearance: none;
         }
         .audit-page .flag.warn { background: #ffe8c8; }
         .audit-page .flag.bad { background: #ffd0d0; }
         .audit-page .flag.ok { background: #e4f5d4; }
+        .audit-page .flag.selected {
+          outline: 2px solid var(--line);
+          box-shadow: 2px 2px 0 var(--line);
+        }
+        .audit-count { margin-bottom: 0 !important; }
         .audit-grid {
           display: grid;
           grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -182,159 +270,20 @@ export default function AuditPage() {
 
       <h1>Catalog audit</h1>
       <p className="meta">
-        Temporary review page · noindex · {rows.length} uses across{" "}
-        {animals.length} animals · {flagged.length} with image warnings
+        Temporary review page · noindex · {rows.length} uses · {problemCount}{" "}
+        with image warnings
         <br />
-        Open{" "}
-        <a href="/audit">/audit</a> locally or on production. Links open in a
-        new tab; nothing here redirects away from the grid.
+        Filter by flags, animal, relationship, verification, or free text. Click
+        a flag chip to toggle it.
       </p>
 
-      <div className="legend">
-        <span className="flag bad">NO_IMAGE</span>
-        <span className="flag warn">REMOTE_ONLY</span>
-        <span className="flag warn">FAVICON</span>
-        <span className="flag">GH_AVATAR</span>
-        <span className="flag">SIMPLE_ICONS</span>
-        <span className="flag">PARTIAL / HISTORICAL / …</span>
-      </div>
-
-      <div className="audit-grid">
-        {rows.map(({ animalId, animalName, emoji, use, flags }) => {
-          const hasBad = flags.includes("NO_IMAGE");
-          const hasWarn =
-            !hasBad &&
-            flags.some((f) => ["REMOTE_ONLY", "FAVICON"].includes(f));
-          const img = use.image?.src || use.image?.remoteSrc || null;
-
-          return (
-            <article
-              key={use.id}
-              id={use.id}
-              className={`audit-card${hasBad ? " has-bad" : hasWarn ? " has-warn" : ""}`}
-            >
-              {img ? (
-                // Audit page: raw img so broken assets are obvious
-                // eslint-disable-next-line @next/next/no-img-element
-                <img
-                  className="audit-visual"
-                  src={img}
-                  alt={use.image?.alt || use.displayLabel}
-                  loading="lazy"
-                />
-              ) : (
-                <div className="audit-fallback" aria-hidden>
-                  {emoji}
-                </div>
-              )}
-
-              <div>
-                <h2>
-                  {emoji} {use.displayLabel}
-                </h2>
-                <p className="sub">
-                  Animal: {animalName} ({animalId})
-                </p>
-
-                <dl>
-                  <div>
-                    <dt>id</dt>
-                    <dd>{use.id}</dd>
-                  </div>
-                  <div>
-                    <dt>org</dt>
-                    <dd>{use.organization}</dd>
-                  </div>
-                  {use.product ? (
-                    <div>
-                      <dt>product</dt>
-                      <dd>{use.product}</dd>
-                    </div>
-                  ) : null}
-                  {use.characterName ? (
-                    <div>
-                      <dt>character</dt>
-                      <dd>{use.characterName}</dd>
-                    </div>
-                  ) : null}
-                  <div>
-                    <dt>type</dt>
-                    <dd>
-                      {use.relationshipType} · {use.officialStatus} ·{" "}
-                      {use.activeStatus}
-                    </dd>
-                  </div>
-                  <div>
-                    <dt>verify</dt>
-                    <dd>{use.verificationStatus}</dd>
-                  </div>
-                  <div>
-                    <dt>source</dt>
-                    <dd>
-                      <a
-                        href={use.sourceUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {use.sourceUrl}
-                      </a>
-                    </dd>
-                  </div>
-                  <div>
-                    <dt>img src</dt>
-                    <dd>{use.image?.src || "—"}</dd>
-                  </div>
-                  <div>
-                    <dt>remote</dt>
-                    <dd>
-                      {use.image?.remoteSrc ? (
-                        <a
-                          href={use.image.remoteSrc}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          {use.image.remoteSrc}
-                        </a>
-                      ) : (
-                        "—"
-                      )}
-                    </dd>
-                  </div>
-                  {use.image?.attribution ? (
-                    <div>
-                      <dt>attr</dt>
-                      <dd>{use.image.attribution}</dd>
-                    </div>
-                  ) : null}
-                </dl>
-
-                {flags.length ? (
-                  <div className="audit-flags">
-                    {flags.map((flag) => (
-                      <span
-                        key={flag}
-                        className={`flag${
-                          flag === "NO_IMAGE"
-                            ? " bad"
-                            : ["REMOTE_ONLY", "FAVICON"].includes(flag)
-                              ? " warn"
-                              : ""
-                        }`}
-                      >
-                        {flag}
-                      </span>
-                    ))}
-                  </div>
-                ) : (
-                  <div className="audit-flags">
-                    <span className="flag ok">CLEAN</span>
-                  </div>
-                )}
-              </div>
-            </article>
-          );
-        })}
-      </div>
+      <AuditExplorer
+        rows={rows}
+        allFlags={allFlags}
+        animals={animalOptions}
+        relationshipTypes={relationshipTypes}
+        verificationStatuses={verificationStatuses}
+      />
     </main>
   );
 }
