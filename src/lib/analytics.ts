@@ -8,7 +8,8 @@ type EventName =
   | "brand_source_clicked"
   | "filter_changed"
   | "share_clicked"
-  | "suggestion_clicked";
+  | "suggestion_clicked"
+  | "zoo_animal_clicked";
 
 type EventProps = Record<string, string | number | boolean | undefined>;
 

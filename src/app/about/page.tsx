@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
+import { SuggestLink } from "@/components/SuggestLink";
 import { suggestResidentUrl } from "@/lib/github";
 
 export const metadata: Metadata = {
@@ -75,9 +76,9 @@ export default function AboutPage() {
           <h2>Suggest a resident</h2>
           <p>
             Spot a missing animal or brand?{" "}
-            <a href={suggestResidentUrl()} target="_blank" rel="noopener noreferrer">
+            <SuggestLink href={suggestResidentUrl()}>
               Open a GitHub issue
-            </a>
+            </SuggestLink>
             . Please include a source URL. We do not invent companies or mascot
             relationships.
           </p>

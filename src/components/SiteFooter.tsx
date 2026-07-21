@@ -1,5 +1,8 @@
+"use client";
+
 import Link from "next/link";
 import { suggestResidentUrl } from "@/lib/github";
+import { track } from "@/lib/analytics";
 
 export function SiteFooter() {
   return (
@@ -9,7 +12,12 @@ export function SiteFooter() {
           © 2026 Silicon Zoo. Made for curious builders.{" "}
           <Link href="/about">About / Method</Link>
           {" · "}
-          <a href={suggestResidentUrl()} target="_blank" rel="noopener noreferrer">
+          <a
+            href={suggestResidentUrl()}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => track("suggestion_clicked", { source: "footer" })}
+          >
             Suggest a resident
           </a>
         </div>

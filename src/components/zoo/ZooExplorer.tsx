@@ -148,6 +148,7 @@ export function ZooExplorer({ animals }: Props) {
                   key={animal.slug}
                   className="zoo-card"
                   href={`/animal/${animal.slug}`}
+                  onClick={() => track("zoo_animal_clicked", { animal: animal.slug })}
                 >
                   <span className="tiny-score">
                     {formatOccupancy(animal.occupancyScore)}
