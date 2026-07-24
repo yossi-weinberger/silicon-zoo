@@ -64,12 +64,16 @@ export function HeroRipple({ children }: Props) {
     context.clearRect(0, 0, rect.width, rect.height);
 
     const activeRipples = ripplesRef.current.filter(
-      (ripple) => now - ripple.bornAt < RIPPLE_LIFETIME_MS,
+      (ripple) => now < ripple.bornAt + RIPPLE_LIFETIME_MS,
     );
     ripplesRef.current = activeRipples;
 
     for (const ripple of activeRipples) {
-      const progress = (now - ripple.bornAt) / RIPPLE_LIFETIME_MS;
+      // A requestAnimationFrame timestamp can be a few milliseconds older than
+      // performance.now() captured by the pointer event that created the ripple.
+      // Clamp the first frame so easing never produces a negative radius.
+      const elapsed = Math.max(0, now - ripple.bornAt);
+      const progress = Math.min(1, elapsed / RIPPLE_LIFETIME_MS);
       const eased = 1 - Math.pow(1 - progress, 3);
       const radius = 24 + eased * Math.max(rect.width, rect.height) * 0.34;
       const alpha = Math.pow(1 - progress, 1.8) * ripple.strength;
@@ -101,7 +105,7 @@ export function HeroRipple({ children }: Props) {
       context.strokeStyle = `rgba(255, 250, 240, ${alpha * 0.62})`;
       context.lineWidth = 1.5;
       context.beginPath();
-      context.arc(ripple.x, ripple.y, radius - 5, 0, Math.PI * 2);
+      context.arc(ripple.x, ripple.y, Math.max(0, radius - 5), 0, Math.PI * 2);
       context.stroke();
       context.restore();
     }
