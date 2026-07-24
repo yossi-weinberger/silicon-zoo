@@ -29,6 +29,7 @@ export function HeroRipple({ children }: Props) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const ripplesRef = useRef<Ripple[]>([]);
   const rafRef = useRef<number | null>(null);
+  const drawRef = useRef<(now: number) => void>(() => {});
   const lastTrailPointRef = useRef<{ x: number; y: number } | null>(null);
   const reducedMotionRef = useRef(false);
   const visibleRef = useRef(true);
@@ -106,11 +107,17 @@ export function HeroRipple({ children }: Props) {
     }
 
     if (activeRipples.length > 0) {
-      rafRef.current = window.requestAnimationFrame(draw);
+      rafRef.current = window.requestAnimationFrame((nextNow) => {
+        drawRef.current(nextNow);
+      });
     } else {
       rafRef.current = null;
     }
   }, []);
+
+  useEffect(() => {
+    drawRef.current = draw;
+  }, [draw]);
 
   const wake = useCallback(() => {
     if (rafRef.current === null && !reducedMotionRef.current) {
