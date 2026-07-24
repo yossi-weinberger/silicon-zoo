@@ -7,6 +7,7 @@ import {
   type PointerEvent as ReactPointerEvent,
   type ReactNode,
 } from "react";
+import styles from "./HeroRipple.module.css";
 
 type Ripple = {
   x: number;
@@ -191,12 +192,12 @@ export function HeroRipple({ children }: Props) {
   return (
     <div
       ref={hostRef}
-      className="hero-ripple"
+      className={styles.root}
       onPointerMove={handlePointerMove}
       onPointerDown={handlePointerDown}
     >
-      <canvas ref={canvasRef} className="hero-ripple-canvas" aria-hidden="true" />
-      <div className="hero-ripple-content">{children}</div>
+      <canvas ref={canvasRef} className={styles.canvas} aria-hidden="true" />
+      <div className={styles.content}>{children}</div>
     </div>
   );
 }
