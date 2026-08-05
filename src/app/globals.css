@@ -948,6 +948,45 @@ footer {
   }
 }
 
+/* Toast — share feedback */
+.toast {
+  position: fixed;
+  bottom: 26px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 50;
+  background: var(--lime);
+  color: var(--ink);
+  border: 2px solid var(--line);
+  border-radius: 999px;
+  box-shadow: var(--shadow);
+  padding: 12px 22px;
+  font-weight: 700;
+  font-size: 15px;
+  white-space: nowrap;
+  max-width: calc(100vw - 32px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  animation: toast-pop 0.25s ease-out;
+}
+
+@keyframes toast-pop {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .toast {
+    animation: none;
+  }
+}
+
 /* 404 — the invisible chameleon enclosure */
 .notfound {
   max-width: 720px;

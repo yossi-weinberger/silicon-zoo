@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useEffect, useRef, useState } from "react";
 import type { EnrichedAnimal } from "@/lib/data";
 import { formatOccupancy } from "@/lib/score";
 import { ResidentCard } from "@/components/ResidentCard";
@@ -25,6 +26,17 @@ export function AnimalResult({
 
   const taken = animal.residents.length > 0;
 
+  const [toast, setToast] = useState<string | null>(null);
+  const toastTimer = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
+
+  function showToast(message: string) {
+    clearTimeout(toastTimer.current);
+    setToast(message);
+    toastTimer.current = setTimeout(() => setToast(null), 2800);
+  }
+
+  useEffect(() => () => clearTimeout(toastTimer.current), []);
+
   function shareText() {
     const name = animal.name.toLowerCase();
     const joke = taken
@@ -43,7 +55,7 @@ export function AnimalResult({
     // LinkedIn dropped prefilled post text (anti-spam), so hand it over via clipboard
     try {
       await navigator.clipboard.writeText(shareText());
-      alert("Post text copied — paste it into your LinkedIn post.");
+      showToast("📋 Post text copied — paste it into LinkedIn");
     } catch {
       // clipboard unavailable — the dialog still opens with the link preview
     }
@@ -67,7 +79,7 @@ export function AnimalResult({
         `${window.location.origin}/animal/${animal.slug}`,
       );
       track("share_clicked", { animal: animal.slug, method: "clipboard" });
-      alert("Link copied. Share the enclosure.");
+      showToast("🔗 Link copied — share the enclosure");
     } catch {
       track("share_clicked", { animal: animal.slug, method: "failed" });
     }
@@ -75,6 +87,11 @@ export function AnimalResult({
 
   return (
     <section className="result show" aria-live="polite">
+      {toast ? (
+        <div className="toast" role="status">
+          {toast}
+        </div>
+      ) : null}
       <div className="animal-panel" style={{ background: animal.accentColor }}>
         <div className="animal-emoji" aria-hidden>
           {animal.emoji}
