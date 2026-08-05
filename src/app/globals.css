@@ -947,3 +947,73 @@ footer {
     font-size: 12px;
   }
 }
+
+/* 404 — the invisible chameleon enclosure */
+.notfound {
+  max-width: 720px;
+}
+
+.notfound-lede {
+  font-size: 18px;
+  line-height: 1.65;
+  max-width: 56ch;
+}
+
+.notfound-cage {
+  border: 2px solid var(--line);
+  border-radius: 18px;
+  background: var(--paper);
+  box-shadow: var(--shadow);
+  margin: 28px 0;
+  overflow: hidden;
+}
+
+.notfound-cage-bars {
+  height: 180px;
+  position: relative;
+  background: repeating-linear-gradient(
+    90deg,
+    transparent 0 34px,
+    var(--line) 34px 38px
+  );
+}
+
+.notfound-tumbleweed {
+  position: absolute;
+  bottom: 12px;
+  left: 18px;
+  font-size: 20px;
+  letter-spacing: 14px;
+  opacity: 0.55;
+}
+
+.notfound-plaque {
+  border-top: 2px solid var(--line);
+  background: var(--yellow);
+  padding: 14px 18px;
+  display: grid;
+  gap: 4px;
+}
+
+.notfound-plaque strong {
+  font-family: var(--font-mono);
+  letter-spacing: 0.08em;
+}
+
+.notfound-plaque span {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.notfound-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 24px 0 8px;
+}
+
+.notfound-sightings {
+  color: var(--muted);
+  font-size: 14.5px;
+  line-height: 1.6;
+}
