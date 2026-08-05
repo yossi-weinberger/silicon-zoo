@@ -981,6 +981,11 @@ footer {
   }
 }
 
+a.toast {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .toast {
     animation: none;

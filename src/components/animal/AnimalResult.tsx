@@ -26,13 +26,16 @@ export function AnimalResult({
 
   const taken = animal.residents.length > 0;
 
-  const [toast, setToast] = useState<string | null>(null);
+  const [toast, setToast] = useState<{
+    message: string;
+    href?: string;
+  } | null>(null);
   const toastTimer = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
 
-  function showToast(message: string) {
+  function showToast(message: string, opts?: { href?: string; ms?: number }) {
     clearTimeout(toastTimer.current);
-    setToast(message);
-    toastTimer.current = setTimeout(() => setToast(null), 2800);
+    setToast({ message, href: opts?.href });
+    toastTimer.current = setTimeout(() => setToast(null), opts?.ms ?? 2800);
   }
 
   useEffect(() => () => clearTimeout(toastTimer.current), []);
@@ -53,18 +56,26 @@ export function AnimalResult({
 
   async function shareOnLinkedIn() {
     track("share_clicked", { animal: animal.slug, method: "linkedin" });
+    const intent = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(SITE_URL)}`;
     // LinkedIn dropped prefilled post text (anti-spam), so hand it over via clipboard
     try {
       await navigator.clipboard.writeText(shareText());
-      showToast("📋 Post text copied — opening LinkedIn, just paste it in…");
-      // ponytail: 1.1s pause so the toast lands before the new tab steals focus;
-      // longer risks the popup blocker (transient activation expires)
-      await new Promise((resolve) => setTimeout(resolve, 1100));
+      showToast("📋 Post text copied — opening LinkedIn, just paste it in…", {
+        ms: 5000,
+      });
+      // 2.5s so the toast is actually read; strict popup blockers (Safari) may
+      // refuse window.open this far from the click — the link-toast below covers that
+      await new Promise((resolve) => setTimeout(resolve, 2500));
     } catch {
       // clipboard unavailable — the dialog still opens with the link preview
     }
-    const intent = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(SITE_URL)}`;
-    window.open(intent, "_blank", "noopener");
+    const win = window.open(intent, "_blank", "noopener");
+    if (!win) {
+      showToast("👉 Text copied! Click here to open LinkedIn", {
+        href: intent,
+        ms: 8000,
+      });
+    }
   }
 
   async function share() {
@@ -78,11 +89,9 @@ export function AnimalResult({
       }
     }
     try {
-      await navigator.clipboard.writeText(
-        `${window.location.origin}/animal/${animal.slug}`,
-      );
+      await navigator.clipboard.writeText(`${shareText()} ${SITE_URL}`);
       track("share_clicked", { animal: animal.slug, method: "clipboard" });
-      showToast("🔗 Link copied — share the enclosure");
+      showToast("📋 Share text copied — paste it anywhere");
     } catch {
       track("share_clicked", { animal: animal.slug, method: "failed" });
     }
@@ -91,9 +100,22 @@ export function AnimalResult({
   return (
     <section className="result show" aria-live="polite">
       {toast ? (
-        <div className="toast" role="status">
-          {toast}
-        </div>
+        toast.href ? (
+          <a
+            className="toast"
+            role="status"
+            href={toast.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setToast(null)}
+          >
+            {toast.message}
+          </a>
+        ) : (
+          <div className="toast" role="status">
+            {toast.message}
+          </div>
+        )
       ) : null}
       <div className="animal-panel" style={{ background: animal.accentColor }}>
         <div className="animal-emoji" aria-hidden>
@@ -188,7 +210,7 @@ export function AnimalResult({
                   LinkedIn
                 </button>
                 <button className="pill" type="button" onClick={share}>
-                  Copy share link
+                  📋 Copy share text
                 </button>
               </>
             ) : null}
