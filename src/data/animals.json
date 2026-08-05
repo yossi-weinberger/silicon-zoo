@@ -291,7 +291,8 @@
     "uses": [
       "duck-duckduckgo",
       "duck-adium-adiumy",
-      "duck-cncf-kuack"
+      "duck-cncf-kuack",
+      "duck-cyberduck"
     ],
     "scoreOverride": 8.2,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
@@ -471,7 +472,8 @@
     ],
     "uses": [
       "lion-brave-browser",
-      "lion-liongard"
+      "lion-liongard",
+      "lion-macos-lion"
     ],
     "scoreOverride": 7.7,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
@@ -515,14 +517,16 @@
     "emoji": "🦫",
     "animalClass": "mammals",
     "accentColor": "#cbea77",
-    "status": "Gloriously available-ish",
-    "verdict": "Calm, sociable and universally liked—the exact opposite of most engineering stand-ups. Go for it.",
+    "status": "Chilling in the test suite",
+    "verdict": "Ruby's Capybara drives browsers for integration tests. The calmest animal handles the flakiest job.",
     "alternatives": [
       "quokka"
     ],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "capybara-capybara-gem"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
   },
   {
     "id": "pangolin",
@@ -536,15 +540,17 @@
     "emoji": "🦔",
     "animalClass": "mammals",
     "accentColor": "#e7a6ac",
-    "status": "Wide open enclosure",
-    "verdict": "Armored, unusual and rolls away from bad meetings. A premium tech mascot waiting to happen.",
+    "status": "Rolled into networking",
+    "verdict": "Fossorial's Pangolin tunnels through NATs the way the real one digs through termite mounds.",
     "alternatives": [
       "armadillo",
       "aardvark"
     ],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "pangolin-fosrl"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
   },
   {
     "id": "tapir",
@@ -558,12 +564,14 @@
     "emoji": "🦣",
     "animalClass": "mammals",
     "accentColor": "#9fd5df",
-    "status": "Practically untouched",
-    "verdict": "Looks like several animals were merged during a bad deploy. Perfect for tech.",
+    "status": "Snouting out API specs",
+    "verdict": "SoftwareMill's tapir describes Scala endpoints. The odd nose finally found its niche.",
     "alternatives": [],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "tapir-softwaremill-tapir"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
   },
   {
     "id": "quokka",
@@ -577,14 +585,16 @@
     "emoji": "🐹",
     "animalClass": "mammals",
     "accentColor": "#f4cc5d",
-    "status": "Available and smiling",
-    "verdict": "Ridiculously cheerful. Ideal until your first production incident.",
+    "status": "Smiling in your editor",
+    "verdict": "Quokka.js runs JavaScript inline as you type. Still the happiest animal in the repo.",
     "alternatives": [
       "wombat"
     ],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "quokka-quokkajs"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
   },
   {
     "id": "axolotl",
@@ -598,12 +608,14 @@
     "emoji": "🦎",
     "animalClass": "reptiles",
     "accentColor": "#e7a6ac",
-    "status": "Internet-famous, tech-light",
-    "verdict": "The internet loves it, but big tech has not fully moved into the aquarium yet.",
+    "status": "Regenerating fine-tunes",
+    "verdict": "The Axolotl framework fine-tunes LLMs. Fitting for the animal that regrows everything.",
     "alternatives": [],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "axolotl-axolotl-finetuning"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
   },
   {
     "id": "camel",
@@ -625,7 +637,8 @@
     ],
     "uses": [
       "camel-perl",
-      "camel-apache-camel"
+      "camel-apache-camel",
+      "camel-ocaml"
     ],
     "scoreOverride": 7.5,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
@@ -823,7 +836,8 @@
       "koala"
     ],
     "uses": [
-      "panda-pandadoc"
+      "panda-pandadoc",
+      "panda-pandas"
     ],
     "scoreOverride": 6.3,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
@@ -922,7 +936,8 @@
       "otter"
     ],
     "uses": [
-      "seal-mariadb"
+      "seal-mariadb",
+      "seal-podman"
     ],
     "scoreOverride": 7.3,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
@@ -940,13 +955,14 @@
       "נחשים"
     ],
     "emoji": "🐍",
-    "animalClass": "mammals",
+    "animalClass": "reptiles",
     "accentColor": "#cbea77",
     "status": "Two snakes, one language",
     "verdict": "Python made two stylized snakes one of programming’s most recognizable marks.",
     "alternatives": [],
     "uses": [
-      "snake-python"
+      "snake-python",
+      "snake-spf13-cobra"
     ],
     "scoreOverride": 8.5,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
@@ -1094,7 +1110,8 @@
     ],
     "uses": [
       "octopus-github-mona-the-octocat",
-      "octopus-ceph"
+      "octopus-ceph",
+      "octopus-octopus-deploy"
     ],
     "scoreOverride": 7.8,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
@@ -1113,15 +1130,17 @@
     "emoji": "🐨",
     "animalClass": "mammals",
     "accentColor": "#cbea77",
-    "status": "Mostly eucalyptus, little tech",
-    "verdict": "Sleepy, recognizable and still waiting for a major developer tool to wake it up.",
+    "status": "Drowsy but published",
+    "verdict": "Berkeley's Koala chatbot naps in the LLM canon between Alpaca and Vicuna.",
     "alternatives": [
       "wombat",
       "quokka"
     ],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "koala-bair-koala"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
   },
   {
     "id": "lemur",
@@ -1135,12 +1154,14 @@
     "emoji": "🐒",
     "animalClass": "mammals",
     "accentColor": "#f4cc5d",
-    "status": "Wide-eyed and available",
-    "verdict": "Looks permanently surprised by the sprint backlog. Strong mascot energy.",
+    "status": "Managing certs at Netflix",
+    "verdict": "Netflix's Lemur wrangles TLS certificates. Big eyes for spotting expiry dates.",
     "alternatives": [],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "lemur-netflix-lemur"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
   },
   {
     "id": "armadillo",
@@ -1154,14 +1175,16 @@
     "emoji": "🦔",
     "animalClass": "mammals",
     "accentColor": "#e7a6ac",
-    "status": "Ready for secure deployment",
-    "verdict": "Ships with its own physical firewall. Cybersecurity companies, take note.",
+    "status": "Armored linear algebra",
+    "verdict": "The Armadillo C++ library has crunched matrices since 2008. Well protected, obviously.",
     "alternatives": [
       "pangolin"
     ],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "armadillo-armadillo-cpp"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
   },
   {
     "id": "flamingo",
@@ -1175,12 +1198,14 @@
     "emoji": "🦩",
     "animalClass": "birds",
     "accentColor": "#e7a6ac",
-    "status": "Standing by",
-    "verdict": "Bright, balanced and capable of standing through meetings on one leg.",
+    "status": "Standing on one GPU",
+    "verdict": "DeepMind's Flamingo did vision-language before it was cool. Pink stays on brand.",
     "alternatives": [],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "flamingo-deepmind-flamingo"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
   },
   {
     "id": "moose",
@@ -1194,14 +1219,16 @@
     "emoji": "🫎",
     "animalClass": "mammals",
     "accentColor": "#cbea77",
-    "status": "Enclosure available",
-    "verdict": "Huge antlers, calm presence, excellent silhouette. Somehow still underused.",
+    "status": "Perl's postmodern beast",
+    "verdict": "Moose gave Perl 5 a real object system. Large, sturdy, occasionally intimidating.",
     "alternatives": [
       "ibex"
     ],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "moose-perl-moose"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
   },
   {
     "id": "sloth",
@@ -1259,12 +1286,14 @@
     "emoji": "🦡",
     "animalClass": "mammals",
     "accentColor": "#f4cc5d",
-    "status": "Digging for a product",
-    "verdict": "Persistent, striped and not easily discouraged by a failed funding round.",
+    "status": "Digging through key-values",
+    "verdict": "BadgerDB stores Dgraph's data on disk. Tenacious digging, appropriately.",
     "alternatives": [],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "badger-badgerdb"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
   },
   {
     "id": "alpaca",
@@ -1278,14 +1307,16 @@
     "emoji": "🦙",
     "animalClass": "mammals",
     "accentColor": "#e7a6ac",
-    "status": "AI made this complicated",
-    "verdict": "Cute and technically available, but everyone will hear “LLaMA” and start discussing models.",
+    "status": "Instruction-tuned and fluffy",
+    "verdict": "Stanford's Alpaca kicked off the open LLM fine-tuning stampede in 2023.",
     "alternatives": [
       "camel"
     ],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "alpaca-stanford-alpaca"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
   },
   {
     "id": "kiwi",
@@ -1299,14 +1330,16 @@
     "emoji": "🐦",
     "animalClass": "birds",
     "accentColor": "#cbea77",
-    "status": "Flightless and free-ish",
-    "verdict": "Compact, unusual and confidently flightless. A respectable Linux alternative.",
+    "status": "Booking flights, flightless",
+    "verdict": "Kiwi.com built a travel-tech brand on the bird that never flies. Irony included.",
     "alternatives": [
       "puffin"
     ],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "kiwi-kiwicom"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
   },
   {
     "id": "orca",
@@ -1321,15 +1354,17 @@
     "emoji": "🐋",
     "animalClass": "marine",
     "accentColor": "#9fd5df",
-    "status": "Open water",
-    "verdict": "Bold monochrome branding included by nature. Docker chose the gentler whale.",
+    "status": "Reading screens aloud",
+    "verdict": "GNOME's Orca screen reader is the apex predator of Linux accessibility.",
     "alternatives": [
       "dolphin",
       "narwhal"
     ],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "orca-gnome-orca"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
   },
   {
     "id": "narwhal",
@@ -1438,7 +1473,8 @@
       "armadillo"
     ],
     "uses": [
-      "turtle-cncf-cappy"
+      "turtle-cncf-cappy",
+      "turtle-tortoisesvn"
     ],
     "reviewStatus": "verified",
     "lastReviewedAt": "2026-07-21"
@@ -1560,7 +1596,8 @@
       "firefly"
     ],
     "uses": [
-      "butterfly-raku-camelia"
+      "butterfly-raku-camelia",
+      "butterfly-bluesky"
     ],
     "scoreOverride": 5.2,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
@@ -1585,7 +1622,8 @@
       "ladybug"
     ],
     "uses": [
-      "firefly-apache-beam-firefly"
+      "firefly-apache-beam-firefly",
+      "firefly-adobe-firefly"
     ],
     "scoreOverride": 4.9,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
@@ -1615,7 +1653,8 @@
     ],
     "uses": [
       "ladybug-serenityos-buggie",
-      "ladybug-bugzilla-buggie"
+      "ladybug-bugzilla-buggie",
+      "ladybug-ladybird-browser"
     ],
     "scoreOverride": 4.4,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
@@ -1817,7 +1856,8 @@
     "alternatives": [],
     "uses": [
       "bear-salesforce-codey",
-      "bear-cncf-keddy"
+      "bear-cncf-keddy",
+      "bear-polars"
     ],
     "scoreOverride": 6.2,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
@@ -1895,7 +1935,6 @@
       "fox"
     ],
     "uses": [
-      "tanuki-salesforce-astro",
       "tanuki-gitlab-origin-story"
     ],
     "scoreOverride": 6.4,
@@ -1999,7 +2038,8 @@
       "alpaca"
     ],
     "uses": [
-      "llama-meta-llama"
+      "llama-meta-llama",
+      "llama-ollama"
     ],
     "scoreOverride": 8.4,
     "scoreOverrideRationale": "Preserved from prototype editorial score during migration.",
@@ -2044,15 +2084,17 @@
     "emoji": "🐾",
     "animalClass": "mammals",
     "accentColor": "#f4cc5d",
-    "status": "Open burrow",
-    "verdict": "Excellent snout, strong alphabetical placement, no dominant tech resident spotted.",
+    "status": "First in the alphabet, first to audit",
+    "verdict": "OpenAI's Aardvark sniffs out security bugs the way the real one sniffs out termites.",
     "alternatives": [
       "pangolin",
       "armadillo"
     ],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "aardvark-openai-aardvark"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
   },
   {
     "id": "bison",
@@ -2189,15 +2231,17 @@
     "emoji": "🦛",
     "animalClass": "mammals",
     "accentColor": "#9fd5df",
-    "status": "Large empty pool",
-    "verdict": "Looks friendly, runs surprisingly fast and would make an excellent infrastructure mascot.",
+    "status": "Left the CMS waters",
+    "verdict": "Hippo CMS merged into Bloomreach and the brand sank. The river horse is semi-available.",
     "alternatives": [
       "rhino",
       "tapir"
     ],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "hippo-hippo-cms"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
   },
   {
     "id": "hyena",
@@ -2322,14 +2366,16 @@
     "emoji": "🐾",
     "animalClass": "mammals",
     "accentColor": "#f4cc5d",
-    "status": "Standing by",
-    "verdict": "Already doing observability: one watches while the others deploy.",
+    "status": "Stood tall, streamed briefly",
+    "verdict": "The Meerkat app livestreamed its way to fame in 2015 and vanished by 2016. Always alert, briefly loved.",
     "alternatives": [
       "ferret"
     ],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "meerkat-meerkat-app"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
   },
   {
     "id": "mole",
@@ -2533,7 +2579,8 @@
     "verdict": "Eagle Eye Networks took the aerial brand for cloud video security.",
     "alternatives": [],
     "uses": [
-      "eagle-eagle-eye-networks"
+      "eagle-eagle-eye-networks",
+      "eagle-autodesk-eagle"
     ],
     "reviewStatus": "verified",
     "lastReviewedAt": "2026-07-21"
@@ -2578,7 +2625,8 @@
       "otter"
     ],
     "uses": [
-      "lobster-cncf-linky"
+      "lobster-cncf-linky",
+      "lobster-lobsters"
     ],
     "reviewStatus": "verified",
     "lastReviewedAt": "2026-07-21"
@@ -2918,7 +2966,8 @@
       "raven"
     ],
     "uses": [
-      "falcon-tii"
+      "falcon-tii",
+      "falcon-crowdstrike"
     ],
     "reviewStatus": "verified",
     "lastReviewedAt": "2026-07-21"
@@ -2966,7 +3015,8 @@
       "owl"
     ],
     "uses": [
-      "firebird-firebirdsql"
+      "firebird-firebirdsql",
+      "firebird-phoenix-framework"
     ],
     "reviewStatus": "verified",
     "lastReviewedAt": "2026-07-21"
@@ -3044,5 +3094,969 @@
     ],
     "reviewStatus": "verified",
     "lastReviewedAt": "2026-07-21"
+  },
+  {
+    "id": "bluebird",
+    "slug": "bluebird",
+    "name": "Bluebird",
+    "nameHe": "ציפור כחולה",
+    "aliases": [
+      "bluebird",
+      "ציפור כחולה"
+    ],
+    "emoji": "🐦",
+    "animalClass": "birds",
+    "accentColor": "#9ad6f5",
+    "status": "Flew away in the rebrand",
+    "verdict": "Larry the Bird carried Twitter for 17 years before X swallowed him whole. A cautionary tale.",
+    "alternatives": [
+      "sparrow",
+      "robin"
+    ],
+    "uses": [
+      "bluebird-twitter-larry"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "swift",
+    "slug": "swift",
+    "name": "Swift",
+    "nameHe": "סיס",
+    "aliases": [
+      "swift",
+      "סיס"
+    ],
+    "emoji": "🐦",
+    "animalClass": "birds",
+    "accentColor": "#f8b076",
+    "status": "Fastest bird in Cupertino",
+    "verdict": "Apple picked the fastest bird in level flight for its language logo. On brand.",
+    "alternatives": [
+      "hummingbird"
+    ],
+    "uses": [
+      "swift-apple-swift"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "kraken",
+    "slug": "kraken",
+    "name": "Kraken",
+    "nameHe": "קרקן",
+    "aliases": [
+      "kraken",
+      "קרקן"
+    ],
+    "emoji": "🦑",
+    "animalClass": "marine",
+    "accentColor": "#b9a7e8",
+    "status": "Released regularly",
+    "verdict": "GitKraken proves mythical sea monsters make great git clients. Squid but bigger claims.",
+    "alternatives": [
+      "squid",
+      "octopus"
+    ],
+    "uses": [
+      "kraken-gitkraken"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "dragonfly",
+    "slug": "dragonfly",
+    "name": "Dragonfly",
+    "nameHe": "שפירית",
+    "aliases": [
+      "dragonfly",
+      "שפירית"
+    ],
+    "emoji": "🪰",
+    "animalClass": "bugs",
+    "accentColor": "#8fd8c9",
+    "status": "Two OSes and a database deep",
+    "verdict": "DragonflyDB and DragonFly BSD both claimed the fastest insect on Earth. Speed sells.",
+    "alternatives": [
+      "butterfly",
+      "firefly"
+    ],
+    "uses": [
+      "dragonfly-dragonflydb",
+      "dragonfly-dragonfly-bsd"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "spider",
+    "slug": "spider",
+    "name": "Spider",
+    "nameHe": "עכביש",
+    "aliases": [
+      "spider",
+      "עכביש"
+    ],
+    "emoji": "🕷️",
+    "animalClass": "bugs",
+    "accentColor": "#c9c2b8",
+    "status": "Spinning webs and IDEs",
+    "verdict": "Spyder IDE crawls Python data science, and every web crawler ever borrowed the metaphor.",
+    "alternatives": [
+      "ant",
+      "beetle"
+    ],
+    "uses": [
+      "spider-spyder-ide"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "wasp",
+    "slug": "wasp",
+    "name": "Wasp",
+    "nameHe": "צרעה",
+    "aliases": [
+      "wasp",
+      "צרעה"
+    ],
+    "emoji": "🐝",
+    "animalClass": "bugs",
+    "accentColor": "#f5d76e",
+    "status": "Full-stack sting",
+    "verdict": "Wasp the web framework took the name. The bee's angrier cousin finally has a job in tech.",
+    "alternatives": [
+      "bee",
+      "ant"
+    ],
+    "uses": [
+      "wasp-wasp-lang"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "gecko",
+    "slug": "gecko",
+    "name": "Gecko",
+    "nameHe": "שממית",
+    "aliases": [
+      "gecko",
+      "שממית"
+    ],
+    "emoji": "🦎",
+    "animalClass": "reptiles",
+    "accentColor": "#a8de8e",
+    "status": "Rendering since 1998",
+    "verdict": "Mozilla's Gecko engine renders a big chunk of the open web. Sticky feet, sticky market share.",
+    "alternatives": [
+      "chameleon",
+      "iguana"
+    ],
+    "uses": [
+      "gecko-mozilla-gecko"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "goose",
+    "slug": "goose",
+    "name": "Goose",
+    "nameHe": "אווז",
+    "aliases": [
+      "goose",
+      "אווז"
+    ],
+    "emoji": "🪿",
+    "animalClass": "birds",
+    "accentColor": "#d7e3f0",
+    "status": "Honking at your codebase",
+    "verdict": "Block's goose AI agent wanders repos and honks until the task is done.",
+    "alternatives": [
+      "duck",
+      "swan"
+    ],
+    "uses": [
+      "goose-block-goose"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "toad",
+    "slug": "toad",
+    "name": "Toad",
+    "nameHe": "קרפדה",
+    "aliases": [
+      "toad",
+      "קרפדה"
+    ],
+    "emoji": "🐸",
+    "animalClass": "reptiles",
+    "accentColor": "#b3c98a",
+    "status": "Croaking at databases",
+    "verdict": "Quest's Toad has been the DBA's warty companion since the Oracle 7 days.",
+    "alternatives": [
+      "frog"
+    ],
+    "uses": [
+      "toad-quest-toad"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "unicorn",
+    "slug": "unicorn",
+    "name": "Unicorn",
+    "nameHe": "חד-קרן",
+    "aliases": [
+      "unicorn",
+      "חד-קרן",
+      "חד קרן"
+    ],
+    "emoji": "🦄",
+    "animalClass": "mammals",
+    "accentColor": "#f3c3e0",
+    "status": "Pre-forked and magical",
+    "verdict": "Gunicorn serves half the Python web. Also what every startup calls itself at $1B.",
+    "alternatives": [
+      "horse",
+      "pony"
+    ],
+    "uses": [
+      "unicorn-gunicorn"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "mongoose",
+    "slug": "mongoose",
+    "name": "Mongoose",
+    "nameHe": "נמייה",
+    "aliases": [
+      "mongoose",
+      "נמייה"
+    ],
+    "emoji": "🦦",
+    "animalClass": "mammals",
+    "accentColor": "#d9b98a",
+    "status": "Snake-killer, schema-keeper",
+    "verdict": "Mongoose wraps MongoDB schemas the way the real animal wraps cobras. Decisively.",
+    "alternatives": [
+      "weasel",
+      "ferret"
+    ],
+    "uses": [
+      "mongoose-mongoosejs"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "elk",
+    "slug": "elk",
+    "name": "Elk",
+    "nameHe": "אייל",
+    "aliases": [
+      "elk",
+      "אייל"
+    ],
+    "emoji": "🦌",
+    "animalClass": "mammals",
+    "accentColor": "#c7ad91",
+    "status": "An acronym with antlers",
+    "verdict": "Elasticsearch + Logstash + Kibana = ELK. The rare mascot assembled from initials.",
+    "alternatives": [
+      "moose",
+      "gnu"
+    ],
+    "uses": [
+      "elk-elastic-stack"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "locust",
+    "slug": "locust",
+    "name": "Locust",
+    "nameHe": "ארבה",
+    "aliases": [
+      "locust",
+      "ארבה"
+    ],
+    "emoji": "🦗",
+    "animalClass": "bugs",
+    "accentColor": "#cbe07d",
+    "status": "Swarming your endpoints",
+    "verdict": "Locust load-tests by unleashing a plague of simulated users. Name checks out.",
+    "alternatives": [
+      "grasshopper",
+      "mantis"
+    ],
+    "uses": [
+      "locust-locust-io"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "seahorse",
+    "slug": "seahorse",
+    "name": "Seahorse",
+    "nameHe": "סוסון ים",
+    "aliases": [
+      "seahorse",
+      "סוסון ים"
+    ],
+    "emoji": "🐴",
+    "animalClass": "marine",
+    "accentColor": "#a5d8d0",
+    "status": "Guarding GNOME's keys",
+    "verdict": "GNOME Seahorse keeps your GPG keys safe in the most elegant tail in the ocean.",
+    "alternatives": [
+      "fish",
+      "starfish"
+    ],
+    "uses": [
+      "seahorse-gnome-seahorse"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "heron",
+    "slug": "heron",
+    "name": "Heron",
+    "nameHe": "אנפה",
+    "aliases": [
+      "heron",
+      "אנפה"
+    ],
+    "emoji": "🐦",
+    "animalClass": "birds",
+    "accentColor": "#9fb8c9",
+    "status": "Retired to the Attic",
+    "verdict": "Twitter's stream processor went to Apache, then to the Attic. Elegant while it lasted.",
+    "alternatives": [
+      "crane",
+      "stork"
+    ],
+    "uses": [
+      "heron-apache-heron"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "barracuda",
+    "slug": "barracuda",
+    "name": "Barracuda",
+    "nameHe": "ברקודה",
+    "aliases": [
+      "barracuda",
+      "ברקודה"
+    ],
+    "emoji": "🐟",
+    "animalClass": "marine",
+    "accentColor": "#8fb8e0",
+    "status": "Patrolling email perimeters",
+    "verdict": "Barracuda Networks built a security empire on the ocean's most aggressive fish.",
+    "alternatives": [
+      "shark",
+      "fish"
+    ],
+    "uses": [
+      "barracuda-barracuda-networks"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "sparrow",
+    "slug": "sparrow",
+    "name": "Sparrow",
+    "nameHe": "דרור",
+    "aliases": [
+      "sparrow",
+      "דרור"
+    ],
+    "emoji": "🐦",
+    "animalClass": "birds",
+    "accentColor": "#cbb49a",
+    "status": "Acquired and sunset",
+    "verdict": "The beloved mail client Google bought and quietly retired. Pour one out.",
+    "alternatives": [
+      "bluebird",
+      "robin"
+    ],
+    "uses": [
+      "sparrow-sparrow-mail"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "hare",
+    "slug": "hare",
+    "name": "Hare",
+    "nameHe": "ארנב בר",
+    "aliases": [
+      "hare",
+      "ארנב בר"
+    ],
+    "emoji": "🐰",
+    "animalClass": "mammals",
+    "accentColor": "#d8c9b4",
+    "status": "Systems programming at speed",
+    "verdict": "Drew DeVault's Hare language races where C plods. The tortoise is unimpressed.",
+    "alternatives": [
+      "rabbit"
+    ],
+    "uses": [
+      "hare-harelang"
+    ],
+    "reviewStatus": "partially_verified",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "cheetah",
+    "slug": "cheetah",
+    "name": "Cheetah",
+    "nameHe": "ברדלס",
+    "aliases": [
+      "cheetah",
+      "ברדלס"
+    ],
+    "emoji": "🐆",
+    "animalClass": "mammals",
+    "accentColor": "#f0c987",
+    "status": "Fastest cat, still free",
+    "verdict": "Mac OS X 10.0's codename is ancient history — the fastest land animal is up for grabs.",
+    "alternatives": [
+      "leopard",
+      "jaguar"
+    ],
+    "uses": [],
+    "reviewStatus": "candidate",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "leopard",
+    "slug": "leopard",
+    "name": "Leopard",
+    "nameHe": "לאופרד",
+    "aliases": [
+      "leopard",
+      "לאופרד"
+    ],
+    "emoji": "🐆",
+    "animalClass": "mammals",
+    "accentColor": "#e0b96a",
+    "status": "Spots available",
+    "verdict": "Another retired macOS codename. Stealthy, spotted, and surprisingly unclaimed.",
+    "alternatives": [
+      "cheetah",
+      "jaguar",
+      "panther"
+    ],
+    "uses": [],
+    "reviewStatus": "candidate",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "panther",
+    "slug": "panther",
+    "name": "Panther",
+    "nameHe": "פנתר",
+    "aliases": [
+      "panther",
+      "פנתר",
+      "black panther"
+    ],
+    "emoji": "🐈‍⬛",
+    "animalClass": "mammals",
+    "accentColor": "#8a8a9e",
+    "status": "Sleek and unbooked",
+    "verdict": "macOS 10.3 let it go two decades ago. All that black-on-black branding potential, wasted.",
+    "alternatives": [
+      "leopard",
+      "puma",
+      "lynx"
+    ],
+    "uses": [],
+    "reviewStatus": "candidate",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "jaguar",
+    "slug": "jaguar",
+    "name": "Jaguar",
+    "nameHe": "יגואר",
+    "aliases": [
+      "jaguar",
+      "יגואר"
+    ],
+    "emoji": "🐆",
+    "animalClass": "mammals",
+    "accentColor": "#d9a05b",
+    "status": "Big cat, small tenancy",
+    "verdict": "Atari consoles and macOS 10.2 both moved out. The apex predator of the Amazon awaits.",
+    "alternatives": [
+      "cheetah",
+      "leopard",
+      "puma"
+    ],
+    "uses": [],
+    "reviewStatus": "candidate",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "hawk",
+    "slug": "hawk",
+    "name": "Hawk",
+    "nameHe": "נץ",
+    "aliases": [
+      "hawk",
+      "נץ"
+    ],
+    "emoji": "🦅",
+    "animalClass": "birds",
+    "accentColor": "#c98f6a",
+    "status": "Circling the namespace",
+    "verdict": "Sharp eyes, sharper dive. Security companies keep circling but none committed.",
+    "alternatives": [
+      "eagle",
+      "falcon"
+    ],
+    "uses": [],
+    "reviewStatus": "candidate",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "toucan",
+    "slug": "toucan",
+    "name": "Toucan",
+    "nameHe": "טוקן",
+    "aliases": [
+      "toucan",
+      "טוקן"
+    ],
+    "emoji": "🦜",
+    "animalClass": "birds",
+    "accentColor": "#f5a25d",
+    "status": "Big bill, no tenants",
+    "verdict": "That beak is a walking billboard. Somehow no API company noticed.",
+    "alternatives": [
+      "parrot",
+      "macaw"
+    ],
+    "uses": [],
+    "reviewStatus": "candidate",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "peacock",
+    "slug": "peacock",
+    "name": "Peacock",
+    "nameHe": "טווס",
+    "aliases": [
+      "peacock",
+      "טווס"
+    ],
+    "emoji": "🦚",
+    "animalClass": "birds",
+    "accentColor": "#7fc9b8",
+    "status": "Showing off to nobody",
+    "verdict": "NBC streams under this name but tech proper never claimed the flashiest bird alive.",
+    "alternatives": [
+      "swan",
+      "flamingo"
+    ],
+    "uses": [],
+    "reviewStatus": "candidate",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "swan",
+    "slug": "swan",
+    "name": "Swan",
+    "nameHe": "ברבור",
+    "aliases": [
+      "swan",
+      "ברבור"
+    ],
+    "emoji": "🦢",
+    "animalClass": "birds",
+    "accentColor": "#e8e4dc",
+    "status": "Gracefully unclaimed",
+    "verdict": "Elegant, monogamous, occasionally vicious. The perfect fintech mascot nobody hired.",
+    "alternatives": [
+      "goose",
+      "duck",
+      "peacock"
+    ],
+    "uses": [],
+    "reviewStatus": "candidate",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "stork",
+    "slug": "stork",
+    "name": "Stork",
+    "nameHe": "חסידה",
+    "aliases": [
+      "stork",
+      "חסידה"
+    ],
+    "emoji": "🕊️",
+    "animalClass": "birds",
+    "accentColor": "#d4ccc0",
+    "status": "Delivering... nothing yet",
+    "verdict": "The original delivery service. Logistics startups, this one writes itself.",
+    "alternatives": [
+      "crane",
+      "heron",
+      "pelican"
+    ],
+    "uses": [],
+    "reviewStatus": "candidate",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "ostrich",
+    "slug": "ostrich",
+    "name": "Ostrich",
+    "nameHe": "יען",
+    "aliases": [
+      "ostrich",
+      "יען"
+    ],
+    "emoji": "🪶",
+    "animalClass": "birds",
+    "accentColor": "#c4ab8e",
+    "status": "Head firmly above ground",
+    "verdict": "Biggest bird, fastest runner, zero tech tenants. Stop burying the opportunity.",
+    "alternatives": [
+      "kiwi"
+    ],
+    "uses": [],
+    "reviewStatus": "candidate",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "crow",
+    "slug": "crow",
+    "name": "Crow",
+    "nameHe": "עורב אפור",
+    "aliases": [
+      "crow",
+      "עורב אפור"
+    ],
+    "emoji": "🐦‍⬛",
+    "animalClass": "birds",
+    "accentColor": "#5e6068",
+    "status": "Too clever to settle",
+    "verdict": "Solves puzzles, holds grudges, remembers faces. Basically a senior engineer with wings.",
+    "alternatives": [
+      "raven"
+    ],
+    "uses": [],
+    "reviewStatus": "candidate",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "robin",
+    "slug": "robin",
+    "name": "Robin",
+    "nameHe": "אדום החזה",
+    "aliases": [
+      "robin",
+      "אדום החזה"
+    ],
+    "emoji": "🐦",
+    "animalClass": "birds",
+    "accentColor": "#e07a5f",
+    "status": "First bird of spring, last to brand",
+    "verdict": "Friendly, recognizable, and still on the market. Batman's sidekick needs a side gig.",
+    "alternatives": [
+      "bluebird",
+      "sparrow"
+    ],
+    "uses": [],
+    "reviewStatus": "candidate",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "jellyfish",
+    "slug": "jellyfish",
+    "name": "Jellyfish",
+    "nameHe": "מדוזה",
+    "aliases": [
+      "jellyfish",
+      "מדוזה"
+    ],
+    "emoji": "🪼",
+    "animalClass": "marine",
+    "accentColor": "#c9b8f0",
+    "status": "Drifting through the backlog",
+    "verdict": "No brain, no heart, immortal. The ideal legacy system metaphor is still available.",
+    "alternatives": [
+      "octopus",
+      "starfish"
+    ],
+    "uses": [],
+    "reviewStatus": "candidate",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "stingray",
+    "slug": "stingray",
+    "name": "Stingray",
+    "nameHe": "טריגון",
+    "aliases": [
+      "stingray",
+      "טריגון"
+    ],
+    "emoji": "🐟",
+    "animalClass": "marine",
+    "accentColor": "#8ea8c4",
+    "status": "Gliding under the radar",
+    "verdict": "Sleek, flat, and quietly dangerous. Security tooling keeps missing this one.",
+    "alternatives": [
+      "shark",
+      "manatee"
+    ],
+    "uses": [],
+    "reviewStatus": "candidate",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "starfish",
+    "slug": "starfish",
+    "name": "Starfish",
+    "nameHe": "כוכב ים",
+    "aliases": [
+      "starfish",
+      "כוכב ים"
+    ],
+    "emoji": "⭐",
+    "animalClass": "marine",
+    "accentColor": "#f0a8a0",
+    "status": "Five arms, zero contracts",
+    "verdict": "Regrows limbs like a resilient distributed system. The metaphor sells itself.",
+    "alternatives": [
+      "seahorse",
+      "jellyfish"
+    ],
+    "uses": [],
+    "reviewStatus": "candidate",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "manatee",
+    "slug": "manatee",
+    "name": "Manatee",
+    "nameHe": "פרת ים",
+    "aliases": [
+      "manatee",
+      "פרת ים"
+    ],
+    "emoji": "🦭",
+    "animalClass": "marine",
+    "accentColor": "#a8bcc9",
+    "status": "Slow and steady and free",
+    "verdict": "The sea cow moves at 8 km/h and has never shipped a breaking change.",
+    "alternatives": [
+      "walrus",
+      "seal",
+      "dolphin"
+    ],
+    "uses": [],
+    "reviewStatus": "candidate",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "porcupine",
+    "slug": "porcupine",
+    "name": "Porcupine",
+    "nameHe": "דורבן",
+    "aliases": [
+      "porcupine",
+      "דורבן"
+    ],
+    "emoji": "🦔",
+    "animalClass": "mammals",
+    "accentColor": "#b8a48a",
+    "status": "Prickly and unclaimed",
+    "verdict": "Picovoice named a wake-word engine after it, but the animal itself still has room.",
+    "alternatives": [
+      "hedgehog",
+      "armadillo"
+    ],
+    "uses": [],
+    "reviewStatus": "candidate",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "chipmunk",
+    "slug": "chipmunk",
+    "name": "Chipmunk",
+    "nameHe": "סנאי פסים",
+    "aliases": [
+      "chipmunk",
+      "סנאי פסים"
+    ],
+    "emoji": "🐿️",
+    "animalClass": "mammals",
+    "accentColor": "#d9a878",
+    "status": "Cheeks full of potential",
+    "verdict": "Stripes, speed, and hoarding instincts. A caching layer waiting to happen.",
+    "alternatives": [
+      "squirrel",
+      "hamster"
+    ],
+    "uses": [],
+    "reviewStatus": "candidate",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "hamster",
+    "slug": "hamster",
+    "name": "Hamster",
+    "nameHe": "אוגר",
+    "aliases": [
+      "hamster",
+      "אוגר"
+    ],
+    "emoji": "🐹",
+    "animalClass": "mammals",
+    "accentColor": "#e8c9a0",
+    "status": "Wheel spinning since forever",
+    "verdict": "Runs all night and gets nowhere — the CI/CD spirit animal remains available.",
+    "alternatives": [
+      "chipmunk",
+      "mouse"
+    ],
+    "uses": [],
+    "reviewStatus": "candidate",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "salamander",
+    "slug": "salamander",
+    "name": "Salamander",
+    "nameHe": "סלמנדרה",
+    "aliases": [
+      "salamander",
+      "סלמנדרה"
+    ],
+    "emoji": "🦎",
+    "animalClass": "reptiles",
+    "accentColor": "#e8935f",
+    "status": "Fireproof and free",
+    "verdict": "Mythically walks through fire and regenerates limbs. Incident response teams, hello?",
+    "alternatives": [
+      "axolotl",
+      "gecko"
+    ],
+    "uses": [],
+    "reviewStatus": "candidate",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "grasshopper",
+    "slug": "grasshopper",
+    "name": "Grasshopper",
+    "nameHe": "חגב",
+    "aliases": [
+      "grasshopper",
+      "חגב"
+    ],
+    "emoji": "🦗",
+    "animalClass": "bugs",
+    "accentColor": "#a8d878",
+    "status": "Leaping past the offers",
+    "verdict": "Google's coding app came and went. The champion jumper is back on the market.",
+    "alternatives": [
+      "locust",
+      "mantis"
+    ],
+    "uses": [],
+    "reviewStatus": "candidate",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "mammoth",
+    "slug": "mammoth",
+    "name": "Mammoth",
+    "nameHe": "ממותה",
+    "aliases": [
+      "mammoth",
+      "ממותה"
+    ],
+    "emoji": "🦣",
+    "animalClass": "mammals",
+    "accentColor": "#a89078",
+    "status": "Thawing out nicely",
+    "verdict": "Mastodon took the cousin. The woolly one with bigger tusks is still frozen in wait.",
+    "alternatives": [
+      "mastodon",
+      "elephant"
+    ],
+    "uses": [],
+    "reviewStatus": "candidate",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "dodo",
+    "slug": "dodo",
+    "name": "Dodo",
+    "nameHe": "דודו",
+    "aliases": [
+      "dodo",
+      "דודו"
+    ],
+    "emoji": "🦤",
+    "animalClass": "birds",
+    "accentColor": "#b8a8c9",
+    "status": "Extinct but employable",
+    "verdict": "The universal mascot of obsolescence. Perfect for a legacy-migration service.",
+    "alternatives": [
+      "kiwi",
+      "ostrich"
+    ],
+    "uses": [],
+    "reviewStatus": "candidate",
+    "lastReviewedAt": "2026-08-05"
+  },
+  {
+    "id": "skunk",
+    "slug": "skunk",
+    "name": "Skunk",
+    "nameHe": "בואש",
+    "aliases": [
+      "skunk",
+      "בואש"
+    ],
+    "emoji": "🦨",
+    "animalClass": "mammals",
+    "accentColor": "#6e6e78",
+    "status": "Skunkworks, anyone?",
+    "verdict": "Lockheed coined the term; tech uses it daily. The actual animal remains unsigned.",
+    "alternatives": [
+      "badger",
+      "raccoon"
+    ],
+    "uses": [],
+    "reviewStatus": "candidate",
+    "lastReviewedAt": "2026-08-05"
   }
 ]

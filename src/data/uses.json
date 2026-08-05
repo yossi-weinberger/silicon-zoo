@@ -18,10 +18,10 @@
     "verifiedAt": "2026-07-21",
     "displayLabel": "Linux · Tux",
     "image": {
-      "src": "/mascots/linux-tux.png",
-      "remoteSrc": "https://www.kernel.org/theme/images/logos/tux.png",
+      "src": "/mascots/linux-tux.svg",
+      "remoteSrc": "https://commons.wikimedia.org/wiki/Special:FilePath/Tux.svg",
       "alt": "Tux, the Linux penguin mascot",
-      "attribution": "Official Tux artwork from kernel.org."
+      "attribution": "Tux by Larry Ewing (lewing@isc.tamu.edu), via Wikimedia Commons."
     }
   },
   {
@@ -327,7 +327,7 @@
     "organization": "GitLab-ish",
     "product": "GitLab",
     "relationshipType": "animal_logo",
-    "officialStatus": "official",
+    "officialStatus": "unofficial",
     "activeStatus": "active",
     "recognition": "niche",
     "techHabitats": [
@@ -859,10 +859,10 @@
     "verifiedAt": "2026-07-21",
     "displayLabel": "Otter.ai",
     "image": {
-      "src": "/mascots/otter-ai.ico",
-      "remoteSrc": "https://otter.ai/favicon.ico",
+      "src": "/mascots/otter-ai.png",
+      "remoteSrc": "https://cdn.prod.website-files.com/618e9316785b3582a5178502/618e943a80919a98b5e9bf69_apple-icon.png",
       "alt": "Otter.ai brand mark",
-      "attribution": "Otter.ai favicon from otter.ai."
+      "attribution": "Otter.ai app icon from otter.ai."
     }
   },
   {
@@ -1138,9 +1138,9 @@
     "displayLabel": "PandaDoc",
     "image": {
       "src": "/mascots/pandadoc.png",
-      "remoteSrc": "https://commons.wikimedia.org/wiki/Special:FilePath/PandaDoc%20Logo%20PNG.png",
+      "remoteSrc": "https://github.com/PandaDoc.png?size=512",
       "alt": "PandaDoc logo",
-      "attribution": "PandaDoc logo via Wikimedia Commons."
+      "attribution": "PandaDoc icon via GitHub organization avatar."
     }
   },
   {
@@ -1566,7 +1566,6 @@
     "id": "ladybug-serenityos-buggie",
     "animalId": "ladybug",
     "organization": "SerenityOS",
-    "characterName": "Buggie",
     "relationshipType": "official_mascot",
     "officialStatus": "official",
     "activeStatus": "active",
@@ -1579,7 +1578,7 @@
     "sourceType": "official",
     "verificationStatus": "partially_verified",
     "verifiedAt": "2026-07-21",
-    "displayLabel": "SerenityOS · Buggie",
+    "displayLabel": "SerenityOS",
     "image": {
       "src": "/mascots/serenityos.png",
       "remoteSrc": "https://avatars.githubusercontent.com/u/50811782?s=200&v=4",
@@ -1869,32 +1868,6 @@
     "product": "Trailhead"
   },
   {
-    "id": "tanuki-salesforce-astro",
-    "animalId": "tanuki",
-    "organization": "Salesforce",
-    "characterName": "Astro",
-    "relationshipType": "official_mascot",
-    "officialStatus": "official",
-    "activeStatus": "active",
-    "recognition": "strong_niche",
-    "techHabitats": [
-      "apps",
-      "web"
-    ],
-    "sourceUrl": "https://www.salesforce.com/blog/meet-trailhead-characters-blog/",
-    "sourceType": "official",
-    "verificationStatus": "verified",
-    "verifiedAt": "2026-07-21",
-    "displayLabel": "Salesforce · Astro",
-    "image": {
-      "src": "/mascots/salesforce-astro.png",
-      "remoteSrc": "https://www.salesforce.com/blog/wp-content/uploads/sites/2/2021/12/2021-12-360Blog-2D-IndividualIllustrations-Astro.png",
-      "alt": "Astro, Salesforce Trailhead character",
-      "attribution": "Salesforce Trailhead character artwork from salesforce.com blog / media library. Used for identification and commentary."
-    },
-    "product": "Trailhead"
-  },
-  {
     "id": "tanuki-gitlab-origin-story",
     "animalId": "tanuki",
     "organization": "GitLab origin story",
@@ -2090,10 +2063,10 @@
     "verifiedAt": "2026-07-21",
     "displayLabel": "Gorilla Logic",
     "image": {
-      "src": "/mascots/gorilla-logic.png",
-      "remoteSrc": "https://www.google.com/s2/favicons?domain=gorillalogic.com&sz=128",
+      "src": "/mascots/gorilla-logic.svg",
+      "remoteSrc": "https://gorillalogic.com/wp-content/uploads/2026/02/GL_Logo_Secondary_Blk.svg",
       "alt": "Gorilla Logic brand mark",
-      "attribution": "Gorilla Logic favicon / brand mark."
+      "attribution": "Gorilla Logic brand logo from gorillalogic.com."
     }
   },
   {
@@ -2215,9 +2188,9 @@
     "displayLabel": "Arctic Wolf",
     "image": {
       "src": "/mascots/arctic-wolf.png",
-      "remoteSrc": "https://www.google.com/s2/favicons?domain=arcticwolf.com&sz=128",
+      "remoteSrc": "https://arcticwolf.com/wp-content/uploads/2019/11/aw-favicon-rebrand.png",
       "alt": "Arctic Wolf brand mark",
-      "attribution": "Arctic Wolf brand mark / favicon."
+      "attribution": "Arctic Wolf brand icon from arcticwolf.com."
     }
   },
   {
@@ -2240,9 +2213,9 @@
     "displayLabel": "RavenDB",
     "image": {
       "src": "/mascots/ravendb.png",
-      "remoteSrc": "https://ravendb.net/favicon.ico",
+      "remoteSrc": "https://github.com/ravendb.png?size=512",
       "alt": "RavenDB brand mark",
-      "attribution": "RavenDB favicon from ravendb.net."
+      "attribution": "RavenDB logo via GitHub organization avatar."
     }
   },
   {
@@ -2264,10 +2237,10 @@
     "verifiedAt": "2026-07-21",
     "displayLabel": "FerretDB",
     "image": {
-      "src": "/mascots/ferretdb.webp",
-      "remoteSrc": "https://www.ferretdb.com/favicon.ico",
+      "src": "/mascots/ferretdb.jpg",
+      "remoteSrc": "https://github.com/FerretDB.png?size=512",
       "alt": "FerretDB",
-      "attribution": "FerretDB favicon from ferretdb.com."
+      "attribution": "FerretDB logo via GitHub organization avatar."
     }
   },
   {
@@ -2342,9 +2315,9 @@
     "displayLabel": "lowRISC · Ibex",
     "image": {
       "src": "/mascots/lowrisc-ibex.png",
-      "remoteSrc": "https://avatars.githubusercontent.com/u/13596407?s=200&v=4",
+      "remoteSrc": "https://lowrisc.org/wp-content/uploads/2025/12/Ibex-logo-final.png",
       "alt": "lowRISC Ibex",
-      "attribution": "lowRISC organization avatar on GitHub."
+      "attribution": "Official Ibex logo from lowRISC."
     }
   },
   {
@@ -2418,9 +2391,9 @@
     "displayLabel": "Eagle Eye Networks",
     "image": {
       "src": "/mascots/eagle-eye-networks.png",
-      "remoteSrc": "https://www.google.com/s2/favicons?domain=een.com&sz=128",
+      "remoteSrc": "https://www.een.com/wp-content/uploads/2021/03/EEN-logo-440x150-1.png",
       "alt": "Eagle Eye Networks brand mark",
-      "attribution": "Eagle Eye Networks brand mark / favicon."
+      "attribution": "Eagle Eye Networks logo from een.com."
     }
   },
   {
@@ -2442,10 +2415,10 @@
     "verifiedAt": "2026-07-21",
     "displayLabel": "Walrus",
     "image": {
-      "src": "/mascots/walrus.png",
-      "remoteSrc": "https://avatars.githubusercontent.com/u/147906327?s=200&v=4",
+      "src": "/mascots/walrus.webp",
+      "remoteSrc": "https://www.walrus.xyz/_astro/wal-wal.XzG-qt_r_Z2oIC0R.webp",
       "alt": "Walrus brand mark",
-      "attribution": "Walrus organization avatar on GitHub."
+      "attribution": "Walrus mascot artwork from walrus.xyz."
     }
   },
   {
@@ -3103,9 +3076,9 @@
     "displayLabel": "Clearpath · Jackal",
     "image": {
       "src": "/mascots/clearpath-jackal.png",
-      "remoteSrc": "https://avatars.githubusercontent.com/u/159163?s=200&v=4",
+      "remoteSrc": "https://github.com/clearpathrobotics.png?size=512",
       "alt": "Clearpath Robotics",
-      "attribution": "Clearpath Robotics organization avatar on GitHub."
+      "attribution": "Clearpath Robotics logo via GitHub organization avatar."
     }
   },
   {
@@ -3129,9 +3102,9 @@
     "displayLabel": "SquirrelMail",
     "image": {
       "src": "/mascots/squirrelmail.png",
-      "remoteSrc": "https://www.google.com/s2/favicons?domain=squirrelmail.org&sz=128",
+      "remoteSrc": "https://commons.wikimedia.org/wiki/Special:FilePath/Squirrelmail%20logo.png",
       "alt": "SquirrelMail",
-      "attribution": "SquirrelMail site favicon."
+      "attribution": "SquirrelMail logo via Wikimedia Commons."
     }
   },
   {
@@ -3181,9 +3154,9 @@
     "displayLabel": "Squid Cache",
     "image": {
       "src": "/mascots/squid-cache.png",
-      "remoteSrc": "https://raw.githubusercontent.com/squid-cache/squid/master/icons/SN.png",
+      "remoteSrc": "https://www.squid-cache.org/Artwork/SN2.png",
       "alt": "Squid Cache artwork",
-      "attribution": "Official Squid Cache icon from squid-cache/squid repo."
+      "attribution": "Official Squid artwork from squid-cache.org."
     }
   },
   {
@@ -3232,10 +3205,10 @@
     "verifiedAt": "2026-07-21",
     "displayLabel": "Puma",
     "image": {
-      "src": "/mascots/puma.png",
-      "remoteSrc": "https://avatars.githubusercontent.com/u/2054809?s=200&v=4",
+      "src": "/mascots/puma-logo.svg",
+      "remoteSrc": "https://raw.githubusercontent.com/puma/puma/master/docs/images/standard-logo.svg",
       "alt": "Puma web server",
-      "attribution": "Puma organization avatar on GitHub."
+      "attribution": "Official Puma logo from the puma/puma repository."
     }
   },
   {
@@ -3334,9 +3307,9 @@
     "displayLabel": "Thinkst Canary",
     "image": {
       "src": "/mascots/thinkst-canary.png",
-      "remoteSrc": "https://www.google.com/s2/favicons?domain=canary.tools&sz=128",
+      "remoteSrc": "https://github.com/thinkst.png?size=512",
       "alt": "Thinkst Canary brand mark",
-      "attribution": "Thinkst Canary brand mark / favicon."
+      "attribution": "Thinkst Canary logo via GitHub organization avatar."
     }
   },
   {
@@ -3360,9 +3333,9 @@
     "displayLabel": "crane",
     "image": {
       "src": "/mascots/crane.png",
-      "remoteSrc": "https://avatars.githubusercontent.com/u/1342004?s=200&v=4",
+      "remoteSrc": "https://raw.githubusercontent.com/google/go-containerregistry/main/images/crane.png",
       "alt": "crane container tool",
-      "attribution": "Google organization avatar used for crane CLI."
+      "attribution": "Official crane artwork from google/go-containerregistry."
     }
   },
   {
@@ -3386,9 +3359,9 @@
     "displayLabel": "Ocelot",
     "image": {
       "src": "/mascots/ocelot.png",
-      "remoteSrc": "https://avatars.githubusercontent.com/u/17142558?s=200&v=4",
+      "remoteSrc": "https://raw.githubusercontent.com/ThreeMammals/Ocelot/refs/heads/assets/images/ocelot_logo.png",
       "alt": "Ocelot API gateway",
-      "attribution": "ThreeMammals / Ocelot organization avatar on GitHub."
+      "attribution": "Official Ocelot logo from the ThreeMammals/Ocelot repository."
     }
   },
   {
@@ -3435,10 +3408,10 @@
     "verifiedAt": "2026-07-21",
     "displayLabel": "LMSYS · Vicuna",
     "image": {
-      "src": "/mascots/lmsys-vicuna.png",
-      "remoteSrc": "https://avatars.githubusercontent.com/u/123214896?s=200&v=4",
+      "src": "/mascots/lmsys-vicuna.jpeg",
+      "remoteSrc": "https://lmsys.org/images/blog/vicuna/vicuna.jpeg",
       "alt": "LMSYS Vicuna",
-      "attribution": "LMSYS Org avatar on GitHub."
+      "attribution": "Vicuna logo from the LMSYS blog."
     }
   },
   {
@@ -3512,9 +3485,9 @@
     "displayLabel": "Firebird SQL",
     "image": {
       "src": "/mascots/firebird.png",
-      "remoteSrc": "https://firebirdsql.org/file/about/firebird-logo-90.png",
+      "remoteSrc": "https://firebirdsql.org/file/about/firebird-logo-400.png",
       "alt": "Firebird SQL logo",
-      "attribution": "Official Firebird logo from firebirdsql.org"
+      "attribution": "Official Firebird logo from firebirdsql.org."
     }
   },
   {
@@ -3645,5 +3618,1176 @@
       "alt": "FreeBSD brand mark for Beastie",
       "attribution": "FreeBSD brand mark via Simple Icons (brand color)."
     }
+  },
+  {
+    "id": "butterfly-bluesky",
+    "animalId": "butterfly",
+    "organization": "Bluesky",
+    "relationshipType": "animal_logo",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "apps",
+      "web"
+    ],
+    "sourceUrl": "https://bsky.app/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Bluesky",
+    "image": {
+      "src": "/mascots/bluesky.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/bluesky",
+      "alt": "Bluesky butterfly logo",
+      "attribution": "Bluesky brand mark via Simple Icons (brand color)."
+    }
+  },
+  {
+    "id": "firefly-adobe-firefly",
+    "animalId": "firefly",
+    "organization": "Adobe",
+    "product": "Firefly",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "tools",
+      "apps"
+    ],
+    "sourceUrl": "https://www.adobe.com/products/firefly.html",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Adobe · Firefly",
+    "image": null
+  },
+  {
+    "id": "camel-ocaml",
+    "animalId": "camel",
+    "organization": "OCaml",
+    "relationshipType": "animal_logo",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://ocaml.org/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "OCaml",
+    "image": {
+      "src": "/mascots/ocaml.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/ocaml",
+      "alt": "OCaml camel logo",
+      "attribution": "OCaml brand mark via Simple Icons (brand color)."
+    }
+  },
+  {
+    "id": "turtle-tortoisesvn",
+    "animalId": "turtle",
+    "organization": "TortoiseSVN",
+    "relationshipType": "animal_logo",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools",
+      "open_source"
+    ],
+    "sourceUrl": "https://tortoisesvn.net/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "TortoiseSVN",
+    "image": {
+      "src": "/mascots/tortoisesvn.svg",
+      "remoteSrc": "https://commons.wikimedia.org/wiki/Special:FilePath/TortoiseSVN%20logo.svg",
+      "alt": "TortoiseSVN tortoise logo",
+      "attribution": "TortoiseSVN logo via Wikimedia Commons."
+    }
+  },
+  {
+    "id": "orca-gnome-orca",
+    "animalId": "orca",
+    "organization": "GNOME",
+    "product": "Orca screen reader",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools",
+      "open_source"
+    ],
+    "sourceUrl": "https://orca.gnome.org/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "GNOME · Orca",
+    "image": {
+      "src": "/mascots/gnome.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/gnome",
+      "alt": "GNOME brand mark",
+      "attribution": "GNOME brand mark via Simple Icons (brand color)."
+    }
+  },
+  {
+    "id": "seahorse-gnome-seahorse",
+    "animalId": "seahorse",
+    "organization": "GNOME",
+    "product": "Seahorse",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "tools",
+      "open_source"
+    ],
+    "sourceUrl": "https://apps.gnome.org/Seahorse/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "GNOME · Seahorse",
+    "image": {
+      "src": "/mascots/gnome.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/gnome",
+      "alt": "GNOME brand mark",
+      "attribution": "GNOME brand mark via Simple Icons (brand color)."
+    }
+  },
+  {
+    "id": "falcon-crowdstrike",
+    "animalId": "falcon",
+    "organization": "CrowdStrike",
+    "product": "Falcon platform",
+    "relationshipType": "animal_logo",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "tools",
+      "web"
+    ],
+    "sourceUrl": "https://www.crowdstrike.com/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "CrowdStrike · Falcon",
+    "image": {
+      "src": "/mascots/crowdstrike-falcon.png",
+      "remoteSrc": "https://github.com/CrowdStrike.png?size=512",
+      "alt": "CrowdStrike falcon logo",
+      "attribution": "CrowdStrike logo via GitHub organization avatar."
+    }
+  },
+  {
+    "id": "seal-podman",
+    "animalId": "seal",
+    "organization": "Podman",
+    "relationshipType": "animal_logo",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools",
+      "open_source"
+    ],
+    "sourceUrl": "https://podman.io/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Podman",
+    "image": {
+      "src": "/mascots/podman.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/podman",
+      "alt": "Podman selkie logo",
+      "attribution": "Podman brand mark via Simple Icons (brand color)."
+    }
+  },
+  {
+    "id": "bear-polars",
+    "animalId": "bear",
+    "organization": "Polars",
+    "relationshipType": "animal_logo",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "data",
+      "open_source"
+    ],
+    "sourceUrl": "https://pola.rs/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Polars",
+    "image": {
+      "src": "/mascots/polars.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/polars",
+      "alt": "Polars polar bear logo",
+      "attribution": "Polars brand mark via Simple Icons (brand color)."
+    }
+  },
+  {
+    "id": "octopus-octopus-deploy",
+    "animalId": "octopus",
+    "organization": "Octopus Deploy",
+    "relationshipType": "animal_logo",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools",
+      "web"
+    ],
+    "sourceUrl": "https://octopus.com/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Octopus Deploy",
+    "image": {
+      "src": "/mascots/octopus-deploy.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/octopusdeploy",
+      "alt": "Octopus Deploy logo",
+      "attribution": "Octopus Deploy brand mark via Simple Icons (brand color)."
+    }
+  },
+  {
+    "id": "duck-cyberduck",
+    "animalId": "duck",
+    "organization": "Cyberduck",
+    "relationshipType": "animal_logo",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools",
+      "open_source"
+    ],
+    "sourceUrl": "https://cyberduck.io/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Cyberduck",
+    "image": {
+      "src": "/mascots/cyberduck.png",
+      "remoteSrc": "https://cyberduck.io/img/cyberduck-icon-rect-512.png",
+      "alt": "Cyberduck duck icon",
+      "attribution": "Official Cyberduck app icon."
+    }
+  },
+  {
+    "id": "spider-spyder-ide",
+    "animalId": "spider",
+    "organization": "Spyder",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools",
+      "data",
+      "open_source"
+    ],
+    "sourceUrl": "https://www.spyder-ide.org/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Spyder IDE",
+    "image": {
+      "src": "/mascots/spyder.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/spyderide",
+      "alt": "Spyder IDE logo",
+      "attribution": "Spyder IDE brand mark via Simple Icons (brand color)."
+    }
+  },
+  {
+    "id": "panda-pandas",
+    "animalId": "panda",
+    "organization": "pandas",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "data",
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://pandas.pydata.org/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "pandas",
+    "image": {
+      "src": "/mascots/pandas.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/pandas",
+      "alt": "pandas library logo",
+      "attribution": "pandas brand mark via Simple Icons (brand color). Name actually derives from 'panel data'."
+    }
+  },
+  {
+    "id": "llama-ollama",
+    "animalId": "llama",
+    "organization": "Ollama",
+    "relationshipType": "animal_logo",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "tools",
+      "data"
+    ],
+    "sourceUrl": "https://ollama.com/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Ollama",
+    "image": {
+      "src": "/mascots/ollama.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/ollama",
+      "alt": "Ollama llama logo",
+      "attribution": "Ollama brand mark via Simple Icons."
+    }
+  },
+  {
+    "id": "firebird-phoenix-framework",
+    "animalId": "firebird",
+    "organization": "Phoenix Framework",
+    "relationshipType": "animal_logo",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "web",
+      "open_source"
+    ],
+    "sourceUrl": "https://www.phoenixframework.org/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Phoenix Framework",
+    "image": {
+      "src": "/mascots/phoenix-framework.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/phoenixframework",
+      "alt": "Phoenix Framework firebird logo",
+      "attribution": "Phoenix Framework brand mark via Simple Icons (brand color)."
+    }
+  },
+  {
+    "id": "snake-spf13-cobra",
+    "animalId": "snake",
+    "organization": "Cobra",
+    "relationshipType": "animal_logo",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://cobra.dev/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Cobra (spf13)",
+    "image": null
+  },
+  {
+    "id": "lion-macos-lion",
+    "animalId": "lion",
+    "organization": "Apple",
+    "product": "Mac OS X Lion",
+    "relationshipType": "historical",
+    "officialStatus": "official",
+    "activeStatus": "inactive",
+    "recognition": "strong",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://en.wikipedia.org/wiki/OS_X_Lion",
+    "sourceType": "secondary",
+    "verificationStatus": "historical_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "macOS Lion · historical",
+    "image": {
+      "src": "/mascots/apple.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/apple",
+      "alt": "Apple logo",
+      "attribution": "Apple brand mark via Simple Icons."
+    }
+  },
+  {
+    "id": "toad-quest-toad",
+    "animalId": "toad",
+    "organization": "Quest Software",
+    "product": "Toad",
+    "relationshipType": "animal_logo",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools",
+      "data"
+    ],
+    "sourceUrl": "https://www.quest.com/toad/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Quest · Toad",
+    "image": null
+  },
+  {
+    "id": "ladybug-ladybird-browser",
+    "animalId": "ladybug",
+    "organization": "Ladybird Browser Initiative",
+    "product": "Ladybird",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "apps",
+      "open_source"
+    ],
+    "sourceUrl": "https://ladybird.org/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Ladybird Browser",
+    "image": {
+      "src": "/mascots/ladybird.png",
+      "remoteSrc": "https://github.com/LadybirdBrowser.png?size=512",
+      "alt": "Ladybird browser logo",
+      "attribution": "Ladybird logo via GitHub organization avatar."
+    }
+  },
+  {
+    "id": "gecko-mozilla-gecko",
+    "animalId": "gecko",
+    "organization": "Mozilla",
+    "product": "Gecko engine",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "code",
+      "web",
+      "open_source"
+    ],
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Glossary/Gecko",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Mozilla · Gecko",
+    "image": null
+  },
+  {
+    "id": "goose-block-goose",
+    "animalId": "goose",
+    "organization": "Block",
+    "product": "goose",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools",
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://block.github.io/goose/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Block · goose",
+    "image": null
+  },
+  {
+    "id": "capybara-capybara-gem",
+    "animalId": "capybara",
+    "organization": "Capybara",
+    "product": "Capybara (Ruby)",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://teamcapybara.github.io/capybara/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Capybara (Ruby testing)",
+    "image": null
+  },
+  {
+    "id": "quokka-quokkajs",
+    "animalId": "quokka",
+    "organization": "Wallaby.js",
+    "product": "Quokka.js",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "tools",
+      "code"
+    ],
+    "sourceUrl": "https://quokkajs.com/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Quokka.js",
+    "image": null
+  },
+  {
+    "id": "badger-badgerdb",
+    "animalId": "badger",
+    "organization": "Hypermode",
+    "product": "BadgerDB",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "data",
+      "open_source"
+    ],
+    "sourceUrl": "https://github.com/hypermodeinc/badger",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "BadgerDB",
+    "image": null
+  },
+  {
+    "id": "alpaca-stanford-alpaca",
+    "animalId": "alpaca",
+    "organization": "Stanford CRFM",
+    "product": "Alpaca",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "data",
+      "code"
+    ],
+    "sourceUrl": "https://crfm.stanford.edu/2023/03/13/alpaca.html",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Stanford · Alpaca",
+    "image": null
+  },
+  {
+    "id": "koala-bair-koala",
+    "animalId": "koala",
+    "organization": "Berkeley BAIR",
+    "product": "Koala",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "data",
+      "code"
+    ],
+    "sourceUrl": "https://bair.berkeley.edu/blog/2023/04/03/koala/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "BAIR · Koala",
+    "image": null
+  },
+  {
+    "id": "flamingo-deepmind-flamingo",
+    "animalId": "flamingo",
+    "organization": "DeepMind",
+    "product": "Flamingo",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "data",
+      "code"
+    ],
+    "sourceUrl": "https://deepmind.google/discover/blog/tackling-multiple-tasks-with-a-single-visual-language-model/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "DeepMind · Flamingo",
+    "image": null
+  },
+  {
+    "id": "lemur-netflix-lemur",
+    "animalId": "lemur",
+    "organization": "Netflix",
+    "product": "Lemur",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "tools",
+      "open_source"
+    ],
+    "sourceUrl": "https://github.com/Netflix/lemur",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Netflix · Lemur",
+    "image": null
+  },
+  {
+    "id": "armadillo-armadillo-cpp",
+    "animalId": "armadillo",
+    "organization": "Armadillo",
+    "product": "Armadillo C++",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://arma.sourceforge.net/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Armadillo (C++)",
+    "image": null
+  },
+  {
+    "id": "tapir-softwaremill-tapir",
+    "animalId": "tapir",
+    "organization": "SoftwareMill",
+    "product": "tapir",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://tapir.softwaremill.com/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "SoftwareMill · tapir",
+    "image": null
+  },
+  {
+    "id": "pangolin-fosrl",
+    "animalId": "pangolin",
+    "organization": "Fossorial",
+    "product": "Pangolin",
+    "relationshipType": "animal_logo",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "tools",
+      "open_source"
+    ],
+    "sourceUrl": "https://github.com/fosrl/pangolin",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Pangolin",
+    "image": {
+      "src": "/mascots/pangolin-fosrl.png",
+      "remoteSrc": "https://github.com/fosrl.png?size=512",
+      "alt": "Pangolin project logo",
+      "attribution": "Pangolin logo via GitHub organization avatar."
+    }
+  },
+  {
+    "id": "axolotl-axolotl-finetuning",
+    "animalId": "axolotl",
+    "organization": "Axolotl AI",
+    "product": "Axolotl",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "data",
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://github.com/axolotl-ai-cloud/axolotl",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Axolotl (LLM fine-tuning)",
+    "image": null
+  },
+  {
+    "id": "aardvark-openai-aardvark",
+    "animalId": "aardvark",
+    "organization": "OpenAI",
+    "product": "Aardvark",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "tools",
+      "code"
+    ],
+    "sourceUrl": "https://openai.com/index/introducing-aardvark/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "OpenAI · Aardvark",
+    "image": null
+  },
+  {
+    "id": "meerkat-meerkat-app",
+    "animalId": "meerkat",
+    "organization": "Meerkat",
+    "relationshipType": "historical",
+    "officialStatus": "official",
+    "activeStatus": "inactive",
+    "recognition": "niche",
+    "techHabitats": [
+      "apps"
+    ],
+    "sourceUrl": "https://en.wikipedia.org/wiki/Meerkat_(app)",
+    "sourceType": "secondary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Meerkat · historical",
+    "image": null
+  },
+  {
+    "id": "moose-perl-moose",
+    "animalId": "moose",
+    "organization": "Perl community",
+    "product": "Moose",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://metacpan.org/pod/Moose",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Perl · Moose",
+    "image": null
+  },
+  {
+    "id": "hippo-hippo-cms",
+    "animalId": "hippo",
+    "organization": "Hippo CMS (Bloomreach)",
+    "relationshipType": "historical",
+    "officialStatus": "official",
+    "activeStatus": "inactive",
+    "recognition": "niche",
+    "techHabitats": [
+      "web"
+    ],
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hippo_CMS",
+    "sourceType": "secondary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Hippo CMS · historical",
+    "image": null
+  },
+  {
+    "id": "eagle-autodesk-eagle",
+    "animalId": "eagle",
+    "organization": "Autodesk",
+    "product": "EAGLE",
+    "relationshipType": "historical",
+    "officialStatus": "official",
+    "activeStatus": "inactive",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://en.wikipedia.org/wiki/EAGLE_(program)",
+    "sourceType": "secondary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Autodesk EAGLE · historical",
+    "image": null
+  },
+  {
+    "id": "kiwi-kiwicom",
+    "animalId": "kiwi",
+    "organization": "Kiwi.com",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "web",
+      "apps"
+    ],
+    "sourceUrl": "https://www.kiwi.com/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Kiwi.com",
+    "image": null
+  },
+  {
+    "id": "bluebird-twitter-larry",
+    "animalId": "bluebird",
+    "organization": "Twitter",
+    "characterName": "Larry the Bird",
+    "relationshipType": "historical",
+    "officialStatus": "official",
+    "activeStatus": "inactive",
+    "recognition": "strong",
+    "techHabitats": [
+      "apps",
+      "web"
+    ],
+    "sourceUrl": "https://en.wikipedia.org/wiki/Twitter",
+    "sourceType": "secondary",
+    "verificationStatus": "historical_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Twitter · Larry the Bird · historical",
+    "image": {
+      "src": "/mascots/twitter-larry.svg",
+      "remoteSrc": "https://commons.wikimedia.org/wiki/Special:FilePath/Twitter-logo.svg",
+      "alt": "Twitter bird logo (Larry)",
+      "attribution": "Historical Twitter bird logo via Wikimedia Commons."
+    }
+  },
+  {
+    "id": "swift-apple-swift",
+    "animalId": "swift",
+    "organization": "Apple",
+    "product": "Swift",
+    "relationshipType": "animal_logo",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "code"
+    ],
+    "sourceUrl": "https://www.swift.org/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Apple · Swift",
+    "image": {
+      "src": "/mascots/swift.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/swift",
+      "alt": "Swift bird logo",
+      "attribution": "Swift brand mark via Simple Icons (brand color)."
+    }
+  },
+  {
+    "id": "kraken-gitkraken",
+    "animalId": "kraken",
+    "organization": "GitKraken",
+    "relationshipType": "animal_logo",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools"
+    ],
+    "sourceUrl": "https://www.gitkraken.com/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "GitKraken",
+    "image": {
+      "src": "/mascots/gitkraken.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/gitkraken",
+      "alt": "GitKraken kraken logo",
+      "attribution": "GitKraken brand mark via Simple Icons (brand color)."
+    }
+  },
+  {
+    "id": "dragonfly-dragonflydb",
+    "animalId": "dragonfly",
+    "organization": "DragonflyDB",
+    "relationshipType": "animal_logo",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "data"
+    ],
+    "sourceUrl": "https://www.dragonflydb.io/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "DragonflyDB",
+    "image": {
+      "src": "/mascots/dragonflydb.png",
+      "remoteSrc": "https://github.com/dragonflydb.png?size=512",
+      "alt": "DragonflyDB dragonfly logo",
+      "attribution": "DragonflyDB logo via GitHub organization avatar."
+    }
+  },
+  {
+    "id": "dragonfly-dragonfly-bsd",
+    "animalId": "dragonfly",
+    "organization": "DragonFly BSD",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://www.dragonflybsd.org/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "DragonFly BSD",
+    "image": null
+  },
+  {
+    "id": "elk-elastic-stack",
+    "animalId": "elk",
+    "organization": "Elastic",
+    "product": "ELK Stack",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "data",
+      "tools"
+    ],
+    "sourceUrl": "https://www.elastic.co/elastic-stack",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Elastic · ELK Stack",
+    "image": {
+      "src": "/mascots/elastic.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/elastic",
+      "alt": "Elastic logo",
+      "attribution": "Elastic brand mark via Simple Icons (brand color). ELK = Elasticsearch, Logstash, Kibana."
+    }
+  },
+  {
+    "id": "mongoose-mongoosejs",
+    "animalId": "mongoose",
+    "organization": "Mongoose",
+    "product": "Mongoose ODM",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "code",
+      "data",
+      "open_source"
+    ],
+    "sourceUrl": "https://mongoosejs.com/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Mongoose (Node ODM)",
+    "image": {
+      "src": "/mascots/mongoose.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/mongoose",
+      "alt": "Mongoose ODM logo",
+      "attribution": "Mongoose brand mark via Simple Icons (brand color)."
+    }
+  },
+  {
+    "id": "unicorn-gunicorn",
+    "animalId": "unicorn",
+    "organization": "Gunicorn",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong",
+    "techHabitats": [
+      "code",
+      "web",
+      "open_source"
+    ],
+    "sourceUrl": "https://gunicorn.org/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Gunicorn (Green Unicorn)",
+    "image": {
+      "src": "/mascots/gunicorn.svg",
+      "remoteSrc": "https://cdn.simpleicons.org/gunicorn",
+      "alt": "Gunicorn logo",
+      "attribution": "Gunicorn brand mark via Simple Icons (brand color)."
+    }
+  },
+  {
+    "id": "wasp-wasp-lang",
+    "animalId": "wasp",
+    "organization": "Wasp",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "code",
+      "web",
+      "open_source"
+    ],
+    "sourceUrl": "https://wasp.sh/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Wasp",
+    "image": {
+      "src": "/mascots/wasp-lang.png",
+      "remoteSrc": "https://github.com/wasp-lang.png?size=512",
+      "alt": "Wasp language logo",
+      "attribution": "Wasp logo via GitHub organization avatar."
+    }
+  },
+  {
+    "id": "locust-locust-io",
+    "animalId": "locust",
+    "organization": "Locust",
+    "relationshipType": "animal_logo",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools",
+      "open_source"
+    ],
+    "sourceUrl": "https://locust.io/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Locust load testing",
+    "image": {
+      "src": "/mascots/locust.png",
+      "remoteSrc": "https://github.com/locustio.png?size=512",
+      "alt": "Locust project logo",
+      "attribution": "Locust logo via GitHub organization avatar."
+    }
+  },
+  {
+    "id": "lobster-lobsters",
+    "animalId": "lobster",
+    "organization": "Lobsters",
+    "product": "lobste.rs",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "web",
+      "open_source"
+    ],
+    "sourceUrl": "https://lobste.rs/about",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Lobsters (lobste.rs)",
+    "image": {
+      "src": "/mascots/lobsters.png",
+      "remoteSrc": "https://github.com/lobsters.png?size=512",
+      "alt": "Lobsters community logo",
+      "attribution": "Lobsters logo via GitHub organization avatar."
+    }
+  },
+  {
+    "id": "heron-apache-heron",
+    "animalId": "heron",
+    "organization": "Apache Heron",
+    "relationshipType": "historical",
+    "officialStatus": "official",
+    "activeStatus": "inactive",
+    "recognition": "niche",
+    "techHabitats": [
+      "data",
+      "open_source"
+    ],
+    "sourceUrl": "https://attic.apache.org/projects/heron.html",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Apache Heron · historical",
+    "image": null
+  },
+  {
+    "id": "barracuda-barracuda-networks",
+    "animalId": "barracuda",
+    "organization": "Barracuda Networks",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools",
+      "web"
+    ],
+    "sourceUrl": "https://www.barracuda.com/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Barracuda Networks",
+    "image": null
+  },
+  {
+    "id": "sparrow-sparrow-mail",
+    "animalId": "sparrow",
+    "organization": "Sparrow",
+    "relationshipType": "historical",
+    "officialStatus": "official",
+    "activeStatus": "inactive",
+    "recognition": "niche",
+    "techHabitats": [
+      "apps"
+    ],
+    "sourceUrl": "https://en.wikipedia.org/wiki/Sparrow_(email_client)",
+    "sourceType": "secondary",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Sparrow mail · historical",
+    "image": null
+  },
+  {
+    "id": "hare-harelang",
+    "animalId": "hare",
+    "organization": "Hare",
+    "relationshipType": "animal_name",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "niche",
+    "techHabitats": [
+      "code",
+      "open_source"
+    ],
+    "sourceUrl": "https://harelang.org/",
+    "sourceType": "official",
+    "verificationStatus": "partially_verified",
+    "verifiedAt": "2026-08-05",
+    "displayLabel": "Hare language",
+    "image": null
   }
 ]
