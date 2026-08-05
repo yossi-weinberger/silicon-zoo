@@ -25,6 +25,14 @@ export const metadata: Metadata = {
   description:
     "Search an animal and discover which tech brands, products and open-source projects already use it.",
   metadataBase: new URL(SITE_URL),
+  openGraph: {
+    title: "Silicon Zoo — Is your tech animal already taken?",
+    description:
+      "Search an animal and discover which tech brands, products and open-source projects already use it.",
+    url: "/",
+    siteName: "Silicon Zoo",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

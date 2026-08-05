@@ -39,7 +39,14 @@ export function AnimalResult({
     window.open(intent, "_blank", "noopener");
   }
 
-  function shareOnLinkedIn() {
+  async function shareOnLinkedIn() {
+    // LinkedIn dropped prefilled post text (anti-spam), so hand it over via clipboard
+    try {
+      await navigator.clipboard.writeText(shareText());
+      alert("Post text copied — paste it into your LinkedIn post.");
+    } catch {
+      // clipboard unavailable — the dialog still opens with the link preview
+    }
     const intent = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(SITE_URL)}`;
     track("share_clicked", { animal: animal.slug, method: "linkedin" });
     window.open(intent, "_blank", "noopener");
