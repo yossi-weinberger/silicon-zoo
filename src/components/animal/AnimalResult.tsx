@@ -22,8 +22,44 @@ export function AnimalResult({
 }: Props) {
   const percent = Math.min(100, Math.round(animal.occupancyScore * 10));
 
+  const taken = animal.residents.length > 0;
+
+  function shareText() {
+    const name = animal.name.toLowerCase();
+    if (taken) {
+      const owner = animal.residents[0].organization;
+      return `I was going to build a startup that sells for millions, but the ${name} ${animal.emoji} is already taken (thanks, ${owner}). Calling the whole thing off.`;
+    }
+    return `Friends, I'm officially claiming the ${name} ${animal.emoji} for my startup. Nobody touch it.`;
+  }
+
+  function pageUrl() {
+    return `${window.location.origin}/animal/${animal.slug}`;
+  }
+
+  function shareOnX() {
+    const intent = `https://x.com/intent/post?text=${encodeURIComponent(shareText())}&url=${encodeURIComponent(pageUrl())}`;
+    track("share_clicked", { animal: animal.slug, method: "x" });
+    window.open(intent, "_blank", "noopener");
+  }
+
+  function shareOnLinkedIn() {
+    const intent = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(pageUrl())}`;
+    track("share_clicked", { animal: animal.slug, method: "linkedin" });
+    window.open(intent, "_blank", "noopener");
+  }
+
   async function share() {
-    const url = `${window.location.origin}/animal/${animal.slug}`;
+    const url = pageUrl();
+    if (navigator.share) {
+      try {
+        await navigator.share({ text: shareText(), url });
+        track("share_clicked", { animal: animal.slug, method: "native" });
+        return;
+      } catch {
+        // user closed the sheet — fall through to clipboard
+      }
+    }
     try {
       await navigator.clipboard.writeText(url);
       track("share_clicked", { animal: animal.slug, method: "clipboard" });
@@ -100,9 +136,27 @@ export function AnimalResult({
         {showShare || showOpenPage ? (
           <div className="result-actions">
             {showShare ? (
-              <button className="pill" type="button" onClick={share}>
-                Copy share link
-              </button>
+              <>
+                <button
+                  className="pill"
+                  type="button"
+                  onClick={shareOnX}
+                  aria-label={`Post about the ${animal.name} on X`}
+                >
+                  Post on 𝕏
+                </button>
+                <button
+                  className="pill"
+                  type="button"
+                  onClick={shareOnLinkedIn}
+                  aria-label={`Share the ${animal.name} on LinkedIn`}
+                >
+                  Share on LinkedIn
+                </button>
+                <button className="pill" type="button" onClick={share}>
+                  Copy share link
+                </button>
+              </>
             ) : null}
             {showOpenPage ? (
               <Link className="pill" href={`/animal/${animal.slug}`}>
