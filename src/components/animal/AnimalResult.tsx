@@ -52,15 +52,18 @@ export function AnimalResult({
   }
 
   async function shareOnLinkedIn() {
+    track("share_clicked", { animal: animal.slug, method: "linkedin" });
     // LinkedIn dropped prefilled post text (anti-spam), so hand it over via clipboard
     try {
       await navigator.clipboard.writeText(shareText());
-      showToast("📋 Post text copied — paste it into LinkedIn");
+      showToast("📋 Post text copied — opening LinkedIn, just paste it in…");
+      // ponytail: 1.1s pause so the toast lands before the new tab steals focus;
+      // longer risks the popup blocker (transient activation expires)
+      await new Promise((resolve) => setTimeout(resolve, 1100));
     } catch {
       // clipboard unavailable — the dialog still opens with the link preview
     }
     const intent = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(SITE_URL)}`;
-    track("share_clicked", { animal: animal.slug, method: "linkedin" });
     window.open(intent, "_blank", "noopener");
   }
 
