@@ -1,8 +1,9 @@
 import type { MetadataRoute } from "next";
 import { getAllAnimals } from "@/lib/data";
+import { SITE_URL } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = process.env.NEXT_PUBLIC_SITE_URL || "https://silicon-zoo.vercel.app";
+  const base = SITE_URL;
   const animals = getAllAnimals().map((animal) => ({
     url: `${base}/animal/${animal.slug}`,
     lastModified: new Date(animal.lastReviewedAt),
