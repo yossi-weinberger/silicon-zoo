@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Manrope, DM_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { PostHogProvider } from "@/components/PostHogProvider";
+import { SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 const manrope = Manrope({
@@ -23,9 +24,15 @@ export const metadata: Metadata = {
   },
   description:
     "Search an animal and discover which tech brands, products and open-source projects already use it.",
-  metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "https://silicon-zoo.vercel.app",
-  ),
+  metadataBase: new URL(SITE_URL),
+  openGraph: {
+    title: "Silicon Zoo — Is your tech animal already taken?",
+    description:
+      "Search an animal and discover which tech brands, products and open-source projects already use it.",
+    url: "/",
+    siteName: "Silicon Zoo",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

@@ -1,10 +1,12 @@
 "use client";
 
 import Link from "next/link";
+import { useEffect, useRef, useState } from "react";
 import type { EnrichedAnimal } from "@/lib/data";
 import { formatOccupancy } from "@/lib/score";
 import { ResidentCard } from "@/components/ResidentCard";
 import { track } from "@/lib/analytics";
+import { SITE_URL } from "@/lib/site";
 
 type Props = {
   animal: EnrichedAnimal;
@@ -22,12 +24,74 @@ export function AnimalResult({
 }: Props) {
   const percent = Math.min(100, Math.round(animal.occupancyScore * 10));
 
-  async function share() {
-    const url = `${window.location.origin}/animal/${animal.slug}`;
+  const taken = animal.residents.length > 0;
+
+  const [toast, setToast] = useState<{
+    message: string;
+    href?: string;
+  } | null>(null);
+  const toastTimer = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
+
+  function showToast(message: string, opts?: { href?: string; ms?: number }) {
+    clearTimeout(toastTimer.current);
+    setToast({ message, href: opts?.href });
+    toastTimer.current = setTimeout(() => setToast(null), opts?.ms ?? 2800);
+  }
+
+  useEffect(() => () => clearTimeout(toastTimer.current), []);
+
+  function shareText() {
+    const name = animal.name.toLowerCase();
+    const joke = taken
+      ? `I was going to build a startup that sells for millions, but the ${name} ${animal.emoji} is already taken (thanks, ${animal.residents[0].organization}). Calling the whole thing off.`
+      : `Friends, I'm officially claiming the ${name} ${animal.emoji} for my startup. Nobody touch it.`;
+    return `${joke}\n\nWant to check if your animal is still available — or already claimed by a tech company? Check here →`;
+  }
+
+  function shareOnX() {
+    const intent = `https://x.com/intent/post?text=${encodeURIComponent(shareText())}&url=${encodeURIComponent(SITE_URL)}`;
+    track("share_clicked", { animal: animal.slug, method: "x" });
+    window.open(intent, "_blank", "noopener");
+  }
+
+  async function shareOnLinkedIn() {
+    track("share_clicked", { animal: animal.slug, method: "linkedin" });
+    const intent = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(SITE_URL)}`;
+    // LinkedIn dropped prefilled post text (anti-spam), so hand it over via clipboard
     try {
-      await navigator.clipboard.writeText(url);
+      await navigator.clipboard.writeText(shareText());
+      showToast("📋 Post text copied — opening LinkedIn, just paste it in…", {
+        ms: 5000,
+      });
+      // 2.5s so the toast is actually read; strict popup blockers (Safari) may
+      // refuse window.open this far from the click — the link-toast below covers that
+      await new Promise((resolve) => setTimeout(resolve, 2500));
+    } catch {
+      // clipboard unavailable — the dialog still opens with the link preview
+    }
+    const win = window.open(intent, "_blank", "noopener");
+    if (!win) {
+      showToast("👉 Text copied! Click here to open LinkedIn", {
+        href: intent,
+        ms: 8000,
+      });
+    }
+  }
+
+  async function share() {
+    if (navigator.share) {
+      try {
+        await navigator.share({ text: shareText(), url: SITE_URL });
+        track("share_clicked", { animal: animal.slug, method: "native" });
+        return;
+      } catch {
+        // user closed the sheet — fall through to clipboard
+      }
+    }
+    try {
+      await navigator.clipboard.writeText(`${shareText()} ${SITE_URL}`);
       track("share_clicked", { animal: animal.slug, method: "clipboard" });
-      alert("Link copied. Share the enclosure.");
+      showToast("📋 Share text copied — paste it anywhere");
     } catch {
       track("share_clicked", { animal: animal.slug, method: "failed" });
     }
@@ -35,6 +99,24 @@ export function AnimalResult({
 
   return (
     <section className="result show" aria-live="polite">
+      {toast ? (
+        toast.href ? (
+          <a
+            className="toast"
+            role="status"
+            href={toast.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setToast(null)}
+          >
+            {toast.message}
+          </a>
+        ) : (
+          <div className="toast" role="status">
+            {toast.message}
+          </div>
+        )
+      ) : null}
       <div className="animal-panel" style={{ background: animal.accentColor }}>
         <div className="animal-emoji" aria-hidden>
           {animal.emoji}
@@ -100,9 +182,37 @@ export function AnimalResult({
         {showShare || showOpenPage ? (
           <div className="result-actions">
             {showShare ? (
-              <button className="pill" type="button" onClick={share}>
-                Copy share link
-              </button>
+              <>
+                <button
+                  className="pill"
+                  type="button"
+                  onClick={shareOnX}
+                  aria-label={`Post about the ${animal.name} on X`}
+                >
+                  Post on 𝕏
+                </button>
+                <button
+                  className="pill"
+                  type="button"
+                  onClick={shareOnLinkedIn}
+                  aria-label={`Share the ${animal.name} on LinkedIn`}
+                >
+                  <svg
+                    aria-hidden
+                    width="15"
+                    height="15"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    style={{ marginInlineEnd: 6 }}
+                  >
+                    <path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.55C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.72C24 .77 23.2 0 22.22 0z" />
+                  </svg>
+                  LinkedIn
+                </button>
+                <button className="pill" type="button" onClick={share}>
+                  📋 Copy share text
+                </button>
+              </>
             ) : null}
             {showOpenPage ? (
               <Link className="pill" href={`/animal/${animal.slug}`}>
