@@ -2547,20 +2547,23 @@
     "nameHe": "יאק",
     "aliases": [
       "yak",
+      "yaak",
       "יאק"
     ],
     "emoji": "🐂",
     "animalClass": "mammals",
     "accentColor": "#f4cc5d",
-    "status": "High-altitude vacancy",
-    "verdict": "Handles harsh environments and carries heavy loads. Infrastructure mascot perfection.",
+    "status": "Debugging at altitude",
+    "verdict": "Yaak the API client took the name and put a yak head on it. Shaving optional.",
     "alternatives": [
       "bison",
       "ox"
     ],
-    "uses": [],
-    "reviewStatus": "candidate",
-    "lastReviewedAt": "2026-07-20"
+    "uses": [
+      "yak-yaak"
+    ],
+    "reviewStatus": "verified",
+    "lastReviewedAt": "2026-08-06"
   },
   {
     "id": "eagle",
