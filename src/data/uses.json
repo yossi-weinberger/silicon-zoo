@@ -4789,5 +4789,30 @@
     "verifiedAt": "2026-08-05",
     "displayLabel": "Hare language",
     "image": null
+  },
+  {
+    "id": "yak-yaak",
+    "animalId": "yak",
+    "organization": "Yaak",
+    "product": "Yaak API client",
+    "relationshipType": "animal_logo",
+    "officialStatus": "official",
+    "activeStatus": "active",
+    "recognition": "strong_niche",
+    "techHabitats": [
+      "tools",
+      "code"
+    ],
+    "sourceUrl": "https://yaak.app/",
+    "sourceType": "official",
+    "verificationStatus": "verified",
+    "verifiedAt": "2026-08-06",
+    "displayLabel": "Yaak",
+    "image": {
+      "src": "/mascots/yaak.png",
+      "remoteSrc": "https://yaak.app/static/favicon/apple-touch-icon.png",
+      "alt": "Yaak logo, a yak head",
+      "attribution": "Official Yaak app icon from yaak.app."
+    }
   }
 ]
