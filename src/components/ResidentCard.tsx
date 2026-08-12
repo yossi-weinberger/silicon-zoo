@@ -1,6 +1,6 @@
 import Image from "next/image";
 import type { AnimalUse } from "@/lib/schemas";
-import { relationshipLabel } from "@/lib/data";
+import { relationshipLabel } from "@/lib/relationship";
 
 type Props = {
   use: AnimalUse;

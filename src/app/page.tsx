@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
+import { HeroRipple } from "@/components/HeroRipple";
 import { AnimalSearch } from "@/components/search/AnimalSearch";
 import { getAllAnimals, getCrowdedAnimals } from "@/lib/data";
 import { formatOccupancy } from "@/lib/score";
@@ -14,20 +15,22 @@ export default function HomePage() {
       <div className="shell">
         <SiteHeader />
         <main>
-          <section className="hero">
-            <div className="eyebrow">● THE UNOFFICIAL TECH ANIMAL REGISTRY</div>
-            <h1>
-              Find your company&apos;s
-              <br />
-              <span className="accent">spirit animal.</span>
-            </h1>
-            <p className="tagline">
-              Every tech company wants a cute animal.
-              <br />
-              <span>Most of the good ones are already taken.</span>
-            </p>
-            <AnimalSearch animals={animals} />
-          </section>
+          <HeroRipple>
+            <section className="hero">
+              <div className="eyebrow">● THE UNOFFICIAL TECH ANIMAL REGISTRY</div>
+              <h1>
+                Find your company&apos;s
+                <br />
+                <span className="accent">spirit animal.</span>
+              </h1>
+              <p className="tagline">
+                Every tech company wants a cute animal.
+                <br />
+                <span>Most of the good ones are already taken.</span>
+              </p>
+              <AnimalSearch animals={animals} />
+            </section>
+          </HeroRipple>
 
           <section id="crowded" className="section">
             <div className="section-head">
